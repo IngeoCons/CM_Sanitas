@@ -889,7 +889,7 @@
 		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\MóduloAsociacionAnexos.xlsx"
 		id="f63d8ff0-7205-41bd-b1b7-db0bb4a3736f"
 		includefile="Unchecked"
-		lastknownrowcount="31"
+		lastknownrowcount="28"
 		name="NroIdentificacion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="NroIdentificacion"
