@@ -83,6 +83,10 @@ namespace CuentasMedicas_Sanitas
             repo.MDIPrincipal.BtnTerminar.Click();
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CapturaAtencionesServiciosApp.ButtonSi' at Center.", repo.CapturaAtencionesServiciosApp.ButtonSiInfo, new RecordItemIndex(1));
+            repo.CapturaAtencionesServiciosApp.ButtonSi.Click();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

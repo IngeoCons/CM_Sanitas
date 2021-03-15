@@ -24,29 +24,29 @@ namespace CuentasMedicas_Sanitas
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Login recording.
+    ///The mensaje recording.
     /// </summary>
-    [TestModule("97cdd182-db0f-4f23-ba4c-48c854c5ba8a", ModuleType.Recording, 1)]
-    public partial class Login : ITestModule
+    [TestModule("7fd58cc5-a2b3-4aa5-80ad-5e57dce4656b", ModuleType.Recording, 1)]
+    public partial class mensaje : ITestModule
     {
         /// <summary>
         /// Holds an instance of the CuentasMedicas_SanitasRepository repository.
         /// </summary>
         public static CuentasMedicas_SanitasRepository repo = CuentasMedicas_SanitasRepository.Instance;
 
-        static Login instance = new Login();
+        static mensaje instance = new mensaje();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Login()
+        public mensaje()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Login Instance
+        public static mensaje Instance
         {
             get { return instance; }
         }
@@ -79,37 +79,6 @@ namespace CuentasMedicas_Sanitas
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'PRUEBASSANITAS5' with focus on 'FrmLogin.TxtLogin'.", repo.FrmLogin.TxtLoginInfo, new RecordItemIndex(0));
-            repo.FrmLogin.TxtLogin.PressKeys("PRUEBASSANITAS5");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test.2019' with focus on 'FrmLogin.TxtPassword'.", repo.FrmLogin.TxtPasswordInfo, new RecordItemIndex(1));
-            repo.FrmLogin.TxtPassword.PressKeys("Test.2019");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmLogin.CmbCompania' at Center.", repo.FrmLogin.CmbCompaniaInfo, new RecordItemIndex(2));
-            repo.FrmLogin.CmbCompania.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'List1000.SANITAS' at Center.", repo.List1000.SANITASInfo, new RecordItemIndex(3));
-            repo.List1000.SANITAS.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(4));
-            Delay.Duration(4000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmLogin.CmbLinea' at Center.", repo.FrmLogin.CmbLineaInfo, new RecordItemIndex(5));
-            repo.FrmLogin.CmbLinea.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'List1000.CuentasMedicas2' at Center.", repo.List1000.CuentasMedicas2Info, new RecordItemIndex(6));
-            repo.List1000.CuentasMedicas2.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmLogin.CmdAceptar' at Center.", repo.FrmLogin.CmdAceptarInfo, new RecordItemIndex(7));
-            repo.FrmLogin.CmdAceptar.Click();
-            Delay.Milliseconds(0);
-            
         }
 
 #region Image Feature Data

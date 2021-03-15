@@ -18,6 +18,7 @@ name="CuentasMedicas_SanitasRepository">
 		id="edaee240-1d6d-4732-b9fe-38615680e321"
 		isrooted="True"
 		name="MDIPrincipal"
+		refimgid="9700285b-bc51-40b5-a94b-477a478ecfa9"
 		refpath="/form[@controlname='MDIPrincipal']"
 		searchtimeout="30000ms"
 		usecache="True">
@@ -158,7 +159,7 @@ name="CuentasMedicas_SanitasRepository">
 			name="VlrUnitario"
 			refimgid="486d5b15-b548-4daa-b8b2-b72501e45714"
 			searchtimeout="30000ms">
-				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel2']//table[@accessiblename='ultraGrid2']//cell[@accessiblevalue=$CodServicio]/../cell[@accessiblename='Vlr. Unitario' and @accessiblevalue~'[0-9]+']
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel2']//table[@accessiblename='ultraGrid2']//cell[@accessiblevalue~$CodServicio]/../cell[@accessiblename='Vlr. Unitario' and @accessiblevalue~'[0-9]+']
 			</item>
 			<item
 			addcaps="button,control,nativewindow"
@@ -226,6 +227,180 @@ name="CuentasMedicas_SanitasRepository">
 			searchtimeout="30000ms">
 				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAsociacionAnexosII']/?/?/text[@controlname='lblOpciones']
 			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="44e17382-3be5-4800-a869-7282314785ab"
+			name="VlrUnitario1"
+			refimgid="e6506185-d16c-4d64-b028-461595689b5a"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/container[@controlname='SplVisor']/container[@controlname='panel2']/container[@controlname='SplControles']/container[@controlname='panel2']/tabpagelist[@controlname='TabContainer']/tabpage[@controlname='AtencionesYServicios']/container[@controlname='SplEncabezadoAtencion']/container[@controlname='panel2']/container[@controlname='SplAtencionesServicios']/container[@controlname='panel2']/container[@controlname='PanelGrillaServicios']/element[@controlname='GRDSERVICIOS']/table[@accessiblename='ultraGrid2']/row[@accessiblename='Add Row']/cell[@accessiblename='Vlr. Unitario']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel2']//table[@accessiblename='ultraGrid2']/row[@accessiblename='Add Row']/cell[@accessiblename='Vlr. Unitario']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="dc8ca4ad-621a-4010-a36b-4ff8195f1efb"
+			name="MdiClient"
+			refimgid="c1ee09ac-ceb2-4139-8ec8-09b6e237cbec"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']
+			</item>
+			<folder
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="b39df955-fa47-4302-91b5-029c372982ee"
+			isrooted="True"
+			name="Panel2"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="3c70173f-c384-4e8f-964d-e993e2a70f50"
+				name="CodigoHomologoFila0"
+				refimgid="5b68bda4-2a04-4959-af4e-8d344f977494"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container/container[@controlname='panel2']/container/container[@controlname='panel2']/container/container[@controlname='panel1']/table/row[@accessiblename='Fila 0']/cell[@accessiblename='Código Homólogo Fila 0']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']//table[@controlname='dgv_Homologacion']/row[@accessiblename='Fila 0']/cell[@accessiblename='Código Homólogo Fila 0']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="db82c03f-8cec-4db2-bda1-c9935a84abd0"
+				name="Iniciar"
+				refimgid="80a7f763-e8c1-4b07-94cb-4dc5ec60172e"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container/container[@controlname='panel2']/container/container[@controlname='panel2']/container/container[@controlname='panel2']/element[@controlname='uBIniciar']/button[@accessiblename='Iniciar']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']/?/?/container[@controlname='panel2']//button[@accessiblename='Iniciar']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="cbc1f934-f2ef-4556-85b7-b92b7193809a"
+				name="Salir"
+				refimgid="69048ab3-df6c-4c36-94ab-eb71101a0595"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container/container[@controlname='panel2']/container/container[@controlname='panel2']/container/container[@controlname='panel2']/element[@controlname='uBSalir']/button[@accessiblename='Salir']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']/?/?/container[@controlname='panel2']//button[@accessiblename='Salir']
+				</item>
+				<basepath>
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="e7fc8943-b8fc-49dc-88c5-41a6b55cd386"
+			isrooted="True"
+			name="FrmCapturer"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage,control,nativewindow"
+				capname="tabpage"
+				id="18069848-b1fe-4778-bc17-e93f06ff2c35"
+				name="TabMain"
+				refimgid="992fd63c-2210-46be-9744-7b1ac8d89fdc"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='Panel2']/container/tabpagelist/tabpage[@controlname='tabMain']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/container[@controlname='pnlCampos']/?/?/tabpage[@controlname='tabMain']
+				</item>
+				<item
+				addcaps="combobox,control,nativewindow"
+				capname="combobox"
+				id="2a2ef45a-c6b1-4136-bd7d-499b1890c187"
+				name="CBOTIPODOCUMENTO"
+				refimgid="cf623741-cbc5-4ee2-9ebb-7420f759dd85"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='Panel2']/container/tabpagelist/tabpage[@controlname='tabMain']/combobox[@controlname='CBOTIPODOCUMENTO']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/container[@controlname='pnlCampos']/?/?/tabpage[@controlname='tabMain']/combobox[@controlname='CBOTIPODOCUMENTO']
+				</item>
+				<item
+				addcaps="container,control,nativewindow"
+				capname="container"
+				id="84352dd2-0976-4817-9c39-020144613f0b"
+				name="SomeContainer"
+				refimgid="0a7b582c-b1a7-488f-ad47-f6d59c8edbb4"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='Panel1']/element/container/container/container[@controlname='panel2']/container/container[@controlname='']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']/?/?/container[@controlname='']
+				</item>
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="471565de-1d19-4a39-add3-37f3cfe23ae6"
+				name="CmdStart"
+				refimgid="8c43e54d-6d44-469f-aaf9-099c2a25bb16"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='Panel2']/button[@controlname='CmdStart']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdStart']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="270b3db6-8bf7-4656-9cdb-726d7ae42a01"
+				name="Abrir"
+				refimgid="361a08d1-0eba-4de9-a545-4155b89b204e"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='Panel2']/container/tabpagelist/tabpage[@controlname='tabMain']/combobox[@controlname='CBOTIPODOCUMENTO']/button[@accessiblename='Abrir']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOTIPODOCUMENTO']/button[@accessiblename='Abrir']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="81ab2754-4d06-4ad0-aabc-3229546cb06e"
+				name="Cerrar"
+				refimgid="64918136-856d-4c7e-bd39-e709930693f1"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='Panel2']/container/tabpagelist/tabpage[@controlname='tabMain']/combobox[@controlname='CBOTIPODOCUMENTO']/button[@accessiblename='Cerrar']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOTIPODOCUMENTO']/button[@accessiblename='Cerrar']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="7f2923ed-ad41-4999-be8e-969d56f9873d"
+				name="NumeroFactura"
+				refimgid="9a97886c-7135-41a2-a05f-f8df0f9e38f8"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='Panel2']/container/tabpagelist/tabpage[@controlname='tabMain']/text[@controlname='TXTNUMEROFACTURA']/text[@accessiblename='Numero Factura']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/text[@controlname='TXTNUMEROFACTURA']/text[@accessiblename='Numero Factura']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="8b32d85a-326d-438a-824d-ef5e9f413762"
+				name="AvPag"
+				refimgid="4729371f-200a-4132-a234-39dd04f48da2"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='Panel1']/element/container/container/container[@controlname='panel2']/container/container/scrollbar/button[@accessiblename='Av Pág']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']//scrollbar[@controltypename='VScrollBar']/button[@accessiblename='Av Pág']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="b559a828-ced1-404a-ac84-0c1e745ffbee"
+				name="Abrir1"
+				refimgid="afb72dcd-f5e2-4fc2-bc24-7a966cdaf8c0"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='Panel2']/container/tabpagelist/tabpage[@controlname='tabMain']/combobox[@controlname='CBOSUCURSAL']/button[@accessiblename='Abrir']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOSUCURSAL']/button[@accessiblename='Abrir']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="03a9396d-3b22-40d9-8b9e-aa9810efd749"
+				name="Cerrar1"
+				refimgid="7376a21c-b052-478c-8183-646f9daf5f54"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='Panel2']/container/tabpagelist/tabpage[@controlname='tabMain']/combobox[@controlname='CBOSUCURSAL']/button[@accessiblename='Cerrar']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOSUCURSAL']/button[@accessiblename='Cerrar']
+				</item>
+				<basepath>
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']
+				</basepath>
+			</folder>
 			<basepath>
 				/form[@controlname='MDIPrincipal']
 			</basepath>
@@ -617,6 +792,338 @@ aCKF0cBjMiNbMQyt3yXBNEGmJKC1M4DeB9ybQNsMT94/GQInJvWSWuhgbuBV4XZGhMMV+p2gZeQU
 joEQGp1HqO8KknwryCUq/pfRaD4AtUj9b4qozXcAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e0d92008-bb92-4cff-843e-efe56dabeb9c"
+		isrooted="True"
+		name="CapturaAtencionesServiciosApp"
+		refpath="/form[@title='CapturaAtencionesServiciosApp']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="739366c8-2cc1-4787-9f15-45f155ecb7af"
+			name="ButtonSi"
+			refimgid="8a8d7fcd-af30-43ed-aa5b-604062469553"
+			refpath="/form[@title='CapturaAtencionesServiciosApp']/button[@text='&amp;Sí']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'CapturaAtencionesServicio']/button[@text='&amp;S&#237;']
+			</item>
+			<basepath>
+				/form[@title&gt;'CapturaAtencionesServicio']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAD5SURBVDhPY6AJkJf3/o8NA6VAGDeYe9weRYPe
+wgv/DRacR8Fysp7YDVLJWv5/7glbsEZ0TehYH4iBWlANAWkGYWwaDBde+v9pswYYgywCYaAWhAEw
+27EZ8GmTKlwzTkOQDVh4ygKsUXse3Jn/vx5JJN4AmCugkhAFQPrTZnUMQ0DiYFkQZ/5JGxRD4JJQ
+IK9Vgt8AdFfMOW4FV5BZMP+/umHl//byKuINgGE1gwqwZhjGagAQgAWQDTF1rEHRiG4ASA8UQ4Ct
+WwtWDcgYlMhAmgMaUG2Hgf+KCj44NcIwKF2A1EIxBgBLIGtAxjB5KMYL0BUjYyTAwAAAmxuBQBa9
+BloAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f4d0ba20-5386-4fd4-b937-01b23c7d6275"
+		isrooted="True"
+		name="ValidacionCampos"
+		refpath="/form[@title='Validación Campos']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="0c1f4946-5501-404d-bf03-05ae093214ca"
+			name="Aceptar"
+			refimgid="ca8b26db-8345-4b19-80f8-00ef8c842a12"
+			refpath="/form[@title='Validación Campos']/button[@text='Aceptar']"
+			searchtimeout="30000ms">
+				/form[@title='Validación Campos']/button[@text='Aceptar']
+			</item>
+			<basepath>
+				/form[@title='Validación Campos']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAD5SURBVDhPY6AJkJf3/o8NA6VAGDeYe9weRYPe
+wgv/DRacR8Fysp7YDVLJWv5/7glbsEZ0TehYH4iBWlANAWkGYWwaDBde+v9pswYYgywCYaAWhAEw
+27EZ8GmTKlwzTkOQDVh4ygKsUXse3Jn/vx5JJN4AmCugkhAFQPrTZnUMQ0DiYFkQZ/5JGxRD4JJQ
+IK9Vgt8AdFfMOW4FV5BZMP+/umHl//byKuINgGE1gwqwZhjGagAQgAWQDTF1rEHRiG4ASA8UQ4Ct
+WwtWDcgYlMhAmgMaUG2Hgf+KCj44NcIwKF2A1EIxBgBLIGtAxjB5KMYL0BUjYyTAwAAAmxuBQBa9
+BloAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="1f42fe07-4d1a-42dc-8a7a-ce56e4497686"
+		isrooted="True"
+		name="FrmBusquedaServicio"
+		refpath="/form[@controlname='frmBusquedaServicio']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="8b6273f8-b095-4993-a18d-1c597462d1b0"
+			name="Text"
+			refimgid="36946438-562f-4502-9170-c739a6e82156"
+			refpath="/form[@controlname='frmBusquedaServicio']/element/container/text[@controlname='txtCodigo']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='frmBusquedaServicio']//text[@controlname='txtCodigo']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ab312535-d150-44b5-bd65-3f0c0ab6c497"
+			name="Buscar"
+			refimgid="6757ea51-3326-440c-aa0c-208adb0c0d35"
+			refpath="/form[@controlname='frmBusquedaServicio']/element/container/element[@controlname='uBBuscar']/button[@accessiblename='Buscar']"
+			searchtimeout="30000ms">
+				/form[@controlname='frmBusquedaServicio']//element[@controlname='uBBuscar']/button[@accessiblename='Buscar']
+			</item>
+			<basepath>
+				/form[@controlname='frmBusquedaServicio']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGWSURBVDhPY6AZePbsdbGMjMd/eXnv/yD6w4dP
+/6FS+MG2bYfBmuBYzvu/b/H0/wYzT/w3sU75X1MzBbdB0/bH/ZcDagBpdJ20+7/BgvNYsenC85iG
+nLvz6v/cE7ZA53ph1QTCdRs2/FfJXP5fJWv5/6YVp1ENUcpYATZg3gk7DI2fNmugYJABIAzVysDw
+7t1//qL5M8AGgDBMo9nii2BFX09koRjwdac12IB3n78fARugnLnsv3XVcrgB+gsu/LdfdgnFiV/2
+uKIYguIKJaABIA7MABAGS6ABZAOUoGEBllDNhnCQDZhz3BrFEH2Luv/qhpVwAzr6Cv4rAw0BS/77
+948bZEBA50w0Q6zAClT0y8GakQ14vTvy/6VLDwXBBoAAyAB0V8w9aQPXCMP31/mBDVDOWonqzQ9f
+vvcrAw1Qy17xX9O4GkMjDMvIeoENuPboHaoBIOATUIVVEwjbOpXCk/fxFVGYmmHgzZt3+fLyPv/V
+NKP/GxnHIvIEFJ89e6UQqpQw0NAIAudENbXA/0DAAxVGAgwMAHHTgrlUlPwcAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="4abe80d6-282b-4118-8d0e-00500efdfe4a"
+		isrooted="True"
+		name="HomologacionManual"
+		refpath="/form[@title='Homologación manual']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="b9070cb4-55d2-48b5-8feb-3675e224deb6"
+			name="ButtonSi"
+			refimgid="5841d2cf-b64b-422b-86e6-a0936a764691"
+			refpath="/form[@title='Homologación manual']/button[@text='&amp;Sí']"
+			searchtimeout="30000ms">
+				/form[@title='Homologaci&#243;n manual']/button[@text='&amp;S&#237;']
+			</item>
+			<basepath>
+				/form[@title='Homologación manual']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAD5SURBVDhPY6AJkJf3/o8NA6VAGDeYe9weRYPe
+wgv/DRacR8Fysp7YDVLJWv5/7glbsEZ0TehYH4iBWlANAWkGYWwaDBde+v9pswYYgywCYaAWhAEw
+27EZ8GmTKlwzTkOQDVh4ygKsUXse3Jn/vx5JJN4AmCugkhAFQPrTZnUMQ0DiYFkQZ/5JGxRD4JJQ
+IK9Vgt8AdFfMOW4FV5BZMP+/umHl//byKuINgGE1gwqwZhjGagAQgAWQDTF1rEHRiG4ASA8UQ4Ct
+WwtWDcgYlMhAmgMaUG2Hgf+KCj44NcIwKF2A1EIxBgBLIGtAxjB5KMYL0BUjYyTAwAAAmxuBQBa9
+BloAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="a3f2383d-7655-4a70-b89b-c86cbfd88a94"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ad926d22-8778-4deb-9c77-d901c264b269"
+			name="LineaArriba"
+			refimgid="ae2833c5-2800-4b40-a006-8652b297dd2f"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/scrollbar[@accessiblename='Vertical']/button[@accessiblename='Línea arriba']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']//scrollbar[@accessiblename='Vertical']/button[@accessiblename='Línea arriba']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d59508d6-8ae7-4393-a7cb-929aeb0bf51f"
+		isrooted="True"
+		name="FormHash32770"
+		refimgid="ffbd996b-3781-4965-9886-ea337bc1f7f9"
+		refpath="/form[@class='#32770']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="9dadcb45-7f26-4f87-a1e3-2ed6bcdcc060"
+			name="Button"
+			refpath="/form[@class='#32770']/button"
+			searchtimeout="30000ms">
+				/form[@class='#32770']/button
+			</item>
+			<basepath>
+				/form[@class='#32770']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,control,nativewindow"
+		capname="contextmenu"
+		id="ad0b3bd2-0d01-4e22-83c0-12328dfb0086"
+		isrooted="True"
+		name="IQDOC"
+		refpath="/contextmenu[@processname='IQDOC']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="ae25daae-518e-448d-97b7-1ecc1b670a9b"
+			name="CapturaDeEncabezado"
+			refimgid="0a305ca4-a69a-4522-b858-6c99693518f5"
+			refpath="/contextmenu[@processname='IQDOC']/menuitem[@accessiblename='Captura de Encabezado']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='IQDOC']/menuitem[@accessiblename='Captura de Encabezado']
+			</item>
+			<basepath>
+				/contextmenu[@processname='IQDOC']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>
@@ -634,7 +1141,7 @@ joEQGp1HqO8KknwryCUq/pfRaD4AtUj9b4qozXcAAAAASUVORK5CYII=
 		<var
 		id="1c08caca-7405-4485-a517-a7b7060789e7"
 		name="CodServicio">
-			890702
+			S22101
 		</var>
 		<var
 		id="6a6a704e-8bd9-4f2f-a42d-e2132a8328ba"

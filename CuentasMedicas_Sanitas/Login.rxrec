@@ -2988,7 +2988,7 @@ mode="Global">
 			</bindings>
 		</explicitdelayitem>
 		<mouseitem
-		action="DoubleClick"
+		action="Click"
 		button="Left"
 		duration="300ms"
 		enabled="True"

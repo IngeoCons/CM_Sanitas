@@ -126,6 +126,18 @@
     <Compile Include="AssemblyInfo.cs">
       <id>0ea06a15-671a-4b2f-9cc2-146d15e2e7e4</id>
     </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>04970069-9362-4bf8-95c2-d4ed04aa6228</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4151d84b-fc09-4225-bde7-09cc0ca37cc8</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>04970069-9362-4bf8-95c2-d4ed04aa6228</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1dbb6aad-d9f5-4e68-83cf-1a79c831ba2d</id>
+    </Compile>
     <Compile Include="Reproceso.cs">
       <BoundTo>bb886e2a-15f7-475f-90ec-9ea55377236f</BoundTo>
       <DependentUpon>Reproceso.rxrec</DependentUpon>
@@ -322,6 +334,11 @@
   <ItemGroup>
     <None Include="app.config">
       <id>a983b45f-ee8b-4fb9-ae63-aa3cc0186eef</id>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>04970069-9362-4bf8-95c2-d4ed04aa6228</id>
+      <recordtableid>6e8c6e24-d1c2-497a-9fea-5d0ea2d9ae5d</recordtableid>
     </None>
     <None Include="Reproceso.rxrec">
       <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>

@@ -73,6 +73,38 @@
 					variablename="ValorBruto">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="ValorBruto"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="c82aa472-ecb1-40a1-8ecd-26227874e27d"
+					variablename="ValorBruto">
+					</var>
+					<var
+					dataname="FechaFin"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="97ef1d5b-9d82-4749-ba02-f8d1fda522f0"
+					variablename="FechaFin">
+					</var>
+					<var
+					dataname="FechaInicio"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="7e84670b-00c1-40b7-8578-3e5adea77bee"
+					variablename="FechaInicio">
+					</var>
+					<var
+					dataname="TipoIdentificacion"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="5a290b74-ce0a-4ffa-b004-94d9283b6f8b"
+					variablename="TipoIdentificacion">
+					</var>
+					<var
+					dataname="NroIdentificacion"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="f64d388b-1df3-44c3-8af1-384a2a37fd63"
+					variablename="NroIdentificacion">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -334,6 +366,12 @@
 			ref="68cc4719-2fe6-4c72-841d-387f1bf29a2e"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="825b32fc-9523-4000-8236-2dcb924ef370"
+			name="Recording1"
+			ref="6e8c6e24-d1c2-497a-9fea-5d0ea2d9ae5d"
+			type="Recording">
+			</testmodule>
 			<testcase
 			datasource="DataSourceAtencion"
 			id="85efe8a5-54e7-4488-a775-fbabf8a3b88d"
@@ -411,6 +449,13 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="a64d53b0-f25c-45b0-856a-a193544d41f9"
+			name="Test_Case_05">
+				<description>
+					<![CDATA[Homologación Manual Un solo Servicio]]>
+				</description>
+			</testcase>
 			<teardown
 			id="af71c120-3dde-4fda-9d06-dc19f38cd1a0"
 			name="teardown">
@@ -471,6 +516,26 @@
 					variablename="ItemProducto">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Subproducto"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="12f92637-d732-4177-a3da-8a9594b97f83"
+					variablename="ItemProducto">
+					</var>
+					<var
+					dataname="MenuItem"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="aabc01ea-ec93-4de2-ab96-733731c89f7e"
+					variablename="MenuItem">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="cbf77831-b4b4-48b7-b230-053abc0cc771"
+			name="Guardar"
+			ref="f030d2ea-cb11-4c49-87c7-d878efb8b4db"
+			type="Recording">
 			</testmodule>
 			<setup
 			id="ce96b96b-492a-46be-bb57-5895eb1433c7"
@@ -521,12 +586,6 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="NroIdentificacion"
-					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
-					variableid="4607ff8a-7e4e-4fb5-a793-fd5b9aed10bf"
-					variablename="NroIdentificacion">
-					</var>
-					<var
 					dataname="CodServicio"
 					datasourceid="14ba5720-10cd-4128-9a02-e50219d7a4d9"
 					variableid="e116240f-9a1b-4346-8971-c3e9addcfe98"
@@ -544,7 +603,21 @@
 					variableid="43733c06-57a6-4933-bb65-31b0493a90b7"
 					variablename="NroIdentificacionOriginal">
 					</var>
+					<var
+					dataname="NroIdentificacion"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					variableid="4607ff8a-7e4e-4fb5-a793-fd5b9aed10bf"
+					variablename="NroIdentificacion">
+					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="NroIdentificacion"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="4607ff8a-7e4e-4fb5-a793-fd5b9aed10bf"
+					variablename="NroIdentificacion">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="e48b3018-361b-4dfc-80e4-19dde7c5ab39"
@@ -660,6 +733,10 @@
 							</testmodule>
 						</smartfoldernode>
 						<testmodule
+						id="cbf77831-b4b4-48b7-b230-053abc0cc771"
+						name="Guardar">
+						</testmodule>
+						<testmodule
 						id="bba0a8bf-efe0-49bf-bc61-fa18c1b6e195"
 						name="Salir">
 						</testmodule>
@@ -744,6 +821,14 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="a64d53b0-f25c-45b0-856a-a193544d41f9"
+					name="Test_Case_05">
+						<testmodule
+						id="825b32fc-9523-4000-8236-2dcb924ef370"
+						name="Recording1">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -770,7 +855,7 @@
 		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\MóduloCas.xlsx"
 		id="2ab255d6-9e36-4222-ac79-aa99f860b952"
 		includefile="Unchecked"
-		lastknownrowcount="4"
+		lastknownrowcount="5"
 		name="DataSourceAtencion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja2"
@@ -805,11 +890,11 @@
 		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\MóduloCas.xlsx"
 		id="14ba5720-10cd-4128-9a02-e50219d7a4d9"
 		includefile="Unchecked"
-		lastknownrowcount="4"
+		lastknownrowcount="19"
 		name="DataSourceServicios"
 		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="Hoja2"
-		worksheetrange="I:K">
+		worksheetname="Hoja3"
+		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
 					CodServicio
@@ -828,7 +913,7 @@
 		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\MóduloCas.xlsx"
 		id="79b6a6d3-c198-4530-a52d-8e03267584ea"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="2"
 		name="ModuloCAS"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -860,6 +945,12 @@
 				</column>
 				<column>
 					VlrUnitario
+				</column>
+				<column>
+					Column10
+				</column>
+				<column>
+					Column11
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -918,6 +1009,9 @@
 			</testcontainer>
 			<testcontainer
 			id="99786b1b-0182-4d56-bd18-9de58a8ed0e5">
+			</testcontainer>
+			<testcontainer
+			id="a64d53b0-f25c-45b0-856a-a193544d41f9">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

@@ -42,33 +42,35 @@ namespace CuentasMedicas_Sanitas
             
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.CodigoServicioTemplate' at Center.", repo.MDIPrincipal.CodigoServicioTemplateInfo, new RecordItemIndex(0));
-            repo.MDIPrincipal.CodigoServicioTemplate.Click();
+            repo.MDIPrincipal.CodigoServicioTemplate.DoubleClick();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CodServicio'.", new RecordItemIndex(1));
-            Keyboard.Press(CodServicio);
+            Keyboard.Press(CodServicio.ToLower());
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}'.", new RecordItemIndex(2));
             Keyboard.Press("{Tab}");
             Delay.Milliseconds(0);
+            
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.VlrUnitario' at Center.", repo.MDIPrincipal.VlrUnitarioInfo, new RecordItemIndex(3));
             repo.MDIPrincipal.VlrUnitario.Click();
             Delay.Milliseconds(0);
             
+      
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$VlrUnitario'.", new RecordItemIndex(4));
             Keyboard.Press(VlrUnitario);
             Delay.Milliseconds(20);
             
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}'.", new RecordItemIndex(2));
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}'.", new RecordItemIndex(5));
             Keyboard.Press("{Tab}");
             Delay.Milliseconds(0);
-            
+                     
+           
             }
-            
-            
         }
 
     }

@@ -92,8 +92,8 @@ namespace CuentasMedicas_Sanitas
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Compartido\\iqcmUltima\\IQ.CuentasMedicas.exe' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
-            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Compartido\\iqcmUltima\\IQ.CuentasMedicas.exe", "", "C:\\Compartido\\iqcmUltima", false));
+            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\dgomeza\\Desktop\\CuentasMedicas (1)\\CuentasMedicas\\IQ.CuentasMedicas.exe' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
+            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Users\\dgomeza\\Desktop\\CuentasMedicas (1)\\CuentasMedicas\\IQ.CuentasMedicas.exe", "", "C:\\Users\\dgomeza\\Desktop\\CuentasMedicas (1)\\CuentasMedicas", false));
             Delay.Milliseconds(0);
             
         }

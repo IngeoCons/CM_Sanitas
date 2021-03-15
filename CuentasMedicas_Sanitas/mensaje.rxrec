@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="db372c21-4ea0-4383-b71e-f022d5f41bb7"
-mode="Desktop">
+id="7fd58cc5-a2b3-4aa5-80ad-5e57dce4656b"
+mode="Global">
 	<repeatcount>
 		1
 	</repeatcount>
@@ -19,37 +19,12 @@ mode="Desktop">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="StartAUT"
+	classname="mensaje"
 	namespace="CuentasMedicas_Sanitas">
 	</codegen>
 	<variables>
-		<var
-		id="e8e667c8-a215-47ac-a075-62f5ee5a463c"
-		name="StartAutProcessIDVar">
-		</var>
 	</variables>
 	<recorditems>
-		<runapprecorditem
-		enabled="True"
-		maximized="False"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="ReturnVariable"
-				variable="StartAutProcessIDVar">
-				</binding>
-			</bindings>
-			<filename>
-				C:\Users\dgomeza\Desktop\CuentasMedicas (1)\CuentasMedicas\IQ.CuentasMedicas.exe
-			</filename>
-			<workingdir>
-				C:\Users\dgomeza\Desktop\CuentasMedicas (1)\CuentasMedicas
-			</workingdir>
-			<args>
-			</args>
-		</runapprecorditem>
 	</recorditems>
 	<repository
 	id="252f38fc-442d-4956-b6ff-f2c95665c4e7"
@@ -66,7 +41,7 @@ mode="Desktop">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		StartAUT.UserCode.cs
+		mensaje.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
