@@ -126,17 +126,77 @@
     <Compile Include="AssemblyInfo.cs">
       <id>0ea06a15-671a-4b2f-9cc2-146d15e2e7e4</id>
     </Compile>
-    <Compile Include="Recording1.cs">
+    <Compile Include="AutorizacionesVolante.cs">
+      <BoundTo>6c76a7a4-e6a9-4a76-b410-ac1ae01fa6b5</BoundTo>
+      <DependentUpon>AutorizacionesVolante.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>293dd4ce-49da-45e0-aa9d-f8d3fb7785a0</id>
+    </Compile>
+    <Compile Include="AutorizacionesVolante.UserCode.cs">
+      <BoundTo>6c76a7a4-e6a9-4a76-b410-ac1ae01fa6b5</BoundTo>
+      <DependentUpon>AutorizacionesVolante.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0b2cdafc-28ad-4893-babd-fb7ea0d20664</id>
+    </Compile>
+    <Compile Include="CargaServSinHomologar.cs">
+      <BoundTo>22d9bc41-0eea-46fc-94fa-3325dc888f8c</BoundTo>
+      <DependentUpon>CargaServSinHomologar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fd24f2fd-d1cd-42a7-86b4-7ad1af75f60e</id>
+    </Compile>
+    <Compile Include="CargaServSinHomologar.UserCode.cs">
+      <BoundTo>22d9bc41-0eea-46fc-94fa-3325dc888f8c</BoundTo>
+      <DependentUpon>CargaServSinHomologar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>54e6cf2c-2d77-45de-a850-666781d72802</id>
+    </Compile>
+    <Compile Include="Homologacion.cs">
       <BoundTo>04970069-9362-4bf8-95c2-d4ed04aa6228</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <DependentUpon>Homologacion.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>4151d84b-fc09-4225-bde7-09cc0ca37cc8</id>
     </Compile>
-    <Compile Include="Recording1.UserCode.cs">
+    <Compile Include="Homologacion.UserCode.cs">
       <BoundTo>04970069-9362-4bf8-95c2-d4ed04aa6228</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <DependentUpon>Homologacion.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>1dbb6aad-d9f5-4e68-83cf-1a79c831ba2d</id>
+    </Compile>
+    <Compile Include="MenuAutorizaciones.cs">
+      <BoundTo>4da80d26-d8a5-4ed2-9b73-5459fbfd1693</BoundTo>
+      <DependentUpon>MenuAutorizaciones.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6fc38523-ae3f-4841-9e7d-af61b91c57f2</id>
+    </Compile>
+    <Compile Include="MenuAutorizaciones.UserCode.cs">
+      <BoundTo>4da80d26-d8a5-4ed2-9b73-5459fbfd1693</BoundTo>
+      <DependentUpon>MenuAutorizaciones.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fb6c81e3-86c5-4b52-abc5-0a720874ed87</id>
+    </Compile>
+    <Compile Include="ProcesoAutorizaciones1.cs">
+      <BoundTo>daf52fc7-b017-40ec-96f9-45a7a8ead56b</BoundTo>
+      <DependentUpon>ProcesoAutorizaciones1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ceb2154b-00c1-4705-a231-3a1d4a9fd133</id>
+    </Compile>
+    <Compile Include="ProcesoAutorizaciones1.UserCode.cs">
+      <BoundTo>daf52fc7-b017-40ec-96f9-45a7a8ead56b</BoundTo>
+      <DependentUpon>ProcesoAutorizaciones1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c81fe1ed-57b7-44db-a536-b17069870d67</id>
+    </Compile>
+    <Compile Include="RecorrerServicios.cs">
+      <BoundTo>2445543b-1c9e-4ace-a757-19847a4c12de</BoundTo>
+      <DependentUpon>RecorrerServicios.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4c7e18ac-92bb-4b8c-ae13-2e70ba1235d9</id>
+    </Compile>
+    <Compile Include="RecorrerServicios.UserCode.cs">
+      <BoundTo>2445543b-1c9e-4ace-a757-19847a4c12de</BoundTo>
+      <DependentUpon>RecorrerServicios.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4cbb4f36-2352-4ac5-980c-bd3e8e65641a</id>
     </Compile>
     <Compile Include="Reproceso.cs">
       <BoundTo>bb886e2a-15f7-475f-90ec-9ea55377236f</BoundTo>
@@ -330,15 +390,52 @@
       <UserCode>true</UserCode>
       <id>51f58d25-e051-4e4a-a132-8bb5146caed9</id>
     </Compile>
+    <Compile Include="VariosServicios.cs">
+      <BoundTo>e6cdc3af-ccd0-4b2e-8f26-c2d65962aa41</BoundTo>
+      <DependentUpon>VariosServicios.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a6f4e087-d9ff-4d5a-9c13-527f97a8a1d8</id>
+    </Compile>
+    <Compile Include="VariosServicios.UserCode.cs">
+      <BoundTo>e6cdc3af-ccd0-4b2e-8f26-c2d65962aa41</BoundTo>
+      <DependentUpon>VariosServicios.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b218440e-40df-4ad7-bd28-c5f6143d093d</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
       <id>a983b45f-ee8b-4fb9-ae63-aa3cc0186eef</id>
     </None>
-    <None Include="Recording1.rxrec">
+    <None Include="AutorizacionesVolante.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>6c76a7a4-e6a9-4a76-b410-ac1ae01fa6b5</id>
+      <recordtableid>de3cd8e8-6c5e-4001-853c-62e1d433d6b7</recordtableid>
+    </None>
+    <None Include="CargaServSinHomologar.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>22d9bc41-0eea-46fc-94fa-3325dc888f8c</id>
+      <recordtableid>7d933712-2ad4-486e-bc81-0592cd49986c</recordtableid>
+    </None>
+    <None Include="Homologacion.rxrec">
       <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
       <id>04970069-9362-4bf8-95c2-d4ed04aa6228</id>
       <recordtableid>6e8c6e24-d1c2-497a-9fea-5d0ea2d9ae5d</recordtableid>
+    </None>
+    <None Include="MenuAutorizaciones.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>4da80d26-d8a5-4ed2-9b73-5459fbfd1693</id>
+      <recordtableid>9916a4d7-c223-4e16-8432-3f67adc009cc</recordtableid>
+    </None>
+    <None Include="ProcesoAutorizaciones1.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>daf52fc7-b017-40ec-96f9-45a7a8ead56b</id>
+      <recordtableid>7e8fc83c-9ea9-4946-bdd0-9c1f9a47600e</recordtableid>
+    </None>
+    <None Include="RecorrerServicios.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>2445543b-1c9e-4ace-a757-19847a4c12de</id>
+      <recordtableid>94aa3394-c8ee-47a0-8de4-3060e8ea2d0e</recordtableid>
     </None>
     <None Include="Reproceso.rxrec">
       <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
@@ -426,6 +523,11 @@
       <id>6c627978-fe85-4767-80b6-dcb076675aaf</id>
       <recordtableid>db372c21-4ea0-4383-b71e-f022d5f41bb7</recordtableid>
     </None>
+    <None Include="VariosServicios.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>e6cdc3af-ccd0-4b2e-8f26-c2d65962aa41</id>
+      <recordtableid>fa189df6-f071-4acc-a15a-7acb04cc261e</recordtableid>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="CuentasMedicas_Sanitas.rxtmg">
@@ -436,6 +538,64 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>fde73c16-b18e-4d98-a5d1-e763a5405c5b</id>
     </Content>
+    <Content Include="IQCustomerTemplate\Background_IQ.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>3aaab342-6d59-4bff-80ac-7881ed0e9aac</id>
+    </Content>
+    <Content Include="IQCustomerTemplate\header_IQ.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e9963556-4dac-43a3-a37d-ed2f7421c8dc</id>
+    </Content>
+    <Content Include="IQCustomerTemplate\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>49cec207-9261-49c1-b31e-d96c2614cef0</id>
+    </Content>
+    <Content Include="IQCustomerTemplate\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>bcff5f9c-e24b-43b5-9cb7-3f33bcb2f5bf</id>
+    </Content>
+    <Content Include="IQCustomerTemplate\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f8ae2668-5477-4456-b4f3-fbc39de01997</id>
+    </Content>
+    <Content Include="IQCustomerTemplate\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>280c5d40-f548-4602-89c2-8edca6b34c10</id>
+    </Content>
+    <Content Include="IQCustomerTemplate\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>70b066d0-5f91-4c4b-8220-2a3e67a891c0</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>74a0402f-8f25-4946-9a46-2776a8097b09</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>3d0da6f9-698b-4253-a48f-109a6701eaef</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c65e1777-4dec-4bc0-a19b-4e83163b17ca</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c458c3d7-58c8-4231-b86d-54108dc7f5fe</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>27b15b46-494e-4b78-93cc-1713eb840f1e</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IQCustomerTemplate">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>3b9469da-cc4b-4b35-ab3d-0757731fbd96</id>
+    </Folder>
+    <Folder Include="NewCustomTemplate1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7416bf5e-66cf-4ebe-b2a1-3a71e008ecc9</id>
+    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

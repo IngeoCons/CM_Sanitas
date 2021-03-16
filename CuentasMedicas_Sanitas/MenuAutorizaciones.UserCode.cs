@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace CuentasMedicas_Sanitas
 {
-    public partial class Recording1
+    public partial class MenuAutorizaciones
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

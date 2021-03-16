@@ -18,7 +18,7 @@ name="CuentasMedicas_SanitasRepository">
 		id="edaee240-1d6d-4732-b9fe-38615680e321"
 		isrooted="True"
 		name="MDIPrincipal"
-		refimgid="9700285b-bc51-40b5-a94b-477a478ecfa9"
+		refimgid="6bd1e7d3-941c-4a66-bb96-701f7a20f205"
 		refpath="/form[@controlname='MDIPrincipal']"
 		searchtimeout="30000ms"
 		usecache="True">
@@ -238,6 +238,16 @@ name="CuentasMedicas_SanitasRepository">
 				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel2']//table[@accessiblename='ultraGrid2']/row[@accessiblename='Add Row']/cell[@accessiblename='Vlr. Unitario']
 			</item>
 			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="17a88cb9-fc66-4f9d-be86-ba97ea1c459c"
+			name="Descripcion"
+			refimgid="6cc6253a-b508-496b-af64-840a28bac627"
+			refpath="/form[@controlname='MDIPrincipal']/element/form/container/container[@controlname='panel1']/container/container[@controlname='panel2']/container/container[@controlname='panel2']/tabpagelist/tabpage[@controlname='AtencionesYServicios']/container/container[@controlname='panel2']/container/container[@controlname='panel2']/container/element/table/row[@accessiblename='Add Row']/cell[@accessiblename='Descripcion']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel2']//table[@accessiblename='ultraGrid2']/row[@accessiblename='Add Row']/cell[@accessiblename='Descripcion']
+			</item>
+			<item
 			addcaps="unknown,control,nativewindow"
 			capname="unknown"
 			id="dc8ca4ad-621a-4010-a36b-4ff8195f1efb"
@@ -277,6 +287,15 @@ name="CuentasMedicas_SanitasRepository">
 					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']/?/?/container[@controlname='panel2']//button[@accessiblename='Iniciar']
 				</item>
 				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="9618b33c-e062-4b6f-b336-1ba5818c1cee"
+				name="CodigoHomologoFila"
+				refimgid="5b68bda4-2a04-4959-af4e-8d344f977494"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']/container[@controlname='splitContainer2']//table[@controlname='dgv_Homologacion']//cell[@accessiblevalue=$CodServicio and @accessiblename~'Servicio']/../..//cell[@accessiblevalue='(null)' and @accessiblename~'Código']
+				</item>
+				<item
 				addcaps="button,accessible"
 				capname="button"
 				id="cbc1f934-f2ef-4556-85b7-b92b7193809a"
@@ -285,6 +304,16 @@ name="CuentasMedicas_SanitasRepository">
 				refpath="/form[@controlname='MDIPrincipal']/element/form/container/container[@controlname='panel2']/container/container[@controlname='panel2']/container/container[@controlname='panel2']/element[@controlname='uBSalir']/button[@accessiblename='Salir']"
 				searchtimeout="30000ms">
 					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']/?/?/container[@controlname='panel2']//button[@accessiblename='Salir']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="a25e9d03-42b0-4ae7-88e9-ec7701c2d183"
+				name="Guardar"
+				refimgid="1608e396-b83d-4130-b2b7-999c744995bb"
+				refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']/container[@controlname='splitContainer2']/container[@controlname='panel2']/container[@controlname='splitContainer3']/container[@controlname='panel2']/element[@controlname='uBGuardar']/button[@accessiblename='Guardar']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']/?/?/container[@controlname='panel2']//button[@accessiblename='Guardar']
 				</item>
 				<basepath>
 					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']
@@ -401,6 +430,89 @@ name="CuentasMedicas_SanitasRepository">
 					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']
 				</basepath>
 			</folder>
+			<folder
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="671b73b9-f684-48c5-bb89-5870e79330d6"
+			isrooted="True"
+			name="Panel1"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,nativewindow,controlnet11"
+				capname="unknown"
+				id="4f53fda6-0e84-4cbb-8859-c1387b1d329f"
+				name="SomeElement"
+				refimgid="cf97eaf9-89e6-4ce6-91c7-56002f554eed"
+				refpath="/form[@controlname='MDIPrincipal']/element/form/container/container[@controlname='panel1']/container/container[@controlname='panel1']/element/element/container/container[@controlname='panel2']/element/element[@controlname='']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel1']//container[@controlname='panel2']/?/?/element[@controlname='']
+				</item>
+				<basepath>
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="d79da785-5ed4-457c-b427-0d3af03a70ea"
+			name="BtIniciar"
+			refimgid="6e90c2f9-1820-4444-a3dc-57c9ae90f9b0"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel1']/button[@controlname='bt_iniciar']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/?/?/button[@controlname='bt_iniciar']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="8021efa1-8e7f-4c31-8c49-ced27037a0e6"
+			name="Lbl_ModuloDestinoAutorizaciones"
+			refimgid="034cee5a-801e-4a1d-890e-ab625a64cd6a"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']/container[@controlname='panel2']/container[@controlname='groupBox6']/combobox[@controlname='cb_ModuloDestino']/text[@controlid='1001']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//combobox[@controlname='cb_ModuloDestino']/text[@controlid='1001']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="e6021787-f222-4ab0-a10c-1181e6728cf0"
+			name="Lbl_CausalAutorizaciones"
+			refimgid="ee26a5f9-1ac1-45eb-9b22-4efede18687f"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']/container[@controlname='panel2']/container[@controlname='groupBox6']/combobox[@controlname='cb_Causales']/text[@controlid='1001']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//combobox[@controlname='cb_Causales']/text[@controlid='1001']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="53ff8659-1e5b-4495-87a4-1ef4d589d3f8"
+			name="Txt_ObservacionAutorizaciones"
+			refimgid="298080d4-ccff-4425-8e92-db72e364887a"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']/container[@controlname='panel2']/container[@controlname='groupBox6']/text[@controlname='txt_observacion_causal']/text[@accessiblename='Observación']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']//text[@accessiblename='Observación']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="05bd35c3-0091-4f68-ba80-8b1bdff04d39"
+			name="Btn_AignarAutorizaciones"
+			refimgid="c69b4ef0-420a-4f3b-be94-86ba20b73270"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']/container[@controlname='panel2']/container[@controlname='groupBox6']/button[@controlname='button1']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']//button[@controlname='button1']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="64624f77-3558-4716-936d-043543973ff3"
+			name="BtI_nformacionAutorizaciones"
+			refimgid="f5f6f658-4991-4b25-bc7b-71167ac3149a"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/container[@controlname='groupBox1']/button[@controlname='bt_informacion']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_informacion']
+			</item>
 			<basepath>
 				/form[@controlname='MDIPrincipal']
 			</basepath>
@@ -433,6 +545,16 @@ NKP/GxnHIvIEFJ89e6UQqpQw0NAIAudENbXA/0DAAxVGAgwMAHHTgrlUlPwcAAAAAElFTkSuQmCC
 			refimgid="29481774-1914-4f97-9d7f-94d74339d9b2"
 			searchtimeout="30000ms">
 				/contextmenu[@processname='IQ.CuentasMedicas']/menuitem[@accessiblename=$MenuItem]
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="90345206-f475-4813-9f08-38e6d06b1d77"
+			name="MenuItem"
+			refimgid="6c07f229-af98-48b2-8497-defa497da36d"
+			refpath="/contextmenu[@processname='IQ.CuentasMedicas']/menuitem[@accessiblename='']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='IQ.CuentasMedicas']/menuitem[@accessiblename='']
 			</item>
 			<basepath>
 				/contextmenu[@processname='IQ.CuentasMedicas']
@@ -1023,7 +1145,8 @@ VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
 			addcaps="button,nativewindow"
 			capname="button"
 			id="9dadcb45-7f26-4f87-a1e3-2ed6bcdcc060"
-			name="Button"
+			name="Btn_AceptarVolanteAutor"
+			refimgid="72e3e9cc-b920-43fb-8368-cbdfbaa96695"
 			refpath="/form[@class='#32770']/button"
 			searchtimeout="30000ms">
 				/form[@class='#32770']/button
@@ -1141,12 +1264,22 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 		<var
 		id="1c08caca-7405-4485-a517-a7b7060789e7"
 		name="CodServicio">
-			S22101
+			12345
 		</var>
 		<var
 		id="6a6a704e-8bd9-4f2f-a42d-e2132a8328ba"
 		name="NroIdentificacion">
 			51876614
+		</var>
+		<var
+		id="196d13ae-714e-4640-982c-4c628dd4d897"
+		name="CodServicioHomologo">
+			L04AC073103
+		</var>
+		<var
+		id="38c300d4-a1f9-459e-9c9f-a12f7fdc2746"
+		name="Causal">
+			Solicitud de Gestión
 		</var>
 	</variables>
 </repository>
