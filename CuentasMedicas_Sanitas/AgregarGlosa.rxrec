@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="de3cd8e8-6c5e-4001-853c-62e1d433d6b7"
+id="c9c1037d-78d9-47ad-b116-5315b09a719b"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,59 +19,44 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="AutorizacionesVolante"
+	classname="AgregarGlosa"
 	namespace="CuentasMedicas_Sanitas">
 	</codegen>
 	<variables>
 		<var
-		id="d181bf50-083c-4247-a95f-f0ffe694faec"
-		name="Volante">
-			141031331
+		id="ff89207b-ca2e-4d10-b7b1-54309ae1ff25"
+		name="Cantidad">
+			1
+		</var>
+		<var
+		id="6828dc91-cf10-4e8e-9ad9-ce9f32c7f4d3"
+		name="Valor">
+			21954
+		</var>
+		<var
+		id="8d7ed7f5-5ac7-46cc-bc5e-fd6a7407c939"
+		name="ObservacionGlosa">
+			Prueba Glosa
 		</var>
 	</variables>
 	<recorditems>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
 		optional="False"
-		searchpropertyid="b1e99a0c-b7ec-4406-aad5-1b558ed68b98"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
+		presstime="20ms"
+		searchpropertyid="a03cd806-f16e-4ba9-aae4-260e9da46026">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Cantidad">
+				</binding>
 			</bindings>
 			<info
-			id="1e75736d-e1f6-4b40-bdeb-d6288352bc46"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']//cell[@accessiblevalue=$Nservicios]
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="730a256c-9277-4e0b-94db-7c2e645cfb50"
-		sx="956"
-		sy="380"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="ca4f3d81-ab90-4d9e-be99-06eb1bdad605"
+			id="f57a1376-b54e-4be0-afcb-f8c4a7a98dee"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="accessible"
@@ -79,64 +64,158 @@ mode="Global">
 				enabled="True"
 				flavor="msaa"
 				hasfocus="False"
-				index="9"
-				prefcap="cell"
-				rect="911,369,90,22"
-				role="cell"
+				index="0"
+				prefcap="text"
+				rect="974,487,122,16"
+				role="text"
 				snapElem=""
 				valid="True"
 				visible="True">
 					<attribute
-					name="isheader"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="selected"
-					type="System.Boolean">
-						True
-					</attribute>
-					<attribute
 					name="text"
 					type="System.String">
-						Asociar
-					</attribute>
-					<attribute
-					name="accessibledefaultaction"
-					type="System.String">
-						Presionar
-					</attribute>
-					<attribute
-					name="accessiblehelp"
-					type="System.String">
-						DataGridViewButtonCell(DataGridViewCell)
+						_____
 					</attribute>
 					<attribute
 					name="accessiblename"
 					type="System.String">
-						A. Asociacion Fila 0
+						Observaciones
 					</attribute>
 					<attribute
 					name="accessiblerole"
 					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Cell
+						Text
 					</attribute>
 					<attribute
 					name="accessiblestate"
 					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Selected, Focusable, Selectable
+						Focusable
 					</attribute>
 					<attribute
 					name="accessiblevalue"
 					type="System.String">
-						Asociar
+						_____
 					</attribute>
 				</element>
 				<path>
-					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']/?/?/cell[@accessiblename='A. Asociacion Fila 0']
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//text[@controlname='mk_Cantidad']/text[@accessiblename='Observaciones']
 				</path>
 			</info>
-		</mouseitem>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="86af1c51-98f2-49e5-98a4-696c22af3875">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Valor">
+				</binding>
+			</bindings>
+			<info
+			id="9ac9f281-d301-4861-8045-4574cdc0c60e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1198,487,122,16"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						$_________
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						$_________
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//text[@controlname='mk_ValorGlosa']/text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="95908540-7922-4937-beed-198ce0f432ae">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="ObservacionGlosa">
+				</binding>
+			</bindings>
+			<info
+			id="2dde9494-f5f9-4ab5-b696-d5102646ecb0"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="240,525,644,76"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						&#13;
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						&#13;
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//text[@controlname='Txt_Observacion']/text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -145,16 +224,16 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="9e6b64d8-f6b4-4108-b2a4-6b685e5c9846"
-		sx="861"
-		sy="253"
+		searchpropertyid="9e56be57-a5d8-4d0c-b026-41f8dfe40b45"
+		sx="985"
+		sy="591"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="2d54ff05-f13d-4476-a4b6-422ea532df5c"
+			id="1574252c-b79c-4bd5-9cd2-2824d1decab7"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="control, nativewindow"
@@ -162,9 +241,9 @@ mode="Global">
 				enabled="True"
 				flavor="winforms"
 				hasfocus="False"
-				index="1"
+				index="2"
 				prefcap="button"
-				rect="824,242,75,23"
+				rect="928,580,114,23"
 				role="button"
 				snapElem=""
 				valid="True"
@@ -172,17 +251,17 @@ mode="Global">
 					<attribute
 					name="text"
 					type="System.String">
-						Adicionar
+						Agregar
 					</attribute>
 					<attribute
 					name="controlname"
 					type="System.String">
-						bt_Adicionar
+						bt_AgregarGlosa
 					</attribute>
 					<attribute
 					name="controltext"
 					type="System.String">
-						Adicionar
+						Agregar
 					</attribute>
 					<attribute
 					name="controltype"
@@ -207,7 +286,7 @@ mode="Global">
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						19270546
+						12717874
 					</attribute>
 					<attribute
 					name="instance"
@@ -237,7 +316,7 @@ mode="Global">
 					<attribute
 					name="windowtext"
 					type="System.String">
-						Adicionar
+						Agregar
 					</attribute>
 					<dynamicattribute
 					description="No description available."
@@ -941,7 +1020,7 @@ mode="Global">
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@controlname='FrmAgregarVolantes']/button[@controlname='bt_Adicionar']
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']//button[@controlname='bt_AgregarGlosa']
 				</path>
 			</info>
 		</mouseitem>
@@ -953,26 +1032,50 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="ab359038-a337-4493-ba0f-fa04b79be39d"
-		sx="942"
-		sy="474"
+		searchpropertyid="ef71c9af-d384-4f80-bf6a-1b2170a97433"
+		sx="0"
+		sy="0"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="82409ab1-5fad-4775-8d84-d1ad2fe5d615"
+			id="9dadcb45-7f26-4f87-a1e3-2ed6bcdcc060"
 			sourcename="RepositoryEditor">
+				<path>
+					/form[@class='#32770']/button
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="52;12"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="68602ffa-cff6-47c2-a421-1d53c3e24a2c"
+		sx="66"
+		sy="211"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3883f8ce-d5fd-4201-9b07-c49400fa0220"
+			sourcename="Recorder">
 				<element
 				capabilities="control, nativewindow"
 				dontcache="False"
 				enabled="True"
 				flavor="winforms"
-				hasfocus="False"
-				index="1"
+				hasfocus="True"
+				index="2"
 				prefcap="button"
-				rect="905,463,75,23"
+				rect="14,199,114,23"
 				role="button"
 				snapElem=""
 				valid="True"
@@ -980,17 +1083,17 @@ mode="Global">
 					<attribute
 					name="text"
 					type="System.String">
-						Aceptar
+						Glosas
 					</attribute>
 					<attribute
 					name="controlname"
 					type="System.String">
-						Aceptar
+						bt_glosas
 					</attribute>
 					<attribute
 					name="controltext"
 					type="System.String">
-						Aceptar
+						Glosas
 					</attribute>
 					<attribute
 					name="controltype"
@@ -1015,17 +1118,17 @@ mode="Global">
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						20845348
+						27926004
 					</attribute>
 					<attribute
 					name="instance"
 					type="System.Int32">
-						0
+						2
 					</attribute>
 					<attribute
 					name="processid"
 					type="System.Int32">
-						7372
+						36788
 					</attribute>
 					<attribute
 					name="processname"
@@ -1040,12 +1143,12 @@ mode="Global">
 					<attribute
 					name="windowstyle"
 					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
-						Tiled, ClipChildren, ClipSiblings, Visible, ChildWindow
+						Tiled, MaximizeBox, ClipChildren, ClipSiblings, Visible, ChildWindow
 					</attribute>
 					<attribute
 					name="windowtext"
 					type="System.String">
-						Aceptar
+						Glosas
 					</attribute>
 					<dynamicattribute
 					description="No description available."
@@ -1749,83 +1852,176 @@ mode="Global">
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@controlname='MensajeBloqueante']/button[@controlname='Aceptar']
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_glosas']
 				</path>
 			</info>
+			<helperscreenshot
+			guid="676c0985-2ce3-45f8-b8f5-9ec3d097725c">
+				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
+g1dh/wBSn+6KKKAP/9k=
+			</helperscreenshot>
 		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<validationitem
+		action="Exists"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
 		optional="False"
-		searchpropertyid="a951f679-1ed1-41a7-b420-4090f3f0c911"
-		sx="900"
-		sy="208"
-		warnoutofbounds="False">
+		searchpropertyid="928168e1-a3f9-4117-9dc2-16cfda22a20f">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="2e39a601-ef28-4a62-8ea9-834aaee12194"
+			id="036391c2-5472-4616-8022-152728ba7b8d"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="accessible"
 				dontcache="False"
 				enabled="True"
 				flavor="msaa"
-				hasfocus="False"
-				index="2"
-				prefcap="button"
-				rect="890,198,21,21"
-				role="button"
+				hasfocus="True"
+				index="5"
+				prefcap="cell"
+				rect="481,267,100,22"
+				role="cell"
 				snapElem=""
 				valid="True"
 				visible="True">
 					<attribute
-					name="pressed"
+					name="isheader"
 					type="System.Boolean">
 						False
 					</attribute>
 					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
 					name="text"
 					type="System.String">
-						Cerrar
+						1
 					</attribute>
 					<attribute
-					name="accessibledefaultaction"
+					name="accessiblehelp"
 					type="System.String">
-						Presionar
-					</attribute>
-					<attribute
-					name="accessibledescription"
-					type="System.String">
-						Cierra la ventana
+						DataGridViewTextBoxCell(DataGridViewCell)
 					</attribute>
 					<attribute
 					name="accessiblename"
 					type="System.String">
-						Cerrar
+						Cant Fila 0
 					</attribute>
 					<attribute
 					name="accessiblerole"
 					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						PushButton
+						Cell
 					</attribute>
 					<attribute
 					name="accessiblestate"
 					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
+						Selected, Focused, Focusable, Selectable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						1
 					</attribute>
 				</element>
 				<path>
-					/form[@controlname='FrmAgregarVolantes']/?/?/button[@accessiblename='Cerrar']
+					/form[@controlname='Modulo de Glosas']//table[@controlname='dgvGlosas']/row[@accessiblename='Fila 0']/cell[@accessiblename='Cant Fila 0']
 				</path>
 			</info>
-		</mouseitem>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="1c0a2794-c5dc-4abf-b125-50d2f2712282">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="252f38fc-442d-4956-b6ff-f2c95665c4e7"
@@ -1842,7 +2038,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		AutorizacionesVolante.UserCode.cs
+		AgregarGlosa.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

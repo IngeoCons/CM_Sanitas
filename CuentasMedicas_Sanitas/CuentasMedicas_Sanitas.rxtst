@@ -57,6 +57,7 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="06a4ffdd-5be0-4a9d-8557-58f7f9205186"
 			name="CargaAtencion"
 			ref="502983f3-0571-4c9b-a2be-4f3ff5603381"
@@ -152,6 +153,20 @@
 			ref="f030d2ea-cb11-4c49-87c7-d878efb8b4db"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="134bea42-5003-495d-b56f-4ee06d79263f"
+			name="BuscarVolante"
+			ref="d6ae6395-3e06-4ca2-8772-9774827bfcd7"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Volante"
+					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
+					variableid="dc50f890-4497-46ed-9100-526645818e3f"
+					variablename="Volante">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="15ca84dd-dbe2-48f3-a005-0ada229cabaa"
 			name="setup">
@@ -168,6 +183,20 @@
 			name="Login"
 			ref="97cdd182-db0f-4f23-ba4c-48c854c5ba8a"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="1e17930a-5fbe-415e-b881-e51cdb3e0f7f"
+			name="AbrirVentanaInfo"
+			ref="ed6634a9-ba06-46f4-a900-850ff6605bfc"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ParFolderId"
+					datasourceid="85efe8a5-54e7-4488-a775-fbabf8a3b88d"
+					variableid="d85d4af4-80cb-4fd6-84db-ea2dbd1e3b17"
+					variablename="FolderId">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="1f07e191-0754-405f-8e63-ca85ff93a2b6"
@@ -195,6 +224,10 @@
 			ref="a1c70200-5366-44cb-840a-235895ceb685"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="248ef267-1983-4618-8454-cdbe7e5e2476"
+			name="setup">
+			</setup>
 			<testmodule
 			enabled="False"
 			id="259410a1-5462-4799-bac1-4f122bdaae29"
@@ -234,6 +267,26 @@
 					<![CDATA[Módulos cas con varios servicios sin homologar]]>
 				</description>
 			</testcase>
+			<testmodule
+			id="3d4ed166-8693-4090-85ed-b80b17522297"
+			name="MenuAutorizaciones"
+			ref="9916a4d7-c223-4e16-8432-3f67adc009cc"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ItemProducto"
+					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
+					variableid="12f92637-d732-4177-a3da-8a9594b97f83"
+					variablename="ItemProducto">
+					</var>
+					<var
+					dataname="MenuItem"
+					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
+					variableid="aabc01ea-ec93-4de2-ab96-733731c89f7e"
+					variablename="MenuItem">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="3f596a00-dd0a-46bf-b2e7-ffa36ef3042c"
 			name="TestCase_04">
@@ -331,6 +384,56 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="579c5788-826b-4bea-836b-c5ce75955616"
+			name="CargaAtencionFolder"
+			ref="68f69d69-81e5-4aee-bf2c-ccb6070f8639"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="NroIdentificacion"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					variableid="f9020e78-5832-4ba4-9d5a-447ad85c2812"
+					variablename="NroIdentificacion">
+					</var>
+					<var
+					dataname="TipoIdentificacion"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					variableid="1a4fadaf-15ac-4d1e-b92b-55b2aff6e4fc"
+					variablename="TipoIdentificacion">
+					</var>
+					<var
+					dataname="FechaInicio"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					variableid="4c4b942d-c041-4597-84cd-4eb77aa8384c"
+					variablename="FechaInicio">
+					</var>
+					<var
+					dataname="FechaFin"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					variableid="f074d2a9-440f-4023-afb8-421991b6e930"
+					variablename="FechaFin">
+					</var>
+					<var
+					dataname="ValorBruto"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					variableid="158902ad-3db5-4685-ac97-752e42da1337"
+					variablename="ValorBruto">
+					</var>
+					<var
+					dataname="SolicitudId"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					variableid="c2569a24-2ce7-404c-be2d-8c80a0d561e8"
+					variablename="SolicitudID">
+					</var>
+					<var
+					dataname="ParFolderId"
+					datasourceid="85efe8a5-54e7-4488-a775-fbabf8a3b88d"
+					variableid="d231342c-7bc1-4196-aee8-6e3dd20d0f23"
+					variablename="ParFolderId">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			datasource="Autorizaciones"
 			id="5935acc1-b6a5-453a-997f-b487397c0aeb"
@@ -359,7 +462,7 @@
 			name="MenuAutorizaciones"
 			ref="9916a4d7-c223-4e16-8432-3f67adc009cc"
 			type="Recording">
-				<missingdatabinding>
+				<databinding>
 					<var
 					dataname="ItemProducto"
 					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
@@ -372,13 +475,14 @@
 					variableid="aabc01ea-ec93-4de2-ab96-733731c89f7e"
 					variablename="MenuItem">
 					</var>
-				</missingdatabinding>
+				</databinding>
 			</testmodule>
 			<teardown
 			id="5ebeae01-a585-4a87-aafa-41f42bf67cfc"
 			name="teardown">
 			</teardown>
 			<testcase
+			datasource="Autorizaciones"
 			id="64883670-1505-4fbe-b6eb-c8a560fc4ee3"
 			name="Test_Case_09">
 				<description>
@@ -587,6 +691,12 @@
 				<description>
 					<![CDATA[Módulo Cas Varios NroIdentifcación con Varios Servicios]]>
 				</description>
+				<parameters>
+					<param
+					name="ParFolderId"
+					value="">
+					</param>
+				</parameters>
 			</testcase>
 			<testmodule
 			enabled="False"
@@ -614,6 +724,12 @@
 			datasource="DataSourceServicios"
 			id="99786b1b-0182-4d56-bd18-9de58a8ed0e5"
 			name="IteraccionServicios_02">
+				<parameters>
+					<param
+					name="NewParameter"
+					value="">
+					</param>
+				</parameters>
 			</smartfoldernode>
 			<setup
 			id="9b118169-7bd4-469a-bf59-455f648550b9"
@@ -667,6 +783,13 @@
 					variablename="CloseAutProcessIDVar">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			enabled="False"
+			id="a4bb633b-b21c-44a0-be49-0314218dc054"
+			name="Login"
+			ref="97cdd182-db0f-4f23-ba4c-48c854c5ba8a"
+			type="Recording">
 			</testmodule>
 			<testcase
 			datasource="Homologacion"
@@ -752,6 +875,7 @@
 				</description>
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="bba0a8bf-efe0-49bf-bc61-fa18c1b6e195"
 			name="Salir"
 			ref="561441a8-41d8-4e65-9b95-e53ce9738560"
@@ -810,6 +934,32 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
+			id="c7d04b12-45ca-40bd-a56f-4c76d42ed5fb"
+			name="AgregarGlosa"
+			ref="c9c1037d-78d9-47ad-b116-5315b09a719b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Cantidad"
+					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
+					variableid="ff89207b-ca2e-4d10-b7b1-54309ae1ff25"
+					variablename="Cantidad">
+					</var>
+					<var
+					dataname="Valor"
+					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
+					variableid="6828dc91-cf10-4e8e-9ad9-ce9f32c7f4d3"
+					variablename="Valor">
+					</var>
+					<var
+					dataname="ObservacionGlosa"
+					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
+					variableid="8d7ed7f5-5ac7-46cc-bc5e-fd6a7407c939"
+					variablename="ObservacionGlosa">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			enabled="False"
 			id="c845b79f-ece5-4b37-81d2-813e6a4c5f45"
 			name="StartAUT"
@@ -846,7 +996,13 @@
 					</var>
 				</missingdatavariablesbinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="AutorizacionServicios"
+			id="caec0a5a-53d4-4567-bb76-401c162797f7"
+			name="SmartFolder">
+			</smartfoldernode>
 			<testmodule
+			enabled="False"
 			id="cbf77831-b4b4-48b7-b230-053abc0cc771"
 			name="Guardar"
 			ref="f030d2ea-cb11-4c49-87c7-d878efb8b4db"
@@ -861,6 +1017,14 @@
 			id="cee8fe22-dfee-45c6-8b11-78f493cf8fda"
 			name="SmartFolder">
 			</smartfoldernode>
+			<testcase
+			datasource="Autorizaciones"
+			id="d271f52a-d3d2-4a64-adae-82687f37e662"
+			name="Test_Case_10">
+				<description>
+					<![CDATA[Autorizaciones Glosa]]>
+				</description>
+			</testcase>
 			<testmodule
 			id="dc99c4ce-06d5-4228-9578-b7d70bf08702"
 			name="MenuPaso1"
@@ -929,6 +1093,24 @@
 					variableid="4607ff8a-7e4e-4fb5-a793-fd5b9aed10bf"
 					variablename="NroIdentificacion">
 					</var>
+					<var
+					dataname="ParFolderId"
+					datasourceid="85efe8a5-54e7-4488-a775-fbabf8a3b88d"
+					variableid="7615392e-e705-478a-aab3-bd832cc2accf"
+					variablename="ParFolderId">
+					</var>
+					<var
+					dataname="SolicitudId"
+					datasourceid="14ba5720-10cd-4128-9a02-e50219d7a4d9"
+					variableid="687c661c-f0df-4e65-a113-e1cf657ea6e2"
+					variablename="SolicitudID">
+					</var>
+					<var
+					dataname="DescripcionServ"
+					datasourceid="14ba5720-10cd-4128-9a02-e50219d7a4d9"
+					variableid="d6c26d48-56a5-48ce-85ea-7e8402cd1198"
+					variablename="DescripcionServ">
+					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
@@ -948,6 +1130,28 @@
 			name="AutorizacionesVolante"
 			ref="de3cd8e8-6c5e-4001-853c-62e1d433d6b7"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Volante"
+					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
+					variableid="d181bf50-083c-4247-a95f-f0ffe694faec"
+					variablename="Volante">
+					</var>
+					<var
+					dataname="Nservicios"
+					datasourceid="4812d665-c917-45d7-b0fa-61b98ed6d46f"
+					variableid="b62ab2f8-0bec-4c1e-a453-20f1779c3aab"
+					variablename="Nservicios">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Nservicios"
+					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
+					variableid="b62ab2f8-0bec-4c1e-a453-20f1779c3aab"
+					variablename="Nservicios">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -991,6 +1195,21 @@
 					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
 					variableid="c82aa472-ecb1-40a1-8ecd-26227874e27d"
 					variablename="ValorBruto">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			enabled="False"
+			id="eb5abd22-9241-4813-b4a8-e18f60f61070"
+			name="StartAUT"
+			ref="db372c21-4ea0-4383-b71e-f022d5f41bb7"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8c5c44aa-a50a-41f2-aa88-4132543d9a40"
+					variableid="e8e667c8-a215-47ac-a075-62f5ee5a463c"
+					variablename="StartAutProcessIDVar">
 					</var>
 				</databinding>
 			</testmodule>
@@ -1132,6 +1351,14 @@
 						<testmodule
 						id="06a4ffdd-5be0-4a9d-8557-58f7f9205186"
 						name="CargaAtencion">
+						</testmodule>
+						<testmodule
+						id="1e17930a-5fbe-415e-b881-e51cdb3e0f7f"
+						name="AbrirVentanaInfo">
+						</testmodule>
+						<testmodule
+						id="579c5788-826b-4bea-836b-c5ce75955616"
+						name="CargaAtencionFolder">
 						</testmodule>
 						<smartfoldernode
 						id="99786b1b-0182-4d56-bd18-9de58a8ed0e5"
@@ -1366,8 +1593,40 @@
 						name="MenuAutorizaciones">
 						</testmodule>
 						<testmodule
-						id="e55ed797-80f7-4a4d-9424-dd11678c8ee4"
-						name="AutorizacionesVolante">
+						id="134bea42-5003-495d-b56f-4ee06d79263f"
+						name="BuscarVolante">
+						</testmodule>
+						<smartfoldernode
+						id="caec0a5a-53d4-4567-bb76-401c162797f7"
+						name="SmartFolder">
+							<testmodule
+							id="e55ed797-80f7-4a4d-9424-dd11678c8ee4"
+							name="AutorizacionesVolante">
+							</testmodule>
+						</smartfoldernode>
+					</testcase>
+					<testcase
+					id="d271f52a-d3d2-4a64-adae-82687f37e662"
+					name="Test_Case_10">
+						<setup
+						id="248ef267-1983-4618-8454-cdbe7e5e2476"
+						name="setup">
+							<testmodule
+							id="eb5abd22-9241-4813-b4a8-e18f60f61070"
+							name="StartAUT">
+							</testmodule>
+							<testmodule
+							id="a4bb633b-b21c-44a0-be49-0314218dc054"
+							name="Login">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="3d4ed166-8693-4090-85ed-b80b17522297"
+						name="MenuAutorizaciones">
+						</testmodule>
+						<testmodule
+						id="c7d04b12-45ca-40bd-a56f-4c76d42ed5fb"
+						name="AgregarGlosa">
 						</testmodule>
 					</testcase>
 				</testcase>
@@ -1396,11 +1655,11 @@
 		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\Autorizaciones.xlsx"
 		id="ba80ada9-9562-4426-8957-a3993cd5df40"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="2"
 		name="Autorizaciones"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
-		worksheetrange="Auto-Range">
+		worksheetrange="A:I">
 			<lastknowncolumns>
 				<column>
 					ItemProducto
@@ -1420,6 +1679,35 @@
 				<column>
 					Volante
 				</column>
+				<column>
+					Cantidad
+				</column>
+				<column>
+					Valor
+				</column>
+				<column>
+					ObservacionGlosa
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\Autorizaciones.xlsx"
+		id="4812d665-c917-45d7-b0fa-61b98ed6d46f"
+		includefile="Unchecked"
+		lastknownrowcount="2"
+		name="AutorizacionServicios"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja1"
+		worksheetrange="J:K">
+			<lastknowncolumns>
+				<column>
+					Nservicios
+				</column>
+				<column>
+					IDAtencion
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
@@ -1432,7 +1720,7 @@
 		name="DataSourceAtencion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja2"
-		worksheetrange="A:G">
+		worksheetrange="A:H">
 			<lastknowncolumns>
 				<column>
 					NroIdentificacion
@@ -1454,6 +1742,9 @@
 				</column>
 				<column>
 					Subproducto
+				</column>
+				<column>
+					SolicitudId
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -1480,6 +1771,9 @@
 				</column>
 				<column>
 					DescripcionServ
+				</column>
+				<column>
+					SolicitudId
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -1536,6 +1830,9 @@
 				<column>
 					Subproducto
 				</column>
+				<column>
+					SolicitudId
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
@@ -1586,13 +1883,13 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="85efe8a5-54e7-4488-a775-fbabf8a3b88d">
+			</testcontainer>
+			<testcontainer
 			id="8c5c44aa-a50a-41f2-aa88-4132543d9a40">
 			</testcontainer>
 			<testcontainer
-			id="b40a16ec-aede-4a19-baf3-922ef122ecd5">
-			</testcontainer>
-			<testcontainer
-			id="cee8fe22-dfee-45c6-8b11-78f493cf8fda">
+			id="99786b1b-0182-4d56-bd18-9de58a8ed0e5">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

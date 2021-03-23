@@ -24,72 +24,48 @@ namespace CuentasMedicas_Sanitas
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CargaServiciosMasiva recording.
+    ///The CargaAtencionFolder recording.
     /// </summary>
-    [TestModule("fb1841dc-8330-4601-b41a-b5dafeb987c6", ModuleType.Recording, 1)]
-    public partial class CargaServiciosMasiva : ITestModule
+    [TestModule("68f69d69-81e5-4aee-bf2c-ccb6070f8639", ModuleType.Recording, 1)]
+    public partial class CargaAtencionFolder : ITestModule
     {
         /// <summary>
         /// Holds an instance of the CuentasMedicas_SanitasRepository repository.
         /// </summary>
         public static CuentasMedicas_SanitasRepository repo = CuentasMedicas_SanitasRepository.Instance;
 
-        static CargaServiciosMasiva instance = new CargaServiciosMasiva();
+        static CargaAtencionFolder instance = new CargaAtencionFolder();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CargaServiciosMasiva()
+        public CargaAtencionFolder()
         {
-            NroIdentificacionOriginal = "";
-            NroIdentificacion = "";
-            CodServicio = "";
-            VlrUnitario = "";
             SolicitudID = "";
             ParFolderId = "";
-            DescripcionServ = "";
+            FechaInicio = "";
+            FechaFin = "";
+            TipoIdentificacion = "";
+            ValorBruto = "";
+            NroIdentificacion = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CargaServiciosMasiva Instance
+        public static CargaAtencionFolder Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
-        string _NroIdentificacionOriginal;
-
-        /// <summary>
-        /// Gets or sets the value of variable NroIdentificacionOriginal.
-        /// </summary>
-        [TestVariable("43733c06-57a6-4933-bb65-31b0493a90b7")]
-        public string NroIdentificacionOriginal
-        {
-            get { return _NroIdentificacionOriginal; }
-            set { _NroIdentificacionOriginal = value; }
-        }
-
-        string _VlrUnitario;
-
-        /// <summary>
-        /// Gets or sets the value of variable VlrUnitario.
-        /// </summary>
-        [TestVariable("db6b2690-02a0-42c6-a1e2-bfa65f6cb445")]
-        public string VlrUnitario
-        {
-            get { return _VlrUnitario; }
-            set { _VlrUnitario = value; }
-        }
-
         string _SolicitudID;
 
         /// <summary>
         /// Gets or sets the value of variable SolicitudID.
         /// </summary>
-        [TestVariable("687c661c-f0df-4e65-a113-e1cf657ea6e2")]
+        [TestVariable("c2569a24-2ce7-404c-be2d-8c80a0d561e8")]
         public string SolicitudID
         {
             get { return _SolicitudID; }
@@ -101,39 +77,65 @@ namespace CuentasMedicas_Sanitas
         /// <summary>
         /// Gets or sets the value of variable ParFolderId.
         /// </summary>
-        [TestVariable("7615392e-e705-478a-aab3-bd832cc2accf")]
+        [TestVariable("d231342c-7bc1-4196-aee8-6e3dd20d0f23")]
         public string ParFolderId
         {
             get { return _ParFolderId; }
             set { _ParFolderId = value; }
         }
 
-        string _DescripcionServ;
+        string _FechaInicio;
 
         /// <summary>
-        /// Gets or sets the value of variable DescripcionServ.
+        /// Gets or sets the value of variable FechaInicio.
         /// </summary>
-        [TestVariable("d6c26d48-56a5-48ce-85ea-7e8402cd1198")]
-        public string DescripcionServ
+        [TestVariable("4c4b942d-c041-4597-84cd-4eb77aa8384c")]
+        public string FechaInicio
         {
-            get { return _DescripcionServ; }
-            set { _DescripcionServ = value; }
+            get { return _FechaInicio; }
+            set { _FechaInicio = value; }
         }
 
+        string _FechaFin;
+
         /// <summary>
-        /// Gets or sets the value of variable CodServicio.
+        /// Gets or sets the value of variable FechaFin.
         /// </summary>
-        [TestVariable("e116240f-9a1b-4346-8971-c3e9addcfe98")]
-        public string CodServicio
+        [TestVariable("f074d2a9-440f-4023-afb8-421991b6e930")]
+        public string FechaFin
         {
-            get { return repo.CodServicio; }
-            set { repo.CodServicio = value; }
+            get { return _FechaFin; }
+            set { _FechaFin = value; }
+        }
+
+        string _TipoIdentificacion;
+
+        /// <summary>
+        /// Gets or sets the value of variable TipoIdentificacion.
+        /// </summary>
+        [TestVariable("1a4fadaf-15ac-4d1e-b92b-55b2aff6e4fc")]
+        public string TipoIdentificacion
+        {
+            get { return _TipoIdentificacion; }
+            set { _TipoIdentificacion = value; }
+        }
+
+        string _ValorBruto;
+
+        /// <summary>
+        /// Gets or sets the value of variable ValorBruto.
+        /// </summary>
+        [TestVariable("158902ad-3db5-4685-ac97-752e42da1337")]
+        public string ValorBruto
+        {
+            get { return _ValorBruto; }
+            set { _ValorBruto = value; }
         }
 
         /// <summary>
         /// Gets or sets the value of variable NroIdentificacion.
         /// </summary>
-        [TestVariable("4607ff8a-7e4e-4fb5-a793-fd5b9aed10bf")]
+        [TestVariable("f9020e78-5832-4ba4-9d5a-447ad85c2812")]
         public string NroIdentificacion
         {
             get { return repo.NroIdentificacion; }
@@ -166,7 +168,7 @@ namespace CuentasMedicas_Sanitas
 
             Init();
 
-            CargaServicios();
+            CargaDatos();
             Delay.Milliseconds(0);
             
         }

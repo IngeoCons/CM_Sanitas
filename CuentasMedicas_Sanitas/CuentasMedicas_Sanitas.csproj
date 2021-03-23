@@ -123,6 +123,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbrirVentanaInfo.cs">
+      <BoundTo>c07b50d6-ee0c-4bf8-98ff-659e38fa85ec</BoundTo>
+      <DependentUpon>AbrirVentanaInfo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aa304e3f-0113-4a7e-a322-5f2e212f1635</id>
+    </Compile>
+    <Compile Include="AbrirVentanaInfo.UserCode.cs">
+      <BoundTo>c07b50d6-ee0c-4bf8-98ff-659e38fa85ec</BoundTo>
+      <DependentUpon>AbrirVentanaInfo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6c9a80c0-a4f3-40b2-8d83-9800536bc784</id>
+    </Compile>
+    <Compile Include="AgregarGlosa.cs">
+      <BoundTo>ca90cf58-b69c-47f9-a3d3-0db0bf60d1b1</BoundTo>
+      <DependentUpon>AgregarGlosa.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ed9f2dd9-8dc7-421e-9ce1-48427bfc3969</id>
+    </Compile>
+    <Compile Include="AgregarGlosa.UserCode.cs">
+      <BoundTo>ca90cf58-b69c-47f9-a3d3-0db0bf60d1b1</BoundTo>
+      <DependentUpon>AgregarGlosa.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5094f9ee-d128-4483-9742-5fc1cec27df0</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>0ea06a15-671a-4b2f-9cc2-146d15e2e7e4</id>
     </Compile>
@@ -137,6 +161,30 @@
       <DependentUpon>AutorizacionesVolante.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>0b2cdafc-28ad-4893-babd-fb7ea0d20664</id>
+    </Compile>
+    <Compile Include="BuscarVolante.cs">
+      <BoundTo>4e2a18d9-5bbc-4d6e-9ec3-66845a06e148</BoundTo>
+      <DependentUpon>BuscarVolante.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d75b9c95-55e5-43d9-a803-835d1d6b4a4e</id>
+    </Compile>
+    <Compile Include="BuscarVolante.UserCode.cs">
+      <BoundTo>4e2a18d9-5bbc-4d6e-9ec3-66845a06e148</BoundTo>
+      <DependentUpon>BuscarVolante.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2a17a567-2626-40d8-a5f8-739da4447bb9</id>
+    </Compile>
+    <Compile Include="CargaAtencionFolder.cs">
+      <BoundTo>8d6d9f62-daf5-4d4d-af50-0466cd65e796</BoundTo>
+      <DependentUpon>CargaAtencionFolder.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>23f766cb-8ac8-427b-b103-dda12935ed75</id>
+    </Compile>
+    <Compile Include="CargaAtencionFolder.UserCode.cs">
+      <BoundTo>8d6d9f62-daf5-4d4d-af50-0466cd65e796</BoundTo>
+      <DependentUpon>CargaAtencionFolder.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>80753ddd-638d-4afb-aaa8-654d4e7659cb</id>
     </Compile>
     <Compile Include="CargaServSinHomologar.cs">
       <BoundTo>22d9bc41-0eea-46fc-94fa-3325dc888f8c</BoundTo>
@@ -404,6 +452,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AbrirVentanaInfo.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>c07b50d6-ee0c-4bf8-98ff-659e38fa85ec</id>
+      <recordtableid>ed6634a9-ba06-46f4-a900-850ff6605bfc</recordtableid>
+    </None>
+    <None Include="AgregarGlosa.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>ca90cf58-b69c-47f9-a3d3-0db0bf60d1b1</id>
+      <recordtableid>c9c1037d-78d9-47ad-b116-5315b09a719b</recordtableid>
+    </None>
     <None Include="app.config">
       <id>a983b45f-ee8b-4fb9-ae63-aa3cc0186eef</id>
     </None>
@@ -411,6 +469,16 @@
       <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
       <id>6c76a7a4-e6a9-4a76-b410-ac1ae01fa6b5</id>
       <recordtableid>de3cd8e8-6c5e-4001-853c-62e1d433d6b7</recordtableid>
+    </None>
+    <None Include="BuscarVolante.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>4e2a18d9-5bbc-4d6e-9ec3-66845a06e148</id>
+      <recordtableid>d6ae6395-3e06-4ca2-8772-9774827bfcd7</recordtableid>
+    </None>
+    <None Include="CargaAtencionFolder.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>8d6d9f62-daf5-4d4d-af50-0466cd65e796</id>
+      <recordtableid>68f69d69-81e5-4aee-bf2c-ccb6070f8639</recordtableid>
     </None>
     <None Include="CargaServSinHomologar.rxrec">
       <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>

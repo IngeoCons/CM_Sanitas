@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="fb1841dc-8330-4601-b41a-b5dafeb987c6"
+id="68f69d69-81e5-4aee-bf2c-ccb6070f8639"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,45 +19,45 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CargaServiciosMasiva"
+	classname="CargaAtencionFolder"
 	namespace="CuentasMedicas_Sanitas">
 	</codegen>
 	<variables>
 		<var
-		id="43733c06-57a6-4933-bb65-31b0493a90b7"
-		name="NroIdentificacionOriginal">
-		</var>
-		<var
-		id="4607ff8a-7e4e-4fb5-a793-fd5b9aed10bf"
-		name="NroIdentificacion">
-		</var>
-		<var
-		id="e116240f-9a1b-4346-8971-c3e9addcfe98"
-		name="CodServicio">
-		</var>
-		<var
-		id="db6b2690-02a0-42c6-a1e2-bfa65f6cb445"
-		name="VlrUnitario">
-		</var>
-		<var
-		id="687c661c-f0df-4e65-a113-e1cf657ea6e2"
+		id="c2569a24-2ce7-404c-be2d-8c80a0d561e8"
 		name="SolicitudID">
 		</var>
 		<var
-		id="7615392e-e705-478a-aab3-bd832cc2accf"
+		id="d231342c-7bc1-4196-aee8-6e3dd20d0f23"
 		name="ParFolderId">
 		</var>
 		<var
-		id="d6c26d48-56a5-48ce-85ea-7e8402cd1198"
-		name="DescripcionServ">
+		id="4c4b942d-c041-4597-84cd-4eb77aa8384c"
+		name="FechaInicio">
+		</var>
+		<var
+		id="f074d2a9-440f-4023-afb8-421991b6e930"
+		name="FechaFin">
+		</var>
+		<var
+		id="1a4fadaf-15ac-4d1e-b92b-55b2aff6e4fc"
+		name="TipoIdentificacion">
+		</var>
+		<var
+		id="158902ad-3db5-4685-ac97-752e42da1337"
+		name="ValorBruto">
+		</var>
+		<var
+		id="f9020e78-5832-4ba4-9d5a-447ad85c2812"
+		name="NroIdentificacion">
 		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem
-		classname="CargaServiciosMasiva"
+		classname="CargaAtencionFolder"
 		enabled="True"
 		isexternaltestmethod="False"
-		methodname="CargaServicios"
+		methodname="CargaDatos"
 		namespace="CuentasMedicas_Sanitas"
 		optional="False">
 			<comment>
@@ -65,7 +65,7 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<arguments
-			id="5c41d022-89d7-4ee0-b436-1ff4f3f9ef8d">
+			id="a2d6027e-f89a-47aa-b995-4231fc4c0998">
 			</arguments>
 		</userrecorditem>
 	</recorditems>
@@ -84,7 +84,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		CargaServiciosMasiva.UserCode.cs
+		CargaAtencionFolder.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

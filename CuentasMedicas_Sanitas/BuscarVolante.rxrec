@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="de3cd8e8-6c5e-4001-853c-62e1d433d6b7"
+id="d6ae6395-3e06-4ca2-8772-9774827bfcd7"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,12 +19,12 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="AutorizacionesVolante"
+	classname="BuscarVolante"
 	namespace="CuentasMedicas_Sanitas">
 	</codegen>
 	<variables>
 		<var
-		id="d181bf50-083c-4247-a95f-f0ffe694faec"
+		id="dc50f890-4497-46ed-9100-526645818e3f"
 		name="Volante">
 			141031331
 		</var>
@@ -38,123 +38,16 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="b1e99a0c-b7ec-4406-aad5-1b558ed68b98"
-		sx="0"
-		sy="0"
+		searchpropertyid="acb281a2-8648-4592-a42d-4d7b9d680a91"
+		sx="71"
+		sy="135"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="1e75736d-e1f6-4b40-bdeb-d6288352bc46"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']//cell[@accessiblevalue=$Nservicios]
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="730a256c-9277-4e0b-94db-7c2e645cfb50"
-		sx="956"
-		sy="380"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="ca4f3d81-ab90-4d9e-be99-06eb1bdad605"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="9"
-				prefcap="cell"
-				rect="911,369,90,22"
-				role="cell"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="isheader"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="selected"
-					type="System.Boolean">
-						True
-					</attribute>
-					<attribute
-					name="text"
-					type="System.String">
-						Asociar
-					</attribute>
-					<attribute
-					name="accessibledefaultaction"
-					type="System.String">
-						Presionar
-					</attribute>
-					<attribute
-					name="accessiblehelp"
-					type="System.String">
-						DataGridViewButtonCell(DataGridViewCell)
-					</attribute>
-					<attribute
-					name="accessiblename"
-					type="System.String">
-						A. Asociacion Fila 0
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Cell
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Selected, Focusable, Selectable
-					</attribute>
-					<attribute
-					name="accessiblevalue"
-					type="System.String">
-						Asociar
-					</attribute>
-				</element>
-				<path>
-					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']/?/?/cell[@accessiblename='A. Asociacion Fila 0']
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="9e6b64d8-f6b4-4108-b2a4-6b685e5c9846"
-		sx="861"
-		sy="253"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="2d54ff05-f13d-4476-a4b6-422ea532df5c"
+			id="64624f77-3558-4716-936d-043543973ff3"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="control, nativewindow"
@@ -162,9 +55,9 @@ mode="Global">
 				enabled="True"
 				flavor="winforms"
 				hasfocus="False"
-				index="1"
+				index="4"
 				prefcap="button"
-				rect="824,242,75,23"
+				rect="14,124,114,23"
 				role="button"
 				snapElem=""
 				valid="True"
@@ -172,17 +65,17 @@ mode="Global">
 					<attribute
 					name="text"
 					type="System.String">
-						Adicionar
+						Información
 					</attribute>
 					<attribute
 					name="controlname"
 					type="System.String">
-						bt_Adicionar
+						bt_informacion
 					</attribute>
 					<attribute
 					name="controltext"
 					type="System.String">
-						Adicionar
+						Información
 					</attribute>
 					<attribute
 					name="controltype"
@@ -207,7 +100,7 @@ mode="Global">
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						19270546
+						2826798
 					</attribute>
 					<attribute
 					name="instance"
@@ -237,7 +130,7 @@ mode="Global">
 					<attribute
 					name="windowtext"
 					type="System.String">
-						Adicionar
+						Información
 					</attribute>
 					<dynamicattribute
 					description="No description available."
@@ -941,7 +834,7 @@ mode="Global">
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@controlname='FrmAgregarVolantes']/button[@controlname='bt_Adicionar']
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_informacion']
 				</path>
 			</info>
 		</mouseitem>
@@ -953,16 +846,127 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="ab359038-a337-4493-ba0f-fa04b79be39d"
-		sx="942"
-		sy="474"
+		searchpropertyid="c4bfb3ed-a7ef-42f3-9b70-2dd74c020fe7"
+		sx="559"
+		sy="587"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="82409ab1-5fad-4775-8d84-d1ad2fe5d615"
+			id="676343b6-fabc-4850-9003-0bd271427aa4"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="417,579,284,16"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='Modulo de informacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']//container[@controlname='gb_Consulta']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="a5c9eb84-2c23-45c4-8347-cc0061e09f7b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Volante">
+				</binding>
+			</bindings>
+			<info
+			id="676343b6-fabc-4850-9003-0bd271427aa4"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="417,579,284,16"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='Modulo de informacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']//container[@controlname='gb_Consulta']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d6a1e02a-349d-4dd6-8c9d-f4573bdd1d22"
+		sx="746"
+		sy="586"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3b6b6114-87ef-4c42-9e92-f6b5ffc851ba"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="control, nativewindow"
@@ -970,9 +974,9 @@ mode="Global">
 				enabled="True"
 				flavor="winforms"
 				hasfocus="False"
-				index="1"
+				index="0"
 				prefcap="button"
-				rect="905,463,75,23"
+				rect="709,575,75,23"
 				role="button"
 				snapElem=""
 				valid="True"
@@ -980,17 +984,17 @@ mode="Global">
 					<attribute
 					name="text"
 					type="System.String">
-						Aceptar
+						Consultar
 					</attribute>
 					<attribute
 					name="controlname"
 					type="System.String">
-						Aceptar
+						bt_consultar
 					</attribute>
 					<attribute
 					name="controltext"
 					type="System.String">
-						Aceptar
+						Consultar
 					</attribute>
 					<attribute
 					name="controltype"
@@ -1015,7 +1019,7 @@ mode="Global">
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						20845348
+						20715752
 					</attribute>
 					<attribute
 					name="instance"
@@ -1040,12 +1044,12 @@ mode="Global">
 					<attribute
 					name="windowstyle"
 					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
-						Tiled, ClipChildren, ClipSiblings, Visible, ChildWindow
+						Tiled, MaximizeBox, ClipChildren, ClipSiblings, Visible, ChildWindow
 					</attribute>
 					<attribute
 					name="windowtext"
 					type="System.String">
-						Aceptar
+						Consultar
 					</attribute>
 					<dynamicattribute
 					description="No description available."
@@ -1749,7 +1753,7 @@ mode="Global">
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@controlname='MensajeBloqueante']/button[@controlname='Aceptar']
+					/form[@controlname='Modulo de informacion']/container[@controlname='splitContainer1']//container[@controlname='gb_Consulta']/button[@controlname='bt_consultar']
 				</path>
 			</info>
 		</mouseitem>
@@ -1761,16 +1765,16 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="a951f679-1ed1-41a7-b420-4090f3f0c911"
-		sx="900"
-		sy="208"
+		searchpropertyid="6fd041d4-e70e-4e6c-9710-12b669a863d8"
+		sx="1107"
+		sy="117"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="2e39a601-ef28-4a62-8ea9-834aaee12194"
+			id="fa13e3fe-994b-487a-9fec-a900a83d71f1"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="accessible"
@@ -1780,7 +1784,7 @@ mode="Global">
 				hasfocus="False"
 				index="2"
 				prefcap="button"
-				rect="890,198,21,21"
+				rect="1084,102,47,30"
 				role="button"
 				snapElem=""
 				valid="True"
@@ -1822,7 +1826,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/form[@controlname='FrmAgregarVolantes']/?/?/button[@accessiblename='Cerrar']
+					/form[@controlname='Modulo de informacion']/?/?/button[@accessiblename='Cerrar']
 				</path>
 			</info>
 		</mouseitem>
@@ -1842,7 +1846,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		AutorizacionesVolante.UserCode.cs
+		BuscarVolante.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

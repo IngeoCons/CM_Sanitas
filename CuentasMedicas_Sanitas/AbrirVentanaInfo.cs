@@ -24,56 +24,46 @@ namespace CuentasMedicas_Sanitas
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The AutorizacionesVolante recording.
+    ///The AbrirVentanaInfo recording.
     /// </summary>
-    [TestModule("de3cd8e8-6c5e-4001-853c-62e1d433d6b7", ModuleType.Recording, 1)]
-    public partial class AutorizacionesVolante : ITestModule
+    [TestModule("ed6634a9-ba06-46f4-a900-850ff6605bfc", ModuleType.Recording, 1)]
+    public partial class AbrirVentanaInfo : ITestModule
     {
         /// <summary>
         /// Holds an instance of the CuentasMedicas_SanitasRepository repository.
         /// </summary>
         public static CuentasMedicas_SanitasRepository repo = CuentasMedicas_SanitasRepository.Instance;
 
-        static AutorizacionesVolante instance = new AutorizacionesVolante();
+        static AbrirVentanaInfo instance = new AbrirVentanaInfo();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public AutorizacionesVolante()
+        public AbrirVentanaInfo()
         {
-            Volante = "141031331";
+            FolderId = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static AutorizacionesVolante Instance
+        public static AbrirVentanaInfo Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
-        string _Volante;
+        string _FolderId;
 
         /// <summary>
-        /// Gets or sets the value of variable Volante.
+        /// Gets or sets the value of variable FolderId.
         /// </summary>
-        [TestVariable("d181bf50-083c-4247-a95f-f0ffe694faec")]
-        public string Volante
+        [TestVariable("d85d4af4-80cb-4fd6-84db-ea2dbd1e3b17")]
+        public string FolderId
         {
-            get { return _Volante; }
-            set { _Volante = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable Nservicios.
-        /// </summary>
-        [TestVariable("b62ab2f8-0bec-4c1e-a453-20f1779c3aab")]
-        public string Nservicios
-        {
-            get { return repo.Nservicios; }
-            set { repo.Nservicios = value; }
+            get { return _FolderId; }
+            set { _FolderId = value; }
         }
 
 #endregion
@@ -102,24 +92,15 @@ namespace CuentasMedicas_Sanitas
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.FilaFila1' at Center.", repo.MDIPrincipal.FilaFila1Info, new RecordItemIndex(0));
-            repo.MDIPrincipal.FilaFila1.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'MDIPrincipal.Panel1.SomeElement' at 469;95.", repo.MDIPrincipal.Panel1.SomeElementInfo, new RecordItemIndex(0));
+            repo.MDIPrincipal.Panel1.SomeElement.Click(System.Windows.Forms.MouseButtons.Right, "469;95");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.Btn_Asociar1' at Center.", repo.MDIPrincipal.Btn_Asociar1Info, new RecordItemIndex(1));
-            repo.MDIPrincipal.Btn_Asociar1.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IQCuentasMedicas.DatosImagen' at 50;12.", repo.IQCuentasMedicas.DatosImagenInfo, new RecordItemIndex(1));
+            repo.IQCuentasMedicas.DatosImagen.Click("50;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmAgregarVolantes.BtAdicionar' at Center.", repo.FrmAgregarVolantes.BtAdicionarInfo, new RecordItemIndex(2));
-            repo.FrmAgregarVolantes.BtAdicionar.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MensajeBloqueante.Aceptar' at Center.", repo.MensajeBloqueante.AceptarInfo, new RecordItemIndex(3));
-            repo.MensajeBloqueante.Aceptar.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmAgregarVolantes.Cerrar' at Center.", repo.FrmAgregarVolantes.CerrarInfo, new RecordItemIndex(4));
-            repo.FrmAgregarVolantes.Cerrar.Click();
+            ObtenerFolderID();
             Delay.Milliseconds(0);
             
         }

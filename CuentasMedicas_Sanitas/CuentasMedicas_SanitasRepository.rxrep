@@ -513,6 +513,74 @@ name="CuentasMedicas_SanitasRepository">
 			searchtimeout="30000ms">
 				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_informacion']
 			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="ca4f3d81-ab90-4d9e-be99-06eb1bdad605"
+			name="Btn_Asociar1"
+			refimgid="a9394f7e-90ff-4067-8b83-9df051225914"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']//cell[@text=$Nservicios]/../../row[@childindex=$Nservicios]/cell[@text='Asociar']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="f57a1376-b54e-4be0-afcb-f8c4a7a98dee"
+			name="Txt_CantidadGlosas"
+			refimgid="8bfb072e-3000-4084-9a90-55eb1b1402d3"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']/container[@controlname='panel1']/container[@controlname='groupBox5']/text[@controlname='mk_Cantidad']/text[@accessiblename='Observaciones']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//text[@controlname='mk_Cantidad']/text[@accessiblename='Observaciones']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="9ac9f281-d301-4861-8045-4574cdc0c60e"
+			name="Txt_ValorGlosa"
+			refimgid="13e38d2c-8fa8-48d2-9679-c5d78e9cd8b5"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']/container[@controlname='panel1']/container[@controlname='groupBox5']/text[@controlname='mk_ValorGlosa']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//text[@controlname='mk_ValorGlosa']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="2dde9494-f5f9-4ab5-b696-d5102646ecb0"
+			name="Txt_ObservacionGlosa"
+			refimgid="b9257d6f-52db-40a2-8371-4f5d010d04c9"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']/container[@controlname='panel1']/container[@controlname='groupBox5']/text[@controlname='Txt_Observacion']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//text[@controlname='Txt_Observacion']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="1574252c-b79c-4bd5-9cd2-2824d1decab7"
+			name="Btn_AgregarGlosa"
+			refimgid="35acfe8a-b8c3-4ebc-854b-e7a7bf1f3354"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']/container[@controlname='panel1']/container[@controlname='groupBox5']/button[@controlname='bt_AgregarGlosa']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']//button[@controlname='bt_AgregarGlosa']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="3883f8ce-d5fd-4201-9b07-c49400fa0220"
+			name="BtGlosas"
+			refimgid="412dbb9c-082d-4512-bfee-86f939d691e6"
+			refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='panel2']/container/button[@controlname='bt_glosas']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_glosas']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="1e75736d-e1f6-4b40-bdeb-d6288352bc46"
+			name="FilaFila1"
+			refimgid="cc7608ee-c510-4710-8546-4f0a107c7e44"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']//cell[@accessiblevalue=$Nservicios]
+			</item>
 			<basepath>
 				/form[@controlname='MDIPrincipal']
 			</basepath>
@@ -555,6 +623,26 @@ NKP/GxnHIvIEFJ89e6UQqpQw0NAIAudENbXA/0DAAxVGAgwMAHHTgrlUlPwcAAAAAElFTkSuQmCC
 			refpath="/contextmenu[@processname='IQ.CuentasMedicas']/menuitem[@accessiblename='']"
 			searchtimeout="30000ms">
 				/contextmenu[@processname='IQ.CuentasMedicas']/menuitem[@accessiblename='']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="b034fcc8-3093-475d-b304-9ec0720e47ae"
+			name="Reclasificar"
+			refimgid="3480ca30-4dd3-4ca5-9bf6-41e352e664bd"
+			refpath="/contextmenu[@controlname='ContextMenuStrip1']/menuitem[@accessiblename='Reclasificar']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='IQ.CuentasMedicas']/menuitem[@accessiblename='Reclasificar']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="97865f93-11a1-47bb-8a74-1487bb7e7602"
+			name="DatosImagen"
+			refimgid="ea155327-3d54-48d0-a6b7-2e7c72667779"
+			refpath="/contextmenu[@controlname='ContextMenuStrip1']/menuitem[@accessiblename='Datos Imagen']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='IQ.CuentasMedicas']/menuitem[@accessiblename='Datos Imagen']
 			</item>
 			<basepath>
 				/contextmenu[@processname='IQ.CuentasMedicas']
@@ -1247,6 +1335,285 @@ DSAAos+dOwfG6ACnATANyIY0dE4iLgy6OqpBgmCA7gp0gNUAqCAYbD8IcQVJLkA2AARg3iHJBaRg
 DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,controlnet11"
+		capname="form"
+		id="ab1333c6-6951-47f4-b73d-7257e01b8bfb"
+		isrooted="True"
+		name="ModuloDeInformacion"
+		refpath="/form[@controlname='Modulo de informacion']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="676343b6-fabc-4850-9003-0bd271427aa4"
+			name="Txt_Volante"
+			refimgid="4dc7581c-5665-4353-a534-d3de62b70fb8"
+			refpath="/form[@controlname='Modulo de informacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']/container[@controlname='splitContainer2']/container[@controlname='panel2']/container[@controlname='gb_Consulta']/text[@controlname='tb_NumeroVolante']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='Modulo de informacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']//container[@controlname='gb_Consulta']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="3b6b6114-87ef-4c42-9e92-f6b5ffc851ba"
+			name="BtConsultar"
+			refimgid="86d9b01d-a6c7-47e3-abb9-851712dd9e3e"
+			refpath="/form[@controlname='Modulo de informacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']/container[@controlname='splitContainer2']/container[@controlname='panel2']/container[@controlname='gb_Consulta']/button[@controlname='bt_consultar']"
+			searchtimeout="30000ms">
+				/form[@controlname='Modulo de informacion']/container[@controlname='splitContainer1']//container[@controlname='gb_Consulta']/button[@controlname='bt_consultar']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="fa13e3fe-994b-487a-9fec-a900a83d71f1"
+			name="Cerrar"
+			refimgid="f796aeda-c240-4336-906c-d85010b22039"
+			refpath="/form[@controlname='Modulo de informacion']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Cerrar']"
+			searchtimeout="30000ms">
+				/form[@controlname='Modulo de informacion']/?/?/button[@accessiblename='Cerrar']
+			</item>
+			<basepath>
+				/form[@controlname='Modulo de informacion']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGGSURBVDhPrY1NKINxHMd3MobmZTZbO+wgmasc
+vNSOjq4uCmFFQ1lq4kKSw/NMT2SKHq8XtKVkXpoe1KhHjYMdsOLgYLk5Ps/j69n/eaxlkxm/+tb/
+5fv5/DT/MhzHIZeouCJQj8lJvN1uWJK5WTWDXzIh7DPihDFkL3h/PVTy4of0vALpicLudGl2gghb
+qYKsDNKQHjyQot3YGC9OF2RKeMFINkr3oxCjPRCvWyFeNWHRXUD+VVwRXNbmg6vRIVhdCH+VsuGA
+KpM3KqDAN0O4sEM4s2DWJXe/Co6rdXjbCyA+NwvWpieF7Uk9RL4JYtgO8dwCgSshofq06YIdeWt8
+3otYbye81jJSYD1F8A3rwAzmg+7XEpDqy8ssWLaV4MHZiUhDHSbMFaTwU1RcEdDWckxZDBirNGLY
+aCKF0cBjMiNbMQyt3yXBNEGmJKC1M4DeB9ybQNsMT94/GQInJvWSWuhgbuBV4XZGhMMV+p2gZeQU
+joEQGp1HqO8KknwryCUq/pfRaD4AtUj9b4qozXcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,controlnet11"
+		capname="form"
+		id="b4840f3b-15a1-4622-8390-dbc7c09f4bef"
+		isrooted="True"
+		name="ModuloDeGlosas"
+		refpath="/form[@controlname='Modulo de Glosas']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="036391c2-5472-4616-8022-152728ba7b8d"
+			name="Txt_CantidaFilaGlosa"
+			refimgid="edd9e3d9-d9ae-4601-9ef8-38da1fa10596"
+			refpath="/form[@controlname='Modulo de Glosas']/container/container[@controlname='panel2']/container/table/row[@accessiblename='Fila 0']/cell[@accessiblename='Cant Fila 0']"
+			searchtimeout="30000ms">
+				/form[@controlname='Modulo de Glosas']//table[@controlname='dgvGlosas']/row[@accessiblename='Fila 0']/cell[@accessiblename='Cant Fila 0']
+			</item>
+			<basepath>
+				/form[@controlname='Modulo de Glosas']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGGSURBVDhPrY1NKINxHMd3MobmZTZbO+wgmasc
+vNSOjq4uCmFFQ1lq4kKSw/NMT2SKHq8XtKVkXpoe1KhHjYMdsOLgYLk5Ps/j69n/eaxlkxm/+tb/
+5fv5/DT/MhzHIZeouCJQj8lJvN1uWJK5WTWDXzIh7DPihDFkL3h/PVTy4of0vALpicLudGl2gghb
+qYKsDNKQHjyQot3YGC9OF2RKeMFINkr3oxCjPRCvWyFeNWHRXUD+VVwRXNbmg6vRIVhdCH+VsuGA
+KpM3KqDAN0O4sEM4s2DWJXe/Co6rdXjbCyA+NwvWpieF7Uk9RL4JYtgO8dwCgSshofq06YIdeWt8
+3otYbye81jJSYD1F8A3rwAzmg+7XEpDqy8ssWLaV4MHZiUhDHSbMFaTwU1RcEdDWckxZDBirNGLY
+aCKF0cBjMiNbMQyt3yXBNEGmJKC1M4DeB9ybQNsMT94/GQInJvWSWuhgbuBV4XZGhMMV+p2gZeQU
+joEQGp1HqO8KknwryCUq/pfRaD4AtUj9b4qozXcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,controlnet11"
+		capname="form"
+		id="3e2d0908-5334-4acd-9255-eb997cc569e4"
+		isrooted="True"
+		name="FrmAgregarVolantes"
+		refpath="/form[@controlname='FrmAgregarVolantes']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="2d54ff05-f13d-4476-a4b6-422ea532df5c"
+			name="BtAdicionar"
+			refimgid="e7ccf35d-f679-4363-9168-3bee23d40f13"
+			refpath="/form[@controlname='FrmAgregarVolantes']/button[@controlname='bt_Adicionar']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmAgregarVolantes']/button[@controlname='bt_Adicionar']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="2e39a601-ef28-4a62-8ea9-834aaee12194"
+			name="Cerrar"
+			refimgid="35cd3801-98aa-4596-8e3e-901165aca4e3"
+			refpath="/form[@controlname='FrmAgregarVolantes']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Cerrar']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmAgregarVolantes']/?/?/button[@accessiblename='Cerrar']
+			</item>
+			<basepath>
+				/form[@controlname='FrmAgregarVolantes']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGGSURBVDhPrY1NKINxHMd3MobmZTZbO+wgmasc
+vNSOjq4uCmFFQ1lq4kKSw/NMT2SKHq8XtKVkXpoe1KhHjYMdsOLgYLk5Ps/j69n/eaxlkxm/+tb/
+5fv5/DT/MhzHIZeouCJQj8lJvN1uWJK5WTWDXzIh7DPihDFkL3h/PVTy4of0vALpicLudGl2gghb
+qYKsDNKQHjyQot3YGC9OF2RKeMFINkr3oxCjPRCvWyFeNWHRXUD+VVwRXNbmg6vRIVhdCH+VsuGA
+KpM3KqDAN0O4sEM4s2DWJXe/Co6rdXjbCyA+NwvWpieF7Uk9RL4JYtgO8dwCgSshofq06YIdeWt8
+3otYbye81jJSYD1F8A3rwAzmg+7XEpDqy8ssWLaV4MHZiUhDHSbMFaTwU1RcEdDWckxZDBirNGLY
+aCKF0cBjMiNbMQyt3yXBNEGmJKC1M4DeB9ybQNsMT94/GQInJvWSWuhgbuBV4XZGhMMV+p2gZeQU
+joEQGp1HqO8KknwryCUq/pfRaD4AtUj9b4qozXcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,controlnet11"
+		capname="form"
+		id="c2fb1cf3-3d17-4c65-a8de-85f9f7707276"
+		isrooted="True"
+		name="MensajeBloqueante"
+		refpath="/form[@controlname='MensajeBloqueante']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="82409ab1-5fad-4775-8d84-d1ad2fe5d615"
+			name="Aceptar"
+			refimgid="1dc9a53e-a8c1-4779-adb9-500daf6a585f"
+			refpath="/form[@controlname='MensajeBloqueante']/button[@controlname='Aceptar']"
+			searchtimeout="30000ms">
+				/form[@controlname='MensajeBloqueante']/button[@controlname='Aceptar']
+			</item>
+			<basepath>
+				/form[@controlname='MensajeBloqueante']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGGSURBVDhPrY1NKINxHMd3MobmZTZbO+wgmasc
+vNSOjq4uCmFFQ1lq4kKSw/NMT2SKHq8XtKVkXpoe1KhHjYMdsOLgYLk5Ps/j69n/eaxlkxm/+tb/
+5fv5/DT/MhzHIZeouCJQj8lJvN1uWJK5WTWDXzIh7DPihDFkL3h/PVTy4of0vALpicLudGl2gghb
+qYKsDNKQHjyQot3YGC9OF2RKeMFINkr3oxCjPRCvWyFeNWHRXUD+VVwRXNbmg6vRIVhdCH+VsuGA
+KpM3KqDAN0O4sEM4s2DWJXe/Co6rdXjbCyA+NwvWpieF7Uk9RL4JYtgO8dwCgSshofq06YIdeWt8
+3otYbye81jJSYD1F8A3rwAzmg+7XEpDqy8ssWLaV4MHZiUhDHSbMFaTwU1RcEdDWckxZDBirNGLY
+aCKF0cBjMiNbMQyt3yXBNEGmJKC1M4DeB9ybQNsMT94/GQInJvWSWuhgbuBV4XZGhMMV+p2gZeQU
+joEQGp1HqO8KknwryCUq/pfRaD4AtUj9b4qozXcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,controlnet11"
+		capname="form"
+		id="e9bdacab-1fc1-4694-9d0f-1d0dabced4b1"
+		isrooted="True"
+		name="FrmDatosImagen"
+		refpath="/form[@controlname='FrmDatosImagen']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="a62c4042-c761-4de2-9bf9-1fbac273814c"
+			name="TxtPropiedades"
+			refimgid="d3fd26b1-539a-4d37-8f7a-7db8d03b80fc"
+			refpath="/form[@controlname='FrmDatosImagen']/container/text[@controlname='txtPropiedades']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmDatosImagen']/?/?/text[@controlname='txtPropiedades']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="9ff9ea7e-df17-4ecf-8ba7-75788a9f99b4"
+			name="CmdCerrar"
+			refimgid="55c6f480-895e-403d-ace9-b7b6eb32e7eb"
+			refpath="/form[@controlname='FrmDatosImagen']/button[@controlname='CmdCerrar']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmDatosImagen']/button[@controlname='CmdCerrar']
+			</item>
+			<basepath>
+				/form[@controlname='FrmDatosImagen']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGGSURBVDhPrY1NKINxHMd3MobmZTZbO+wgmasc
+vNSOjq4uCmFFQ1lq4kKSw/NMT2SKHq8XtKVkXpoe1KhHjYMdsOLgYLk5Ps/j69n/eaxlkxm/+tb/
+5fv5/DT/MhzHIZeouCJQj8lJvN1uWJK5WTWDXzIh7DPihDFkL3h/PVTy4of0vALpicLudGl2gghb
+qYKsDNKQHjyQot3YGC9OF2RKeMFINkr3oxCjPRCvWyFeNWHRXUD+VVwRXNbmg6vRIVhdCH+VsuGA
+KpM3KqDAN0O4sEM4s2DWJXe/Co6rdXjbCyA+NwvWpieF7Uk9RL4JYtgO8dwCgSshofq06YIdeWt8
+3otYbye81jJSYD1F8A3rwAzmg+7XEpDqy8ssWLaV4MHZiUhDHSbMFaTwU1RcEdDWckxZDBirNGLY
+aCKF0cBjMiNbMQyt3yXBNEGmJKC1M4DeB9ybQNsMT94/GQInJvWSWuhgbuBV4XZGhMMV+p2gZeQU
+joEQGp1HqO8KknwryCUq/pfRaD4AtUj9b4qozXcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="f212a9f4-a289-466b-8ff1-c6b8ced8fce5"
+		isrooted="True"
+		name="CorreoDanielaGomezArgaezOutlook"
+		refpath="/dom[@domain='outlook.office.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="500d8450-86df-48e8-bd74-759f0e001276"
+			name="DivTag1hHMVrN7VV4d6YlzFsMuP3RNhHhUHe"
+			refimgid="64e3546c-6562-4162-aceb-d2de0c271b42"
+			refpath="/dom[@domain='outlook.office.com']//div[#'app']/div/div[2]/div[1]/div/div/div/div[3]/div[2]/div/div[1]/div[2]/div/div/div/div/div/div[34]/div/div/div/div"
+			searchtimeout="30000ms">
+				/dom[@domain='outlook.office.com']//div[#'app']/div/div[2]/div[1]/div/div/div/div[3]/div[2]/div/div[1]/div[2]/div/div/div/div/div/div[34]/div/div/div/div
+			</item>
+			<basepath>
+				/dom[@domain='outlook.office.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5a991139-5f85-481b-93cb-2f887f29394d"
+		isrooted="True"
+		name="Explorer1"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="ee44ab5c-050b-45db-988f-ad497827a17d"
+			name="CuentasMedicasSanitasRanorexStudio"
+			refimgid="84a9acac-3d93-41c5-9d18-ec8d357df7e1"
+			refpath="/form[@title='']/list/listitem[@accessiblename>'CuentasMedicas_Sanitas - Ranorex']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/listitem[@accessiblename&gt;'CuentasMedicas_Sanitas - Ranorex']
+			</item>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADSSURBVDhPpdK/DsFQGAXw8wg2L9KI9AHEZmhi
+MBgMBoN4AINNIhaCiXbwFCYjg5T4UyGqxCN4gEOjt7lDew33JL/lO9/XuxTaeThgIhvLwEEmWktP
+YINp7lNs/37kPAKT+E6Wb7dF3jvpXkN+N9tMdW2Sl4bS97k6dYBejTrAU5U6wGOFQm+xoTV/KoU7
+8g14KFMozAKaE18p3JFvwL1FIekgiXwD7koUzPEtJs9VHegWKeQHXkyeqzpwbVDI9d2YPFd10Q/9
+i9FdUYhGcVSdRoAPUdlLBd+8Ak0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>
@@ -1280,6 +1647,11 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 		id="38c300d4-a1f9-459e-9c9f-a12f7fdc2746"
 		name="Causal">
 			Solicitud de Gestión
+		</var>
+		<var
+		id="b62ab2f8-0bec-4c1e-a453-20f1779c3aab"
+		name="Nservicios">
+			2
 		</var>
 	</variables>
 </repository>
