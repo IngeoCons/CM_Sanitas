@@ -1,0 +1,34 @@
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.rxtmg
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.rxtst
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.exe.config
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.xml
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.exe
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.pdb
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\obj\x86\Debug\CuentasMedicas_Sanitas.csprojResolveAssemblyReference.cache
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\obj\x86\Debug\CuentasMedicas_Sanitas.exe
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\obj\x86\Debug\CuentasMedicas_Sanitas.pdb
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.rxtmg
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.rxtst
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.exe.config
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.xml
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.exe
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\CuentasMedicas_Sanitas.pdb
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\obj\x86\Debug\CuentasMedicas_Sanitas.csprojAssemblyReference.cache
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\obj\x86\Debug\CuentasMedicas_Sanitas.csproj.CoreCompileInputs.cache
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\obj\x86\Debug\CuentasMedicas_Sanitas.csproj.CopyComplete
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\obj\x86\Debug\CuentasMedicas_Sanitas.exe
+C:\Proyectos\Ranorex\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\obj\x86\Debug\CuentasMedicas_Sanitas.pdb
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\NewCustomTemplate1\RanorexReport.css
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\NewCustomTemplate1\RanorexReport.png
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\NewCustomTemplate1\RanorexReport.xsl
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\NewCustomTemplate1\View.rxlog
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\NewCustomTemplate1\View.rxlog.data
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\IQCustomerTemplate\Background_IQ.png
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\IQCustomerTemplate\header_IQ.png
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\IQCustomerTemplate\RanorexReport.css
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\IQCustomerTemplate\RanorexReport.png
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\IQCustomerTemplate\RanorexReport.xsl
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\IQCustomerTemplate\View.rxlog
+C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\bin\Debug\IQCustomerTemplate\View.rxlog.data

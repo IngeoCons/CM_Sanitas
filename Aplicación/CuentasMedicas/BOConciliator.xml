@@ -1,0 +1,144 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BOConciliator
+</name>
+</assembly>
+<members>
+<member name="M:BOConciliator.BOConciliator_DataMgr.conciliateAutomatic(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Llama el stored procedure encargado de realizar las comparaciones y validaciones necesarias para conciliar automaticamente
+ </summary>
+ <param name="Solicitud_id">Identificador de la solicitud</param>
+ <param name="NumeroOperacion"></param>
+ <param name="FechaOperacion">Fecha en la que se realizo la operacion</param>
+ <param name="TipoIdentificacion">Tipo de identificacion del usuario</param>
+ <param name="NumeroIdentificacion">Numero que contiene el documento</param>
+ <param name="ValorOperacion">Valor de la transaccion realizada</param>
+ <param name="NumeroFormulario">Numero que identifica el formulario</param>
+ <param name="UsuarioConciliacion">Usuario que realizo la conciliacion</param>
+ <param name="CodigoSucursal">Codigo que identifica la sucursal donde se realizo la transaccion</param>
+ <param name="FormaPago">Forma de pago en la que se realizo la transaccion</param>
+ <returns>Short, 1 cuando cruza, de lo contrario 0</returns>
+</member>
+<member name="M:BOConciliator.BOConciliator_DataMgr.DuplicateRejected(System.String)">
+ <summary>
+ Duplica documentos fisicos rechazados en conciliacion
+ </summary>
+ <param name="Folder_Id">Identificacion del Folder</param>
+ <returns>Data Tables con datos de los documentos</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOConciliator.BOConciliator_DataMgr.Updated_Marked_As_Unreadable(System.String,System.String,System.String,System.String)">
+ <summary>
+ Actualiza el WF del documento y del folder actual. Bloqueo por documento ilegible
+ </summary>
+ <param name="documento_id">Identificacion del documento</param>
+ <param name="solicitud_id">Identificacion del folder</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOConciliator.BOConciliator_DataMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOConciliator.Unreadable})">
+ <summary>
+ Actualiza el WF del documento y del folder actual para documentos ilegibles criticos. 
+ Agrega los documentos marcados como ilegibles a la cola de trabajo
+ </summary>
+ <param name="unreadeableList">Lista de documentos Ilegibles</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOConciliator.BOConciliator_DataMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOConciliator.Unreadable},System.String)">
+ <summary>
+ Actualiza el WF del documento y del folder actual para documentos ilegibles criticos. 
+ Agrega los documentos marcados como ilegibles a la cola de trabajo
+ </summary>
+ <param name="unreadeableList">Lista de documentos Ilegibles</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOConciliator.BOConciliator_DataMgr.UnreadableCriticalDocumentType">
+ <summary>
+ Valida el estado del documento ilegible
+ </summary>
+ <returns>Cantidad de documentos marcados Criticos</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOConciliator.BOConciliator_DefMgr.SearchField(System.String,BOConciliator.BOConciliator_Campo[])">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOConciliator.BOConciliator_DefMgr.conciliateAutomatic(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Llama los stored procedures encargados de realizar las comparaciones y validaciones necesarias para conciliar automaticamente
+ </summary>
+ <param name="Solicitud_id">Identificador de la solicitud</param>
+ <param name="NumeroOperacion"></param>
+ <param name="FechaOperacion">Fecha en la que se realizo la operacion</param>
+ <param name="TipoIdentificacion">Tipo de identificacion del usuario</param>
+ <param name="NumeroIdentificacion">Numero que contiene el documento</param>
+ <param name="ValorOperacion">Valor de la transaccion realizada</param>
+ <param name="NumeroFormulario">Numero que identifica el formulario</param>
+ <param name="UsuarioConciliacion">Usuario que realizo la conciliacion</param>
+ <param name="CodigoSucursal">Codigo que identifica la sucursal donde se realizo la transaccion</param>
+ <param name="FormaPago">Forma de pago en la que se realizo la transaccion</param>
+ <returns>Short, 1 cuando cruza, de lo contrario 0</returns>
+</member>
+<member name="M:BOConciliator.BOConciliator_DefMgr.Get_SolicitudPrecapturaHandle(System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Funcion que retorna los radicados repetidos para la conciliacion de Previsora
+ </summary>
+ <param name="numeroFactura"></param>
+ <param name="valorTotal"></param>
+ <param name="ipsId"></param>
+ <param name="repetidos">true = optiene los registros repetidos, false = optiene todos los registros</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOConciliator.BOConciliator_DefMgr.DuplicateRejected(System.String)">
+ <summary>
+ Duplica documentos fisicos rechazados en conciliacion
+ </summary>
+ <param name="Folder_Id">Identificacion del Folder</param>
+ <returns>Objeto con datos de Imagenes</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOConciliator.BOConciliator_DefMgr.Updated_Marked_As_Unreadable(System.String@,System.String@,System.String@,System.String@)">
+ <summary>
+ Guarda los documentos marcados como ilegibles
+ </summary>
+ <param name="documento_id">Id del documento</param>
+ <param name="solicitud_id">Id de la solicitud</param>
+ <param name="Modulo">Modulo</param>
+ <param name="User">Usuario</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOConciliator.BOConciliator_DefMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOConciliator.Unreadable})">
+ <summary>
+ Guarda los documentos marcados como ilegibles, recibe una coleccion de objetos
+ </summary>
+ <param name="unreadableList">Lista de los documentos ilegibles</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOConciliator.BOConciliator_DefMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOConciliator.Unreadable},System.String)">
+ <summary>
+ Guarda los documentos marcados como ilegibles, recibe una coleccion de objetos y 
+ una consulta dinamica para actualizar la tabla solicitud
+ </summary>
+ <param name="unreadableList"></param>
+ <param name="query"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOConciliator.BOConciliator_DefMgr.UnreadableCriticalDocumentType">
+ <summary>
+ Carga los Tipos Documentales Criticos
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

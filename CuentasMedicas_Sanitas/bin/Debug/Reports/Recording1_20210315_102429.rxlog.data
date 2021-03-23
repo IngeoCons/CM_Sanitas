@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="18.3s"
+		durationms="18300"
+		type="root"
+		rid="1269c3a824018a40"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="03/15/2021 10:24:35 AM"
+		timestampiso="2021-03-15T15:24:35"
+		endtime="03/15/2021 10:24:54 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to move to location '17;10' within element '{MenuItem:Archivo}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.267"
+			timeRelativeToTestModuleStartTime="00:09.267"
+			timeWallClock="10:24:44"
+			time="00:09.267"
+			level="Warn"
+			category="Data"
+			errimg="images_Recordin_a6008e21\Recordin_a6008e21_41208247_trace.jpg"
+			errthumb="images_Recordin_a6008e21\Recordin_a6008e21_41208247_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>MenuItem, CodServicio
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.301"
+			timeRelativeToTestModuleStartTime="00:09.301"
+			timeWallClock="10:24:44"
+			time="00:09.301"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_a6008e21\Recordin_a6008e21_41208247_trace.jpg"
+			errthumb="images_Recordin_a6008e21\Recordin_a6008e21_41208247_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.Archivo' at 17;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/menuitem[@accessiblename='Archivo']"
+				itempath="?/?/menuitem[@accessiblename='Archivo']"
+				fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Archivo"
+				id="baf53eed76474e628f9c8343162e3fd2"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="103"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.139"
+			timeRelativeToTestModuleStartTime="00:18.139"
+			timeWallClock="10:24:53"
+			time="00:18.139"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_a6008e21\Recordin_a6008e21_68068542_trace.jpg"
+			errthumb="images_Recordin_a6008e21\Recordin_a6008e21_68068542_trace_thumb.jpg">
+			<message>
+				Failed to move to location '17;10' within element '{MenuItem:Archivo}'.<br/>The pointer cannot be moved to point '{X=-31977,Y=-31988}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   en Ranorex.Mouse.Click(Element element, MouseButtons buttons, Location location, Int32 times, Duration moveTime)
+   en Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   en Ranorex.Adapter.Click(Location location)
+   en CuentasMedicas_Sanitas.Recording1.Ranorex.Core.Testing.ITestModule.Run() en C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs:línea 104
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="104"
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/menuitem[@accessiblename='Archivo']"
+				itempath="?/?/menuitem[@accessiblename='Archivo']"
+				fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Archivo"
+				id="baf53eed76474e628f9c8343162e3fd2"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

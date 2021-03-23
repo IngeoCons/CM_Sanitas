@@ -1,0 +1,2857 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CuentasMedicas_Sanitas</name>
+    </assembly>
+    <members>
+        <member name="T:CuentasMedicas_Sanitas.AbrirVentanaInfo">
+             <summary>
+            The AbrirVentanaInfo recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.AbrirVentanaInfo.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AbrirVentanaInfo.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.AbrirVentanaInfo.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.AbrirVentanaInfo.FolderId">
+            <summary>
+            Gets or sets the value of variable FolderId.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AbrirVentanaInfo.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.AbrirVentanaInfo.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AbrirVentanaInfo.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AbrirVentanaInfo.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.AgregarGlosa">
+             <summary>
+            The AgregarGlosa recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.AgregarGlosa.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AgregarGlosa.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.AgregarGlosa.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.AgregarGlosa.Cantidad">
+            <summary>
+            Gets or sets the value of variable Cantidad.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.AgregarGlosa.Valor">
+            <summary>
+            Gets or sets the value of variable Valor.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.AgregarGlosa.ObservacionGlosa">
+            <summary>
+            Gets or sets the value of variable ObservacionGlosa.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AgregarGlosa.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.AgregarGlosa.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AgregarGlosa.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AgregarGlosa.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.AutorizacionesVolante">
+             <summary>
+            The AutorizacionesVolante recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.AutorizacionesVolante.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AutorizacionesVolante.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.AutorizacionesVolante.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.AutorizacionesVolante.Volante">
+            <summary>
+            Gets or sets the value of variable Volante.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.AutorizacionesVolante.Nservicios">
+            <summary>
+            Gets or sets the value of variable Nservicios.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AutorizacionesVolante.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.AutorizacionesVolante.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AutorizacionesVolante.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AutorizacionesVolante.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.BuscarVolante">
+             <summary>
+            The BuscarVolante recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.BuscarVolante.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.BuscarVolante.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.BuscarVolante.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.BuscarVolante.Volante">
+            <summary>
+            Gets or sets the value of variable Volante.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.BuscarVolante.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.BuscarVolante.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.BuscarVolante.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.BuscarVolante.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CargaAtencionFolder">
+             <summary>
+            The CargaAtencionFolder recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.CargaAtencionFolder.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaAtencionFolder.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencionFolder.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencionFolder.SolicitudID">
+            <summary>
+            Gets or sets the value of variable SolicitudID.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencionFolder.ParFolderId">
+            <summary>
+            Gets or sets the value of variable ParFolderId.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencionFolder.FechaInicio">
+            <summary>
+            Gets or sets the value of variable FechaInicio.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencionFolder.FechaFin">
+            <summary>
+            Gets or sets the value of variable FechaFin.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencionFolder.TipoIdentificacion">
+            <summary>
+            Gets or sets the value of variable TipoIdentificacion.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencionFolder.ValorBruto">
+            <summary>
+            Gets or sets the value of variable ValorBruto.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencionFolder.NroIdentificacion">
+            <summary>
+            Gets or sets the value of variable NroIdentificacion.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaAtencionFolder.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.CargaAtencionFolder.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaAtencionFolder.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaAtencionFolder.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CargaServSinHomologar">
+             <summary>
+            The CargaServSinHomologar recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.CargaServSinHomologar.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServSinHomologar.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServSinHomologar.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServSinHomologar.VlrUnitario">
+            <summary>
+            Gets or sets the value of variable VlrUnitario.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServSinHomologar.DescripcionServ">
+            <summary>
+            Gets or sets the value of variable DescripcionServ.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServSinHomologar.NroIdentificacionOriginal">
+            <summary>
+            Gets or sets the value of variable NroIdentificacionOriginal.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServSinHomologar.CodServicio">
+            <summary>
+            Gets or sets the value of variable CodServicio.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServSinHomologar.NroIdentificacion">
+            <summary>
+            Gets or sets the value of variable NroIdentificacion.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServSinHomologar.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.CargaServSinHomologar.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServSinHomologar.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServSinHomologar.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.Homologacion">
+             <summary>
+            The Homologacion recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.Homologacion.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Homologacion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.Homologacion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.Homologacion.CodServicio">
+            <summary>
+            Gets or sets the value of variable CodServicio.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Homologacion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.Homologacion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Homologacion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Homologacion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.MenuAutorizaciones">
+             <summary>
+            The MenuAutorizaciones recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.MenuAutorizaciones.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuAutorizaciones.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.MenuAutorizaciones.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.MenuAutorizaciones.MenuItem">
+            <summary>
+            Gets or sets the value of variable MenuItem.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.MenuAutorizaciones.ItemProducto">
+            <summary>
+            Gets or sets the value of variable ItemProducto.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuAutorizaciones.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.MenuAutorizaciones.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuAutorizaciones.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuAutorizaciones.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.ProcesoAutorizaciones1">
+             <summary>
+            The ProcesoAutorizaciones1 recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.ProcesoAutorizaciones1.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.ProcesoAutorizaciones1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutorizaciones1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutorizaciones1.ModuloDestino">
+            <summary>
+            Gets or sets the value of variable ModuloDestino.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutorizaciones1.Observacion">
+            <summary>
+            Gets or sets the value of variable Observacion.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutorizaciones1.Causal">
+            <summary>
+            Gets or sets the value of variable Causal.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.ProcesoAutorizaciones1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.ProcesoAutorizaciones1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.ProcesoAutorizaciones1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.ProcesoAutorizaciones1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.RecorrerServicios">
+             <summary>
+            The RecorrerServicios recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.RecorrerServicios.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.RecorrerServicios.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.RecorrerServicios.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.RecorrerServicios.CodServicio">
+            <summary>
+            Gets or sets the value of variable CodServicio.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.RecorrerServicios.CodServicioHomologo">
+            <summary>
+            Gets or sets the value of variable CodServicioHomologo.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.RecorrerServicios.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.RecorrerServicios.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.RecorrerServicios.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.RecorrerServicios.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.Reproceso">
+             <summary>
+            The Reproceso recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.Reproceso.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Reproceso.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.Reproceso.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Reproceso.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.Reproceso.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Reproceso.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Reproceso.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.SalirAsociacion">
+             <summary>
+            The SalirAsociacion recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.SalirAsociacion.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SalirAsociacion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.SalirAsociacion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SalirAsociacion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.SalirAsociacion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SalirAsociacion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SalirAsociacion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.SeleccionAnexos">
+             <summary>
+            The SeleccionAnexos recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.SeleccionAnexos.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SeleccionAnexos.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.SeleccionAnexos.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SeleccionAnexos.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.SeleccionAnexos.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SeleccionAnexos.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SeleccionAnexos.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CargaServicios">
+             <summary>
+            The CargaServicios recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.CargaServicios.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServicios.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServicios.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServicios.VlrUnitario">
+            <summary>
+            Gets or sets the value of variable VlrUnitario.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServicios.CodServicio">
+            <summary>
+            Gets or sets the value of variable CodServicio.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServicios.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.CargaServicios.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServicios.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServicios.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CargaServiciosMasiva">
+             <summary>
+            The CargaServiciosMasiva recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.CargaServiciosMasiva.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServiciosMasiva.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServiciosMasiva.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServiciosMasiva.NroIdentificacionOriginal">
+            <summary>
+            Gets or sets the value of variable NroIdentificacionOriginal.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServiciosMasiva.VlrUnitario">
+            <summary>
+            Gets or sets the value of variable VlrUnitario.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServiciosMasiva.SolicitudID">
+            <summary>
+            Gets or sets the value of variable SolicitudID.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServiciosMasiva.ParFolderId">
+            <summary>
+            Gets or sets the value of variable ParFolderId.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServiciosMasiva.DescripcionServ">
+            <summary>
+            Gets or sets the value of variable DescripcionServ.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServiciosMasiva.CodServicio">
+            <summary>
+            Gets or sets the value of variable CodServicio.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaServiciosMasiva.NroIdentificacion">
+            <summary>
+            Gets or sets the value of variable NroIdentificacion.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServiciosMasiva.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.CargaServiciosMasiva.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServiciosMasiva.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaServiciosMasiva.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.CloseAUT.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository">
+            <summary>
+            The class representing the CuentasMedicas_SanitasRepository element repository.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the CuentasMedicas_SanitasRepository element repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.MenuItem">
+            <summary>
+            Gets or sets the value of variable MenuItem.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.ItemProducto">
+            <summary>
+            Gets or sets the value of variable ItemProducto.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.CodServicio">
+            <summary>
+            Gets or sets the value of variable CodServicio.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.NroIdentificacion">
+            <summary>
+            Gets or sets the value of variable NroIdentificacion.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.CodServicioHomologo">
+            <summary>
+            Gets or sets the value of variable CodServicioHomologo.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.Causal">
+            <summary>
+            Gets or sets the value of variable Causal.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.Nservicios">
+            <summary>
+            Gets or sets the value of variable Nservicios.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.MDIPrincipal">
+            <summary>
+            The MDIPrincipal folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.IQCuentasMedicas">
+            <summary>
+            The IQCuentasMedicas folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.List1000">
+            <summary>
+            The List1000 folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.FrmLogin">
+            <summary>
+            The FrmLogin folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.AsociacionAnexos_COF">
+            <summary>
+            The AsociacionAnexos_COF folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.Advertencia_COF">
+            <summary>
+            The Advertencia_COF folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.FrmReproceso">
+            <summary>
+            The FrmReproceso folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.CapturaAtencionesServiciosApp">
+            <summary>
+            The CapturaAtencionesServiciosApp folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.ValidacionCampos">
+            <summary>
+            The ValidacionCampos folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.FrmBusquedaServicio">
+            <summary>
+            The FrmBusquedaServicio folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.HomologacionManual">
+            <summary>
+            The HomologacionManual folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.FormHash32770">
+            <summary>
+            The FormHash32770 folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.IQDOC">
+            <summary>
+            The IQDOC folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.ModuloDeInformacion">
+            <summary>
+            The ModuloDeInformacion folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.ModuloDeGlosas">
+            <summary>
+            The ModuloDeGlosas folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.FrmAgregarVolantes">
+            <summary>
+            The FrmAgregarVolantes folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.MensajeBloqueante">
+            <summary>
+            The MensajeBloqueante folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.FrmDatosImagen">
+            <summary>
+            The FrmDatosImagen folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.CorreoDanielaGomezArgaezOutlook">
+            <summary>
+            The CorreoDanielaGomezArgaezOutlook folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.Explorer1">
+            <summary>
+            The Explorer1 folder.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder">
+            <summary>
+            The MDIPrincipalAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MDIPrincipal  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.CodigoServicioAddRow">
+            <summary>
+            The CodigoServicioAddRow item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.CodigoServicioAddRowInfo">
+            <summary>
+            The CodigoServicioAddRow item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.CodigoServicioTemplate">
+            <summary>
+            The CodigoServicioTemplate item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.CodigoServicioTemplateInfo">
+            <summary>
+            The CodigoServicioTemplate item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.VlrUnitario">
+            <summary>
+            The VlrUnitario item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.VlrUnitarioInfo">
+            <summary>
+            The VlrUnitario item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtnGuardar">
+            <summary>
+            The BtnGuardar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtnGuardarInfo">
+            <summary>
+            The BtnGuardar item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Archivo">
+            <summary>
+            The Archivo item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.ArchivoInfo">
+            <summary>
+            The Archivo item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.CboProductos">
+            <summary>
+            The CboProductos item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.CboProductosInfo">
+            <summary>
+            The CboProductos item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtnInicio">
+            <summary>
+            The BtnInicio item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtnInicioInfo">
+            <summary>
+            The BtnInicio item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtnTerminar">
+            <summary>
+            The BtnTerminar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtnTerminarInfo">
+            <summary>
+            The BtnTerminar item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.NroIdentificacion">
+            <summary>
+            The NroIdentificacion item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.NroIdentificacionInfo">
+            <summary>
+            The NroIdentificacion item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.LblOpciones">
+            <summary>
+            The LblOpciones item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.LblOpcionesInfo">
+            <summary>
+            The LblOpciones item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.VlrUnitario1">
+            <summary>
+            The VlrUnitario1 item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.VlrUnitario1Info">
+            <summary>
+            The VlrUnitario1 item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Descripcion">
+            <summary>
+            The Descripcion item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.DescripcionInfo">
+            <summary>
+            The Descripcion item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.MdiClient">
+            <summary>
+            The MdiClient item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.MdiClientInfo">
+            <summary>
+            The MdiClient item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtIniciar">
+            <summary>
+            The BtIniciar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtIniciarInfo">
+            <summary>
+            The BtIniciar item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Lbl_ModuloDestinoAutorizaciones">
+            <summary>
+            The Lbl_ModuloDestinoAutorizaciones item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Lbl_ModuloDestinoAutorizacionesInfo">
+            <summary>
+            The Lbl_ModuloDestinoAutorizaciones item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Lbl_CausalAutorizaciones">
+            <summary>
+            The Lbl_CausalAutorizaciones item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Lbl_CausalAutorizacionesInfo">
+            <summary>
+            The Lbl_CausalAutorizaciones item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Txt_ObservacionAutorizaciones">
+            <summary>
+            The Txt_ObservacionAutorizaciones item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Txt_ObservacionAutorizacionesInfo">
+            <summary>
+            The Txt_ObservacionAutorizaciones item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Btn_AignarAutorizaciones">
+            <summary>
+            The Btn_AignarAutorizaciones item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Btn_AignarAutorizacionesInfo">
+            <summary>
+            The Btn_AignarAutorizaciones item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtI_nformacionAutorizaciones">
+            <summary>
+            The BtI_nformacionAutorizaciones item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtI_nformacionAutorizacionesInfo">
+            <summary>
+            The BtI_nformacionAutorizaciones item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Btn_Asociar1">
+            <summary>
+            The Btn_Asociar1 item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Btn_Asociar1Info">
+            <summary>
+            The Btn_Asociar1 item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Txt_CantidadGlosas">
+            <summary>
+            The Txt_CantidadGlosas item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Txt_CantidadGlosasInfo">
+            <summary>
+            The Txt_CantidadGlosas item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Txt_ValorGlosa">
+            <summary>
+            The Txt_ValorGlosa item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Txt_ValorGlosaInfo">
+            <summary>
+            The Txt_ValorGlosa item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Txt_ObservacionGlosa">
+            <summary>
+            The Txt_ObservacionGlosa item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Txt_ObservacionGlosaInfo">
+            <summary>
+            The Txt_ObservacionGlosa item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Btn_AgregarGlosa">
+            <summary>
+            The Btn_AgregarGlosa item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Btn_AgregarGlosaInfo">
+            <summary>
+            The Btn_AgregarGlosa item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtGlosas">
+            <summary>
+            The BtGlosas item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtGlosasInfo">
+            <summary>
+            The BtGlosas item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.FilaFila1">
+            <summary>
+            The FilaFila1 item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.FilaFila1Info">
+            <summary>
+            The FilaFila1 item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Row1">
+            <summary>
+            The Row1 folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Panel2">
+            <summary>
+            The Panel2 folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.FrmCapturer">
+            <summary>
+            The FrmCapturer folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Panel1">
+            <summary>
+            The Panel1 folder.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder">
+            <summary>
+            The Row1Folder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Row1  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.FechaFin">
+            <summary>
+            The FechaFin item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.FechaFinInfo">
+            <summary>
+            The FechaFin item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.FechaIni">
+            <summary>
+            The FechaIni item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.FechaIniInfo">
+            <summary>
+            The FechaIni item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.NumeroIdentificacion">
+            <summary>
+            The NumeroIdentificacion item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.NumeroIdentificacionInfo">
+            <summary>
+            The NumeroIdentificacion item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.TipoDeIdentificacionId">
+            <summary>
+            The TipoDeIdentificacionId item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.TipoDeIdentificacionIdInfo">
+            <summary>
+            The TipoDeIdentificacionId item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.PrimerApellido">
+            <summary>
+            The PrimerApellido item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.PrimerApellidoInfo">
+            <summary>
+            The PrimerApellido item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.SegundoApellido">
+            <summary>
+            The SegundoApellido item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.SegundoApellidoInfo">
+            <summary>
+            The SegundoApellido item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.Nombres">
+            <summary>
+            The Nombres item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.NombresInfo">
+            <summary>
+            The Nombres item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.NombreContenido">
+            <summary>
+            The NombreContenido item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.NombreContenidoInfo">
+            <summary>
+            The NombreContenido item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.ValorBruto">
+            <summary>
+            The ValorBruto item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.ValorBrutoInfo">
+            <summary>
+            The ValorBruto item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.ValorNeto">
+            <summary>
+            The ValorNeto item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Row1Folder.ValorNetoInfo">
+            <summary>
+            The ValorNeto item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder">
+            <summary>
+            The Panel2Folder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Panel2  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.CodigoHomologoFila0">
+            <summary>
+            The CodigoHomologoFila0 item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.CodigoHomologoFila0Info">
+            <summary>
+            The CodigoHomologoFila0 item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.Iniciar">
+            <summary>
+            The Iniciar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.IniciarInfo">
+            <summary>
+            The Iniciar item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.CodigoHomologoFila">
+            <summary>
+            The CodigoHomologoFila item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.CodigoHomologoFilaInfo">
+            <summary>
+            The CodigoHomologoFila item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.Salir">
+            <summary>
+            The Salir item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.SalirInfo">
+            <summary>
+            The Salir item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.Guardar">
+            <summary>
+            The Guardar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel2Folder.GuardarInfo">
+            <summary>
+            The Guardar item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder">
+            <summary>
+            The FrmCapturerFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmCapturer  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.TabMain">
+            <summary>
+            The TabMain item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.TabMainInfo">
+            <summary>
+            The TabMain item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.CBOTIPODOCUMENTO">
+            <summary>
+            The CBOTIPODOCUMENTO item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.CBOTIPODOCUMENTOInfo">
+            <summary>
+            The CBOTIPODOCUMENTO item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.SomeContainer">
+            <summary>
+            The SomeContainer item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.SomeContainerInfo">
+            <summary>
+            The SomeContainer item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.CmdStart">
+            <summary>
+            The CmdStart item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.CmdStartInfo">
+            <summary>
+            The CmdStart item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.Abrir">
+            <summary>
+            The Abrir item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.AbrirInfo">
+            <summary>
+            The Abrir item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.Cerrar">
+            <summary>
+            The Cerrar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.CerrarInfo">
+            <summary>
+            The Cerrar item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.NumeroFactura">
+            <summary>
+            The NumeroFactura item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.NumeroFacturaInfo">
+            <summary>
+            The NumeroFactura item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.AvPag">
+            <summary>
+            The AvPag item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.AvPagInfo">
+            <summary>
+            The AvPag item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.Abrir1">
+            <summary>
+            The Abrir1 item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.Abrir1Info">
+            <summary>
+            The Abrir1 item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.Cerrar1">
+            <summary>
+            The Cerrar1 item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmCapturerFolder.Cerrar1Info">
+            <summary>
+            The Cerrar1 item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel1Folder">
+            <summary>
+            The Panel1Folder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Panel1  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel1Folder.SomeElement">
+            <summary>
+            The SomeElement item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Panel1Folder.SomeElementInfo">
+            <summary>
+            The SomeElement item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder">
+            <summary>
+            The IQCuentasMedicasAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new IQCuentasMedicas  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder.CapturaAtencionesYServicios">
+            <summary>
+            The CapturaAtencionesYServicios item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder.CapturaAtencionesYServiciosInfo">
+            <summary>
+            The CapturaAtencionesYServicios item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder.MenuItem">
+            <summary>
+            The MenuItem item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder.MenuItemInfo">
+            <summary>
+            The MenuItem item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder.Reclasificar">
+            <summary>
+            The Reclasificar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder.ReclasificarInfo">
+            <summary>
+            The Reclasificar item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder.DatosImagen">
+            <summary>
+            The DatosImagen item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQCuentasMedicasAppFolder.DatosImagenInfo">
+            <summary>
+            The DatosImagen item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder">
+            <summary>
+            The List1000AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new List1000  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.CuentasMedicas">
+            <summary>
+            The CuentasMedicas item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.CuentasMedicasInfo">
+            <summary>
+            The CuentasMedicas item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.ListItem1DocumentoPrincipal">
+            <summary>
+            The ListItem1DocumentoPrincipal item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.ListItem1DocumentoPrincipalInfo">
+            <summary>
+            The ListItem1DocumentoPrincipal item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.CuentasMedicas1">
+            <summary>
+            The CuentasMedicas1 item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.CuentasMedicas1Info">
+            <summary>
+            The CuentasMedicas1 item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.SANITAS">
+            <summary>
+            The SANITAS item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.SANITASInfo">
+            <summary>
+            The SANITAS item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.CuentasMedicas2">
+            <summary>
+            The CuentasMedicas2 item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.List1000AppFolder.CuentasMedicas2Info">
+            <summary>
+            The CuentasMedicas2 item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder">
+            <summary>
+            The FrmLoginAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmLogin  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.TxtLogin">
+            <summary>
+            The TxtLogin item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.TxtLoginInfo">
+            <summary>
+            The TxtLogin item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.TxtPassword">
+            <summary>
+            The TxtPassword item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.TxtPasswordInfo">
+            <summary>
+            The TxtPassword item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.CmbCompania">
+            <summary>
+            The CmbCompania item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.CmbCompaniaInfo">
+            <summary>
+            The CmbCompania item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.CmbLinea">
+            <summary>
+            The CmbLinea item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.CmbLineaInfo">
+            <summary>
+            The CmbLinea item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.CmdAceptar">
+            <summary>
+            The CmdAceptar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmLoginAppFolder.CmdAceptarInfo">
+            <summary>
+            The CmdAceptar item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.AsociacionAnexos_COFAppFolder">
+            <summary>
+            The AsociacionAnexos_COFAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.AsociacionAnexos_COFAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AsociacionAnexos_COF  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.AsociacionAnexos_COFAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.AsociacionAnexos_COFAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.AsociacionAnexos_COFAppFolder.ButtonSi">
+            <summary>
+            The ButtonSi item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.AsociacionAnexos_COFAppFolder.ButtonSiInfo">
+            <summary>
+            The ButtonSi item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Advertencia_COFAppFolder">
+            <summary>
+            The Advertencia_COFAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Advertencia_COFAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Advertencia_COF  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Advertencia_COFAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Advertencia_COFAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Advertencia_COFAppFolder.Aceptar">
+            <summary>
+            The Aceptar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Advertencia_COFAppFolder.AceptarInfo">
+            <summary>
+            The Aceptar item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmReprocesoAppFolder">
+            <summary>
+            The FrmReprocesoAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmReprocesoAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmReproceso  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmReprocesoAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmReprocesoAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmReprocesoAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmReprocesoAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmReprocesoAppFolder.BtnGuardar">
+            <summary>
+            The BtnGuardar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmReprocesoAppFolder.BtnGuardarInfo">
+            <summary>
+            The BtnGuardar item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CapturaAtencionesServiciosAppAppFolder">
+            <summary>
+            The CapturaAtencionesServiciosAppAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CapturaAtencionesServiciosAppAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CapturaAtencionesServiciosApp  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CapturaAtencionesServiciosAppAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CapturaAtencionesServiciosAppAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CapturaAtencionesServiciosAppAppFolder.ButtonSi">
+            <summary>
+            The ButtonSi item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CapturaAtencionesServiciosAppAppFolder.ButtonSiInfo">
+            <summary>
+            The ButtonSi item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ValidacionCamposAppFolder">
+            <summary>
+            The ValidacionCamposAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ValidacionCamposAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ValidacionCampos  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ValidacionCamposAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ValidacionCamposAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ValidacionCamposAppFolder.Aceptar">
+            <summary>
+            The Aceptar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ValidacionCamposAppFolder.AceptarInfo">
+            <summary>
+            The Aceptar item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmBusquedaServicioAppFolder">
+            <summary>
+            The FrmBusquedaServicioAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmBusquedaServicioAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmBusquedaServicio  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmBusquedaServicioAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmBusquedaServicioAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmBusquedaServicioAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmBusquedaServicioAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmBusquedaServicioAppFolder.Buscar">
+            <summary>
+            The Buscar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmBusquedaServicioAppFolder.BuscarInfo">
+            <summary>
+            The Buscar item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.HomologacionManualAppFolder">
+            <summary>
+            The HomologacionManualAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.HomologacionManualAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HomologacionManual  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.HomologacionManualAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.HomologacionManualAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.HomologacionManualAppFolder.ButtonSi">
+            <summary>
+            The ButtonSi item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.HomologacionManualAppFolder.ButtonSiInfo">
+            <summary>
+            The ButtonSi item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ExplorerAppFolder.LineaArriba">
+            <summary>
+            The LineaArriba item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ExplorerAppFolder.LineaArribaInfo">
+            <summary>
+            The LineaArriba item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FormHash32770AppFolder">
+            <summary>
+            The FormHash32770AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FormHash32770AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FormHash32770  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FormHash32770AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FormHash32770AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FormHash32770AppFolder.Btn_AceptarVolanteAutor">
+            <summary>
+            The Btn_AceptarVolanteAutor item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FormHash32770AppFolder.Btn_AceptarVolanteAutorInfo">
+            <summary>
+            The Btn_AceptarVolanteAutor item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQDOCAppFolder">
+            <summary>
+            The IQDOCAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQDOCAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new IQDOC  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQDOCAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQDOCAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQDOCAppFolder.CapturaDeEncabezado">
+            <summary>
+            The CapturaDeEncabezado item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.IQDOCAppFolder.CapturaDeEncabezadoInfo">
+            <summary>
+            The CapturaDeEncabezado item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeInformacionAppFolder">
+            <summary>
+            The ModuloDeInformacionAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeInformacionAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ModuloDeInformacion  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeInformacionAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeInformacionAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeInformacionAppFolder.Txt_Volante">
+            <summary>
+            The Txt_Volante item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeInformacionAppFolder.Txt_VolanteInfo">
+            <summary>
+            The Txt_Volante item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeInformacionAppFolder.BtConsultar">
+            <summary>
+            The BtConsultar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeInformacionAppFolder.BtConsultarInfo">
+            <summary>
+            The BtConsultar item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeInformacionAppFolder.Cerrar">
+            <summary>
+            The Cerrar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeInformacionAppFolder.CerrarInfo">
+            <summary>
+            The Cerrar item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeGlosasAppFolder">
+            <summary>
+            The ModuloDeGlosasAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeGlosasAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ModuloDeGlosas  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeGlosasAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeGlosasAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeGlosasAppFolder.Txt_CantidaFilaGlosa">
+            <summary>
+            The Txt_CantidaFilaGlosa item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.ModuloDeGlosasAppFolder.Txt_CantidaFilaGlosaInfo">
+            <summary>
+            The Txt_CantidaFilaGlosa item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmAgregarVolantesAppFolder">
+            <summary>
+            The FrmAgregarVolantesAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmAgregarVolantesAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmAgregarVolantes  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmAgregarVolantesAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmAgregarVolantesAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmAgregarVolantesAppFolder.BtAdicionar">
+            <summary>
+            The BtAdicionar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmAgregarVolantesAppFolder.BtAdicionarInfo">
+            <summary>
+            The BtAdicionar item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmAgregarVolantesAppFolder.Cerrar">
+            <summary>
+            The Cerrar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmAgregarVolantesAppFolder.CerrarInfo">
+            <summary>
+            The Cerrar item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MensajeBloqueanteAppFolder">
+            <summary>
+            The MensajeBloqueanteAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MensajeBloqueanteAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MensajeBloqueante  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MensajeBloqueanteAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MensajeBloqueanteAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MensajeBloqueanteAppFolder.Aceptar">
+            <summary>
+            The Aceptar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MensajeBloqueanteAppFolder.AceptarInfo">
+            <summary>
+            The Aceptar item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmDatosImagenAppFolder">
+            <summary>
+            The FrmDatosImagenAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmDatosImagenAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmDatosImagen  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmDatosImagenAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmDatosImagenAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmDatosImagenAppFolder.TxtPropiedades">
+            <summary>
+            The TxtPropiedades item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmDatosImagenAppFolder.TxtPropiedadesInfo">
+            <summary>
+            The TxtPropiedades item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmDatosImagenAppFolder.CmdCerrar">
+            <summary>
+            The CmdCerrar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.FrmDatosImagenAppFolder.CmdCerrarInfo">
+            <summary>
+            The CmdCerrar item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CorreoDanielaGomezArgaezOutlookAppFolder">
+            <summary>
+            The CorreoDanielaGomezArgaezOutlookAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CorreoDanielaGomezArgaezOutlookAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CorreoDanielaGomezArgaezOutlook  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CorreoDanielaGomezArgaezOutlookAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CorreoDanielaGomezArgaezOutlookAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CorreoDanielaGomezArgaezOutlookAppFolder.DivTag1hHMVrN7VV4d6YlzFsMuP3RNhHhUHe">
+            <summary>
+            The DivTag1hHMVrN7VV4d6YlzFsMuP3RNhHhUHe item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.CorreoDanielaGomezArgaezOutlookAppFolder.DivTag1hHMVrN7VV4d6YlzFsMuP3RNhHhUHeInfo">
+            <summary>
+            The DivTag1hHMVrN7VV4d6YlzFsMuP3RNhHhUHe item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Explorer1AppFolder">
+            <summary>
+            The Explorer1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Explorer1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer1  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Explorer1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Explorer1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Explorer1AppFolder.CuentasMedicasSanitasRanorexStudio">
+            <summary>
+            The CuentasMedicasSanitasRanorexStudio item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Explorer1AppFolder.CuentasMedicasSanitasRanorexStudioInfo">
+            <summary>
+            The CuentasMedicasSanitasRanorexStudio item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.Guardar">
+             <summary>
+            The Guardar recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.Guardar.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Guardar.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.Guardar.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Guardar.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.Guardar.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Guardar.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Guardar.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.Login.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.MenuPaso1">
+             <summary>
+            The MenuPaso1 recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.MenuPaso1.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuPaso1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.MenuPaso1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.MenuPaso1.MenuItem">
+            <summary>
+            Gets or sets the value of variable MenuItem.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.MenuPaso1.ItemProducto">
+            <summary>
+            Gets or sets the value of variable ItemProducto.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuPaso1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.MenuPaso1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuPaso1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuPaso1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.MenuPaso2">
+             <summary>
+            The MenuPaso2 recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.MenuPaso2.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuPaso2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.MenuPaso2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuPaso2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.MenuPaso2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuPaso2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.MenuPaso2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CargaAtencion">
+             <summary>
+            The CargaAtencion recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.CargaAtencion.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaAtencion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencion.FechaInicio">
+            <summary>
+            Gets or sets the value of variable FechaInicio.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencion.FechaFin">
+            <summary>
+            Gets or sets the value of variable FechaFin.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencion.TipoIdentificacion">
+            <summary>
+            Gets or sets the value of variable TipoIdentificacion.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencion.ValorBruto">
+            <summary>
+            Gets or sets the value of variable ValorBruto.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CargaAtencion.NroIdentificacion">
+            <summary>
+            Gets or sets the value of variable NroIdentificacion.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaAtencion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.CargaAtencion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaAtencion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CargaAtencion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.PrubeaJmeter">
+             <summary>
+            The PrubeaJmeter recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.PrubeaJmeter.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.PrubeaJmeter.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.PrubeaJmeter.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.PrubeaJmeter.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.PrubeaJmeter.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.PrubeaJmeter.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.PrubeaJmeter.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.Salir">
+             <summary>
+            The Salir recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.Salir.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Salir.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.Salir.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Salir.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.Salir.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Salir.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.Salir.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.SeleccionNroIdentificacion">
+             <summary>
+            The SeleccionNroIdentificacion recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.SeleccionNroIdentificacion.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SeleccionNroIdentificacion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.SeleccionNroIdentificacion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.SeleccionNroIdentificacion.IdAnexoOriginal">
+            <summary>
+            Gets or sets the value of variable IdAnexoOriginal.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.SeleccionNroIdentificacion.IdAnexo">
+            <summary>
+            Gets or sets the value of variable IdAnexo.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.SeleccionNroIdentificacion.NroIdentificacion">
+            <summary>
+            Gets or sets the value of variable NroIdentificacion.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SeleccionNroIdentificacion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.SeleccionNroIdentificacion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SeleccionNroIdentificacion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SeleccionNroIdentificacion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.StartAUT.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.VariosServicios">
+             <summary>
+            The VariosServicios recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.VariosServicios.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.VariosServicios.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.VariosServicios.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.VariosServicios.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.VariosServicios.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.VariosServicios.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.VariosServicios.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:JmeterRanorexPlugin.JmeterPluginC">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+                		
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

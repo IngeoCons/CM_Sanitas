@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.16s"
+		durationms="9158"
+		type="root"
+		rid="f7cd35e255bc704"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="02/18/2021 12:35:51 PM"
+		timestampiso="2021-02-18T17:35:51"
+		endtime="02/18/2021 12:36:01 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SeleccionAnexos">
+		<detail>
+			SeleccionAnexos
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.444"
+			timeRelativeToTestModuleStartTime="00:04.444"
+			timeWallClock="12:35:56"
+			time="00:04.444"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Next}'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\SeleccionAnexos.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.651"
+			timeRelativeToTestModuleStartTime="00:04.651"
+			timeWallClock="12:35:56"
+			time="00:04.651"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'Advertencia_COF.Aceptar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Advertencia']/button[@text='Aceptar']"
+				itempath="button[@text='Aceptar']"
+				fullname="CuentasMedicas_SanitasRepository.Advertencia_COF.Aceptar"
+				id="e8a1116d838146e9a5802893a7236e47"
+				timeout="3000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\SeleccionAnexos.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.155"
+			timeRelativeToTestModuleStartTime="00:09.155"
+			timeWallClock="12:36:01"
+			time="00:09.155"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'CuentasMedicas_SanitasRepository.Advertencia_COF.Aceptar'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\SeleccionAnexos.cs"
+				codeline="90"
+				loglvl="Warn"
+				id="e8a1116d838146e9a5802893a7236e47"
+				path="/form[@title='Advertencia']/button[@text='Aceptar']"
+				fullname="CuentasMedicas_SanitasRepository.Advertencia_COF.Aceptar">
+			</metainfo>
+		</item>
+	</activity>
+</report>

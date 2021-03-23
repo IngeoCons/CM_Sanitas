@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="42.89s"
+		durationms="42886"
+		type="root"
+		rid="1170a4794c5d8388"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="03/17/2021 4:01:04 PM"
+		timestampiso="2021-03-17T21:01:04"
+		endtime="03/17/2021 4:01:47 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AutorizacionesVolante">
+		<detail>
+			AutorizacionesVolante
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.027"
+			timeRelativeToTestModuleStartTime="00:07.027"
+			timeWallClock="16:01:11"
+			time="00:07.027"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Volante, Nservicios
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.050"
+			timeRelativeToTestModuleStartTime="00:07.050"
+			timeWallClock="16:01:11"
+			time="00:07.050"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.FilaFila1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']//cell[@accessiblevalue='2']"
+				itempath="?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']//cell[@accessiblevalue=$Nservicios]"
+				fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.FilaFila1"
+				id="1e75736de1f64b40bdebd6288352bc46"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\AutorizacionesVolante.cs"
+				codeline="105"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.059"
+			timeRelativeToTestModuleStartTime="00:19.059"
+			timeWallClock="16:01:23"
+			time="00:19.059"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.Btn_Asociar1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']//cell[@text='2']/../..//cell[@text='Asociar']"
+				itempath="element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']//cell[@text=$Nservicios]/../..//cell[@text='Asociar']"
+				fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Btn_Asociar1"
+				id="ca4f3d81ab904d9ebe9906eb1bdad605"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\AutorizacionesVolante.cs"
+				codeline="109"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.557"
+			timeRelativeToTestModuleStartTime="00:20.557"
+			timeWallClock="16:01:24"
+			time="00:20.557"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MensajeBloqueante.Aceptar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MensajeBloqueante']/button[@controlname='Aceptar']"
+				itempath="button[@controlname='Aceptar']"
+				fullname="CuentasMedicas_SanitasRepository.MensajeBloqueante.Aceptar"
+				id="82409ab15fad47758d84d1ad2fe5d615"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\AutorizacionesVolante.cs"
+				codeline="113"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:42.889"
+			timeRelativeToTestModuleStartTime="00:42.889"
+			timeWallClock="16:01:47"
+			time="00:42.889"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

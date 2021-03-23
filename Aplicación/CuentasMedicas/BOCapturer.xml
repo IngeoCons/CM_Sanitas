@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BOCapturer
+</name>
+</assembly>
+<members>
+<member name="M:BOCapturer.DataMgr.GetGrupoCampos(System.Data.DataTable@,System.String,System.String)">
+ <summary>
+ Obtiene los campos de un grupo por parametros de entrada
+ </summary>
+ <param name="dtGrupoCampo"></param>
+ <param name="TipoDocumento_id">Identificacion Tipo Documento</param>
+ <param name="CampoAgrupacion">Identificacion Campo Agrupacion</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.ValorRegistryXCampo(System.String,System.String)">
+ <summary>
+ Retorna el valor de un campo de la Registry con base en parametros de entrada
+ </summary>
+ <param name="Cia_Id">Compañia ID</param>
+ <param name="Campo">Nombre Campo</param>
+ <returns>Valor Campo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.Updated_Marked_As_Unreadable(System.String,System.String,System.String,System.String)">
+ <summary>
+ Actualiza el WF del documento y del folder actual. Bloqueo por documento ilegible
+ </summary>
+ <param name="documento_id">Identificacion del documento</param>
+ <param name="solicitud_id">Identificacion del folder</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOCapturer.Unreadable})">
+ <summary>
+ Actualiza el WF del documento y del folder actual. 
+ Agrega los documentos marcados como ilegibles a la cola de trabajo
+ </summary>
+ <param name="unreadeableList">Lista de documentos Ilegibles</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.UnreadableCriticalDocumentType">
+ <summary>
+ Valida el estado del documento ilegible
+ </summary>
+ <returns>Cantidad de documentos marcados Criticos</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.SearchField(System.String,BOCapturer.Campo[])">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOCapturer.Unreadable})">
+ <summary>
+ Guarda los documentos marcados como ilegibles
+ </summary>
+ <param name="unreadableList">Lista de los documentos ilegibles</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.Get_GrupoCampo(System.String,System.String)">
+ <summary>
+ Obtiene los campos parametros de entrada
+ </summary>
+ <param name="TipoDocumento_id">Tipo de Documento</param>
+ <param name="CampoAgrupacion">Guid de agrupacion del campo</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.GetValueExportacion(System.String)">
+ <summary>
+ Obtiene valor del campo para exportacion
+ </summary>
+ <param name="Query"></param>
+ <returns>DataTable valor campo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.ValorRegistryXCampo(System.String,System.String)">
+ <summary>
+ Retorna valor en Registry por parametros de entrada
+ </summary>
+ <param name="Compañia_Id">Compañia ID</param>
+ <param name="Campo">Nombre Campo</param>
+ <returns>Valor Campo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.UnreadableCriticalDocumentType">
+ <summary>
+ Carga los Tipos Documentales Criticos
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.InsertFieldReference(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ LLena LOG de proceso por referencia
+ </summary>
+ <param name="Folder_Id"></param>
+ <param name="Appuser"></param>
+ <param name="IP"></param>
+ <param name="Campo"></param>
+ <param name="ValorInicial"></param>
+ <param name="ValorFinal"></param>
+ <param name="Operacion">Clase de operación</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
