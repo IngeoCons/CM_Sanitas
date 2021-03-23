@@ -1927,7 +1927,7 @@ namespace CuentasMedicas_Sanitas
             public Panel1Folder(RepoGenBaseFolder parentFolder) :
                     base("Panel1", "?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']", parentFolder, 30000, null, false, "671b73b9-f684-48c5-bb89-5870e79330d6", "")
             {
-                _someelementInfo = new RepoItemInfo(this, "SomeElement", "?/?/container[@controlname='panel1']//container[@controlname='panel2']/?/?/element[@controlname='']", 30000, null, "4f53fda6-0e84-4cbb-8859-c1387b1d329f");
+                _someelementInfo = new RepoItemInfo(this, "SomeElement", "?/?/container[@controlname='panel1']//container[@controlname='panel2']", 30000, null, "4f53fda6-0e84-4cbb-8859-c1387b1d329f");
             }
 
             /// <summary>
@@ -1958,11 +1958,11 @@ namespace CuentasMedicas_Sanitas
             /// The SomeElement item.
             /// </summary>
             [RepositoryItem("4f53fda6-0e84-4cbb-8859-c1387b1d329f")]
-            public virtual Ranorex.Unknown SomeElement
+            public virtual Ranorex.Container SomeElement
             {
                 get
                 {
-                    return _someelementInfo.CreateAdapter<Ranorex.Unknown>(true);
+                    return _someelementInfo.CreateAdapter<Ranorex.Container>(true);
                 }
             }
 

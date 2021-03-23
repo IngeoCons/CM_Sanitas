@@ -79,8 +79,8 @@ namespace CuentasMedicas_Sanitas
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'PRUEBASSANITAS5' with focus on 'FrmLogin.TxtLogin'.", repo.FrmLogin.TxtLoginInfo, new RecordItemIndex(0));
-            repo.FrmLogin.TxtLogin.PressKeys("PRUEBASSANITAS5");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'PRUEBASSANITAS4' with focus on 'FrmLogin.TxtLogin'.", repo.FrmLogin.TxtLoginInfo, new RecordItemIndex(0));
+            repo.FrmLogin.TxtLogin.PressKeys("PRUEBASSANITAS4");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test.2019' with focus on 'FrmLogin.TxtPassword'.", repo.FrmLogin.TxtPasswordInfo, new RecordItemIndex(1));

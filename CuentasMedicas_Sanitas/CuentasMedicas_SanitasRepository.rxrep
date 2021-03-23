@@ -441,13 +441,12 @@ name="CuentasMedicas_SanitasRepository">
 			usecache="False">
 				<item
 				addcaps="unknown,nativewindow,controlnet11"
-				capname="unknown"
+				capname="container"
 				id="4f53fda6-0e84-4cbb-8859-c1387b1d329f"
 				name="SomeElement"
 				refimgid="cf97eaf9-89e6-4ce6-91c7-56002f554eed"
-				refpath="/form[@controlname='MDIPrincipal']/element/form/container/container[@controlname='panel1']/container/container[@controlname='panel1']/element/element/container/container[@controlname='panel2']/element/element[@controlname='']"
 				searchtimeout="30000ms">
-					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel1']//container[@controlname='panel2']/?/?/element[@controlname='']
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel1']//container[@controlname='panel2']
 				</item>
 				<basepath>
 					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']

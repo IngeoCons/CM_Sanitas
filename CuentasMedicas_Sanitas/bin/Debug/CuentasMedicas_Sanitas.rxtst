@@ -305,6 +305,7 @@
 				</parameters>
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="457185fc-927f-402e-a0d7-72ab99a27c1c"
 			name="StartAUT"
 			ref="db372c21-4ea0-4383-b71e-f022d5f41bb7"
@@ -860,6 +861,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="b3df0706-e8e9-4aac-a37d-7fd5b7ab9df9"
 			name="Login"
 			ref="97cdd182-db0f-4f23-ba4c-48c854c5ba8a"
@@ -1650,7 +1652,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\Autorizaciones.xlsx"
+		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\Autorizaciones.xlsx"
 		id="ba80ada9-9562-4426-8957-a3993cd5df40"
 		includefile="Unchecked"
 		lastknownrowcount="2"
@@ -1691,7 +1693,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\Autorizaciones.xlsx"
+		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\Autorizaciones.xlsx"
 		id="4812d665-c917-45d7-b0fa-61b98ed6d46f"
 		includefile="Unchecked"
 		lastknownrowcount="2"
@@ -1711,7 +1713,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\MóduloCas.xlsx"
+		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\MóduloCas.xlsx"
 		id="2ab255d6-9e36-4222-ac79-aa99f860b952"
 		includefile="Unchecked"
 		lastknownrowcount="5"
@@ -1749,7 +1751,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\MóduloCas.xlsx"
+		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\MóduloCas.xlsx"
 		id="14ba5720-10cd-4128-9a02-e50219d7a4d9"
 		includefile="Unchecked"
 		lastknownrowcount="19"
@@ -1778,7 +1780,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\Homologación.xlsx"
+		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\Homologación.xlsx"
 		id="9e31052b-4067-4d54-b04e-ffb064d30c6b"
 		includefile="Unchecked"
 		lastknownrowcount="2"
@@ -1798,7 +1800,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\MóduloCas.xlsx"
+		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\MóduloCas.xlsx"
 		id="79b6a6d3-c198-4530-a52d-8e03267584ea"
 		includefile="Unchecked"
 		lastknownrowcount="5"
@@ -1836,7 +1838,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\MóduloAsociacionAnexos.xlsx"
+		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\MóduloAsociacionAnexos.xlsx"
 		id="1562949f-ea5c-4847-9250-90f4ba80f0fc"
 		includefile="Unchecked"
 		lastknownrowcount="1"
@@ -1856,7 +1858,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\MóduloAsociacionAnexos.xlsx"
+		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\MóduloAsociacionAnexos.xlsx"
 		id="f63d8ff0-7205-41bd-b1b7-db0bb4a3736f"
 		includefile="Unchecked"
 		lastknownrowcount="28"
