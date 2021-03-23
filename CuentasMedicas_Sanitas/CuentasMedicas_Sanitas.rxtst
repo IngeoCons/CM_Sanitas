@@ -264,7 +264,7 @@
 			id="2ea3bc0c-5fb1-47cd-b76c-c3a52fc730f5"
 			name="Test_Case_06">
 				<description>
-					<![CDATA[Módulos cas con varios servicios sin homologar]]>
+					<![CDATA[Módulos cas con varios servicios sin homologar-No-]]>
 				</description>
 			</testcase>
 			<testmodule
@@ -1882,15 +1882,6 @@
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="85efe8a5-54e7-4488-a775-fbabf8a3b88d">
-			</testcontainer>
-			<testcontainer
-			id="8c5c44aa-a50a-41f2-aa88-4132543d9a40">
-			</testcontainer>
-			<testcontainer
-			id="99786b1b-0182-4d56-bd18-9de58a8ed0e5">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
