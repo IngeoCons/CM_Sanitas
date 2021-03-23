@@ -65,31 +65,31 @@
 				<databinding>
 					<var
 					dataname="NroIdentificacion"
-					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
 					variableid="f64d388b-1df3-44c3-8af1-384a2a37fd63"
 					variablename="NroIdentificacion">
 					</var>
 					<var
 					dataname="TipoIdentificacion"
-					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
 					variableid="5a290b74-ce0a-4ffa-b004-94d9283b6f8b"
 					variablename="TipoIdentificacion">
 					</var>
 					<var
 					dataname="FechaInicio"
-					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
 					variableid="7e84670b-00c1-40b7-8578-3e5adea77bee"
 					variablename="FechaInicio">
 					</var>
 					<var
 					dataname="FechaFin"
-					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
 					variableid="97ef1d5b-9d82-4749-ba02-f8d1fda522f0"
 					variablename="FechaFin">
 					</var>
 					<var
 					dataname="ValorBruto"
-					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
 					variableid="c82aa472-ecb1-40a1-8ecd-26227874e27d"
 					variablename="ValorBruto">
 					</var>
@@ -97,31 +97,31 @@
 				<missingdatabinding>
 					<var
 					dataname="ValorBruto"
-					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
 					variableid="c82aa472-ecb1-40a1-8ecd-26227874e27d"
 					variablename="ValorBruto">
 					</var>
 					<var
 					dataname="FechaFin"
-					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
 					variableid="97ef1d5b-9d82-4749-ba02-f8d1fda522f0"
 					variablename="FechaFin">
 					</var>
 					<var
 					dataname="FechaInicio"
-					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
 					variableid="7e84670b-00c1-40b7-8578-3e5adea77bee"
 					variablename="FechaInicio">
 					</var>
 					<var
 					dataname="TipoIdentificacion"
-					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
 					variableid="5a290b74-ce0a-4ffa-b004-94d9283b6f8b"
 					variablename="TipoIdentificacion">
 					</var>
 					<var
 					dataname="NroIdentificacion"
-					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
 					variableid="f64d388b-1df3-44c3-8af1-384a2a37fd63"
 					variablename="NroIdentificacion">
 					</var>
@@ -391,6 +391,56 @@
 			type="Recording">
 				<databinding>
 					<var
+					dataname="ParFolderId"
+					datasourceid="85efe8a5-54e7-4488-a775-fbabf8a3b88d"
+					variableid="d231342c-7bc1-4196-aee8-6e3dd20d0f23"
+					variablename="ParFolderId">
+					</var>
+					<var
+					dataname="NroIdentificacion"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="f9020e78-5832-4ba4-9d5a-447ad85c2812"
+					variablename="NroIdentificacion">
+					</var>
+					<var
+					dataname="TipoIdentificacion"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="1a4fadaf-15ac-4d1e-b92b-55b2aff6e4fc"
+					variablename="TipoIdentificacion">
+					</var>
+					<var
+					dataname="FechaInicio"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="4c4b942d-c041-4597-84cd-4eb77aa8384c"
+					variablename="FechaInicio">
+					</var>
+					<var
+					dataname="FechaFin"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="f074d2a9-440f-4023-afb8-421991b6e930"
+					variablename="FechaFin">
+					</var>
+					<var
+					dataname="ValorBruto"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="158902ad-3db5-4685-ac97-752e42da1337"
+					variablename="ValorBruto">
+					</var>
+					<var
+					dataname="SolicitudId"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="c2569a24-2ce7-404c-be2d-8c80a0d561e8"
+					variablename="SolicitudID">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="SolicitudId"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					variableid="c2569a24-2ce7-404c-be2d-8c80a0d561e8"
+					variablename="SolicitudID">
+					</var>
+					<var
 					dataname="NroIdentificacion"
 					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
 					variableid="f9020e78-5832-4ba4-9d5a-447ad85c2812"
@@ -420,19 +470,7 @@
 					variableid="158902ad-3db5-4685-ac97-752e42da1337"
 					variablename="ValorBruto">
 					</var>
-					<var
-					dataname="SolicitudId"
-					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
-					variableid="c2569a24-2ce7-404c-be2d-8c80a0d561e8"
-					variablename="SolicitudID">
-					</var>
-					<var
-					dataname="ParFolderId"
-					datasourceid="85efe8a5-54e7-4488-a775-fbabf8a3b88d"
-					variableid="d231342c-7bc1-4196-aee8-6e3dd20d0f23"
-					variablename="ParFolderId">
-					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testcase
 			datasource="Autorizaciones"
@@ -685,7 +723,7 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datasource="DataSourceAtencion"
+			datasource="ModuloCAS"
 			id="85efe8a5-54e7-4488-a775-fbabf8a3b88d"
 			name="TestCase_02">
 				<description>
@@ -907,13 +945,13 @@
 				<databinding>
 					<var
 					dataname="MenuItem"
-					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
 					variableid="aabc01ea-ec93-4de2-ab96-733731c89f7e"
 					variablename="MenuItem">
 					</var>
 					<var
 					dataname="Subproducto"
-					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
 					variableid="12f92637-d732-4177-a3da-8a9594b97f83"
 					variablename="ItemProducto">
 					</var>
@@ -921,13 +959,13 @@
 				<missingdatabinding>
 					<var
 					dataname="Subproducto"
-					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
 					variableid="12f92637-d732-4177-a3da-8a9594b97f83"
 					variablename="ItemProducto">
 					</var>
 					<var
 					dataname="MenuItem"
-					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
 					variableid="aabc01ea-ec93-4de2-ab96-733731c89f7e"
 					variablename="MenuItem">
 					</var>
@@ -1088,12 +1126,6 @@
 					variablename="NroIdentificacionOriginal">
 					</var>
 					<var
-					dataname="NroIdentificacion"
-					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
-					variableid="4607ff8a-7e4e-4fb5-a793-fd5b9aed10bf"
-					variablename="NroIdentificacion">
-					</var>
-					<var
 					dataname="ParFolderId"
 					datasourceid="85efe8a5-54e7-4488-a775-fbabf8a3b88d"
 					variableid="7615392e-e705-478a-aab3-bd832cc2accf"
@@ -1111,11 +1143,17 @@
 					variableid="d6c26d48-56a5-48ce-85ea-7e8402cd1198"
 					variablename="DescripcionServ">
 					</var>
+					<var
+					dataname="NroIdentificacion"
+					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					variableid="4607ff8a-7e4e-4fb5-a793-fd5b9aed10bf"
+					variablename="NroIdentificacion">
+					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="NroIdentificacion"
-					datasourceid="79b6a6d3-c198-4530-a52d-8e03267584ea"
+					datasourceid="2ab255d6-9e36-4222-ac79-aa99f860b952"
 					variableid="4607ff8a-7e4e-4fb5-a793-fd5b9aed10bf"
 					variablename="NroIdentificacion">
 					</var>
@@ -1635,7 +1673,7 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\DataSource\MóduloAsociacionAnexos.xlsx"
+		filename="..\..\..\DataSource\MóduloAsociacionAnexos.xlsx"
 		id="df82a79d-6f5b-40dd-8e90-725ca6f9343b"
 		includefile="Unchecked"
 		lastknownrowcount="10"
@@ -1652,7 +1690,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\Autorizaciones.xlsx"
+		filename="..\..\..\DataSource\Autorizaciones.xlsx"
 		id="ba80ada9-9562-4426-8957-a3993cd5df40"
 		includefile="Unchecked"
 		lastknownrowcount="2"
@@ -1693,7 +1731,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\Autorizaciones.xlsx"
+		filename="..\..\..\DataSource\Autorizaciones.xlsx"
 		id="4812d665-c917-45d7-b0fa-61b98ed6d46f"
 		includefile="Unchecked"
 		lastknownrowcount="2"
@@ -1713,14 +1751,14 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\MóduloCas.xlsx"
+		filename="..\..\..\DataSource\MóduloCas.xlsx"
 		id="2ab255d6-9e36-4222-ac79-aa99f860b952"
 		includefile="Unchecked"
-		lastknownrowcount="5"
+		lastknownrowcount="2"
 		name="DataSourceAtencion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="Hoja2"
-		worksheetrange="A:H">
+		worksheetname="Hoja1"
+		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
 					NroIdentificacion
@@ -1744,14 +1782,23 @@
 					Subproducto
 				</column>
 				<column>
-					SolicitudId
+					CodServicio
+				</column>
+				<column>
+					VlrUnitario
+				</column>
+				<column>
+					Column10
+				</column>
+				<column>
+					Column11
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\MóduloCas.xlsx"
+		filename="..\..\..\DataSource\MóduloCas.xlsx"
 		id="14ba5720-10cd-4128-9a02-e50219d7a4d9"
 		includefile="Unchecked"
 		lastknownrowcount="19"
@@ -1780,7 +1827,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\Homologación.xlsx"
+		filename="..\..\..\DataSource\Homologación.xlsx"
 		id="9e31052b-4067-4d54-b04e-ffb064d30c6b"
 		includefile="Unchecked"
 		lastknownrowcount="2"
@@ -1800,7 +1847,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\MóduloCas.xlsx"
+		filename="..\..\..\DataSource\MóduloCas.xlsx"
 		id="79b6a6d3-c198-4530-a52d-8e03267584ea"
 		includefile="Unchecked"
 		lastknownrowcount="5"
@@ -1838,7 +1885,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\MóduloAsociacionAnexos.xlsx"
+		filename="..\..\..\DataSource\MóduloAsociacionAnexos.xlsx"
 		id="1562949f-ea5c-4847-9250-90f4ba80f0fc"
 		includefile="Unchecked"
 		lastknownrowcount="1"
@@ -1858,7 +1905,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\Git\DataSource\MóduloAsociacionAnexos.xlsx"
+		filename="..\..\..\DataSource\MóduloAsociacionAnexos.xlsx"
 		id="f63d8ff0-7205-41bd-b1b7-db0bb4a3736f"
 		includefile="Unchecked"
 		lastknownrowcount="28"
