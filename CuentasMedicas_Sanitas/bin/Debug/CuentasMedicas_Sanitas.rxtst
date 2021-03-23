@@ -264,7 +264,7 @@
 			id="2ea3bc0c-5fb1-47cd-b76c-c3a52fc730f5"
 			name="Test_Case_06">
 				<description>
-					<![CDATA[Módulos cas con varios servicios sin homologar]]>
+					<![CDATA[Módulos cas con varios servicios sin homologar-No-]]>
 				</description>
 			</testcase>
 			<testmodule
@@ -305,7 +305,6 @@
 				</parameters>
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="457185fc-927f-402e-a0d7-72ab99a27c1c"
 			name="StartAUT"
 			ref="db372c21-4ea0-4383-b71e-f022d5f41bb7"
@@ -861,7 +860,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="b3df0706-e8e9-4aac-a37d-7fd5b7ab9df9"
 			name="Login"
 			ref="97cdd182-db0f-4f23-ba4c-48c854c5ba8a"
