@@ -2398,6 +2398,30 @@ Oo+hoA5CiiisD2z/2Q==
 				</path>
 			</info>
 		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="100ms"
+		enabled="True"
+		loc="Center"
+		movetime="100ms"
+		optional="True"
+		searchpropertyid="c24f88ce-6619-43ad-a9eb-62cefc73d2f0"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9dadcb45-7f26-4f87-a1e3-2ed6bcdcc060"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@class='#32770']/button
+				</path>
+			</info>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="252f38fc-442d-4956-b6ff-f2c95665c4e7"

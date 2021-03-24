@@ -362,6 +362,11 @@
 					</var>
 				</missingdatavariablesbinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="RecorrerFolderAuto"
+			id="507f2763-f0ad-4de9-8670-72e9875faa49"
+			name="SmartFolder">
+			</smartfoldernode>
 			<testmodule
 			enabled="False"
 			id="510225fd-d42d-49b3-9821-e5a2aaa72652"
@@ -479,6 +484,12 @@
 				<description>
 					<![CDATA[Autorizaciones Causales]]>
 				</description>
+				<parameters>
+					<param
+					name="ParFolderId"
+					value="">
+					</param>
+				</parameters>
 			</testcase>
 			<testmodule
 			enabled="False"
@@ -913,6 +924,12 @@
 				</description>
 			</testcase>
 			<testmodule
+			id="b79ac115-7506-4ef6-a088-007cb2c64643"
+			name="SalirAutorizaciones"
+			ref="8c0046f2-032a-4541-9702-cac893157c9a"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			enabled="False"
 			id="bba0a8bf-efe0-49bf-bc61-fa18c1b6e195"
 			name="Salir"
@@ -1013,6 +1030,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="c8e41d67-9d61-4c45-9705-7babd1efedfb"
 			name="ProcesoAutorizaciones1"
 			ref="7e8fc83c-9ea9-4946-bdd0-9c1f9a47600e"
@@ -1039,6 +1057,44 @@
 			id="caec0a5a-53d4-4567-bb76-401c162797f7"
 			name="SmartFolder">
 			</smartfoldernode>
+			<testmodule
+			id="cb8acd7c-3c2c-40ab-96b6-c26853a2b26f"
+			name="ProcesoAutoFolder"
+			ref="19d09214-30a9-459a-a665-937ae8d7e095"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Causal"
+					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
+					variableid="720b35f9-0ae2-41ca-8eae-6025b477902c"
+					variablename="Causal">
+					</var>
+					<var
+					dataname="ModuloDestino"
+					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
+					variableid="5668fe16-afd8-4cad-bcb4-62107c0154aa"
+					variablename="ModuloDestino">
+					</var>
+					<var
+					dataname="ParFolderId"
+					datasourceid="5935acc1-b6a5-453a-997f-b487397c0aeb"
+					variableid="936cf32c-d13c-497d-a0ec-7986c26493ae"
+					variablename="ParFolderId">
+					</var>
+					<var
+					dataname="SolicitudId"
+					datasourceid="9f03242a-a144-4063-8d9b-e48855b50330"
+					variableid="35f31716-3dad-4a1b-8d12-954cd93c4b89"
+					variablename="SolicitudID">
+					</var>
+					<var
+					dataname="ObservacionGlosa"
+					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
+					variableid="c36fd7f0-3e4e-46d5-a667-9cda5d14edb1"
+					variablename="Observacion">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			enabled="False"
 			id="cbf77831-b4b4-48b7-b230-053abc0cc771"
@@ -1237,6 +1293,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="e90bb012-9b14-4bce-ad43-9eb7ba1dd445"
+			name="AbrirVentanaAutorizaciones"
+			ref="942795be-9e67-455c-81e3-76bb83cac274"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ParFolderId"
+					datasourceid="5935acc1-b6a5-453a-997f-b487397c0aeb"
+					variableid="ec1211dd-791a-495f-8b30-b61451bf3a3d"
+					variablename="FolderId">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			enabled="False"
 			id="eb5abd22-9241-4813-b4a8-e18f60f61070"
 			name="StartAUT"
@@ -1256,6 +1326,13 @@
 			id="ec969128-50b8-44e6-8eb9-a21128455371"
 			name="IteraccionNroIdentificacion">
 			</smartfoldernode>
+			<testmodule
+			enabled="False"
+			id="f26f4c0d-0890-40fd-a4f7-adb1c6cd513c"
+			name="RecorrerFolderAuto"
+			ref="687df812-8c81-446c-97a3-6ebb2abd469a"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="f5c03036-594a-445f-b6e0-247a595018aa"
 			name="setup">
@@ -1607,8 +1684,28 @@
 						name="MenuAutorizaciones">
 						</testmodule>
 						<testmodule
+						id="e90bb012-9b14-4bce-ad43-9eb7ba1dd445"
+						name="AbrirVentanaAutorizaciones">
+						</testmodule>
+						<testmodule
 						id="c8e41d67-9d61-4c45-9705-7babd1efedfb"
 						name="ProcesoAutorizaciones1">
+						</testmodule>
+						<smartfoldernode
+						id="507f2763-f0ad-4de9-8670-72e9875faa49"
+						name="SmartFolder">
+							<testmodule
+							id="f26f4c0d-0890-40fd-a4f7-adb1c6cd513c"
+							name="RecorrerFolderAuto">
+							</testmodule>
+							<testmodule
+							id="cb8acd7c-3c2c-40ab-96b6-c26853a2b26f"
+							name="ProcesoAutoFolder">
+							</testmodule>
+						</smartfoldernode>
+						<testmodule
+						id="b79ac115-7506-4ef6-a088-007cb2c64643"
+						name="SalirAutorizaciones">
 						</testmodule>
 					</testcase>
 					<testcase
@@ -1693,7 +1790,7 @@
 		filename=".\..\.\\DataSource\Autorizaciones.xlsx"
 		id="ba80ada9-9562-4426-8957-a3993cd5df40"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="1"
 		name="Autorizaciones"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -1924,19 +2021,36 @@
 			<maskedcolumns>
 			</maskedcolumns>
 		</DataSource>
+		<DataSource
+		filename=".\..\.\DataSource\Autorizaciones.xlsx"
+		id="9f03242a-a144-4063-8d9b-e48855b50330"
+		includefile="Unchecked"
+		lastknownrowcount="2"
+		name="RecorrerFolderAuto"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja2"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					SolicitudId
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
 	</datasources>
 	<testconfigurations
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="85efe8a5-54e7-4488-a775-fbabf8a3b88d">
+			id="507f2763-f0ad-4de9-8670-72e9875faa49">
+			</testcontainer>
+			<testcontainer
+			id="5935acc1-b6a5-453a-997f-b487397c0aeb">
 			</testcontainer>
 			<testcontainer
 			id="8c5c44aa-a50a-41f2-aa88-4132543d9a40">
-			</testcontainer>
-			<testcontainer
-			id="99786b1b-0182-4d56-bd18-9de58a8ed0e5">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

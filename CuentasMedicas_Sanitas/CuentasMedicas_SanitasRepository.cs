@@ -48,6 +48,7 @@ namespace CuentasMedicas_Sanitas
         CuentasMedicas_SanitasRepositoryFolders.FrmDatosImagenAppFolder _frmdatosimagen;
         CuentasMedicas_SanitasRepositoryFolders.CorreoDanielaGomezArgaezOutlookAppFolder _correodanielagomezargaezoutlook;
         CuentasMedicas_SanitasRepositoryFolders.Explorer1AppFolder _explorer1;
+        CuentasMedicas_SanitasRepositoryFolders.VisorDeImagenesIQOutsourcingAppFolder _visordeimagenesiqoutsourcing;
 
         /// <summary>
         /// Gets the singleton class instance representing the CuentasMedicas_SanitasRepository element repository.
@@ -85,6 +86,7 @@ namespace CuentasMedicas_Sanitas
             _frmdatosimagen = new CuentasMedicas_SanitasRepositoryFolders.FrmDatosImagenAppFolder(this);
             _correodanielagomezargaezoutlook = new CuentasMedicas_SanitasRepositoryFolders.CorreoDanielaGomezArgaezOutlookAppFolder(this);
             _explorer1 = new CuentasMedicas_SanitasRepositoryFolders.Explorer1AppFolder(this);
+            _visordeimagenesiqoutsourcing = new CuentasMedicas_SanitasRepositoryFolders.VisorDeImagenesIQOutsourcingAppFolder(this);
         }
 
 #region Variables
@@ -375,6 +377,15 @@ namespace CuentasMedicas_Sanitas
         {
             get { return _explorer1; }
         }
+
+        /// <summary>
+        /// The VisorDeImagenesIQOutsourcing folder.
+        /// </summary>
+        [RepositoryFolder("e09d39f2-9810-4786-bf01-f4b83f33abb8")]
+        public virtual CuentasMedicas_SanitasRepositoryFolders.VisorDeImagenesIQOutsourcingAppFolder VisorDeImagenesIQOutsourcing
+        {
+            get { return _visordeimagenesiqoutsourcing; }
+        }
     }
 
     /// <summary>
@@ -419,6 +430,8 @@ namespace CuentasMedicas_Sanitas
             RepoItemInfo _btn_agregarglosaInfo;
             RepoItemInfo _btglosasInfo;
             RepoItemInfo _filafila1Info;
+            RepoItemInfo _btnimagenes_autorInfo;
+            RepoItemInfo _btsalirInfo;
 
             /// <summary>
             /// Creates a new MDIPrincipal  folder.
@@ -456,6 +469,8 @@ namespace CuentasMedicas_Sanitas
                 _btn_agregarglosaInfo = new RepoItemInfo(this, "Btn_AgregarGlosa", "?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer2']//button[@controlname='bt_AgregarGlosa']", 30000, null, "1574252c-b79c-4bd5-9cd2-2824d1decab7");
                 _btglosasInfo = new RepoItemInfo(this, "BtGlosas", "?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_glosas']", 30000, null, "3883f8ce-d5fd-4201-9b07-c49400fa0220");
                 _filafila1Info = new RepoItemInfo(this, "FilaFila1", "?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']//cell[@accessiblevalue=$Nservicios]", 30000, null, "1e75736d-e1f6-4b40-bdeb-d6288352bc46");
+                _btnimagenes_autorInfo = new RepoItemInfo(this, "BtnImagenes_Autor", "?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_Imagenes']", 30000, null, "98cd8789-8856-455c-bfad-f1d488c2789d");
+                _btsalirInfo = new RepoItemInfo(this, "BtSalir", "?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_Salir']", 30000, null, "8f7ce9f5-c189-4fdf-905d-5beda6b8a916");
             }
 
             /// <summary>
@@ -1103,6 +1118,54 @@ namespace CuentasMedicas_Sanitas
                 get
                 {
                     return _filafila1Info;
+                }
+            }
+
+            /// <summary>
+            /// The BtnImagenes_Autor item.
+            /// </summary>
+            [RepositoryItem("98cd8789-8856-455c-bfad-f1d488c2789d")]
+            public virtual Ranorex.Button BtnImagenes_Autor
+            {
+                get
+                {
+                    return _btnimagenes_autorInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnImagenes_Autor item info.
+            /// </summary>
+            [RepositoryItemInfo("98cd8789-8856-455c-bfad-f1d488c2789d")]
+            public virtual RepoItemInfo BtnImagenes_AutorInfo
+            {
+                get
+                {
+                    return _btnimagenes_autorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtSalir item.
+            /// </summary>
+            [RepositoryItem("8f7ce9f5-c189-4fdf-905d-5beda6b8a916")]
+            public virtual Ranorex.Button BtSalir
+            {
+                get
+                {
+                    return _btsalirInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtSalir item info.
+            /// </summary>
+            [RepositoryItemInfo("8f7ce9f5-c189-4fdf-905d-5beda6b8a916")]
+            public virtual RepoItemInfo BtSalirInfo
+            {
+                get
+                {
+                    return _btsalirInfo;
                 }
             }
 
@@ -3737,6 +3800,98 @@ namespace CuentasMedicas_Sanitas
                 get
                 {
                     return _cuentasmedicassanitasranorexstudioInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The VisorDeImagenesIQOutsourcingAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("e09d39f2-9810-4786-bf01-f4b83f33abb8")]
+        public partial class VisorDeImagenesIQOutsourcingAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _somecontainerInfo;
+            RepoItemInfo _cerrarInfo;
+
+            /// <summary>
+            /// Creates a new VisorDeImagenesIQOutsourcing  folder.
+            /// </summary>
+            public VisorDeImagenesIQOutsourcingAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("VisorDeImagenesIQOutsourcing", "/form[@controlname='Visor de Imagenes IQ Outsourcing.']", parentFolder, 30000, null, true, "e09d39f2-9810-4786-bf01-f4b83f33abb8", "")
+            {
+                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "container[@controlname='sc']/container[@controlname='panel2']//container[@caption='' and @controltypename='SplitterPanel' and @instance='0']/?/?/container[@controlname='']", 30000, null, "27c919d2-f736-43f7-8e83-892bf1bfe30c");
+                _cerrarInfo = new RepoItemInfo(this, "Cerrar", "?/?/button[@accessiblename='Cerrar']", 30000, null, "f09251ca-0ce9-4a15-959e-ac4cfb649b78");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("e09d39f2-9810-4786-bf01-f4b83f33abb8")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("e09d39f2-9810-4786-bf01-f4b83f33abb8")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeContainer item.
+            /// </summary>
+            [RepositoryItem("27c919d2-f736-43f7-8e83-892bf1bfe30c")]
+            public virtual Ranorex.Container SomeContainer
+            {
+                get
+                {
+                    return _somecontainerInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeContainer item info.
+            /// </summary>
+            [RepositoryItemInfo("27c919d2-f736-43f7-8e83-892bf1bfe30c")]
+            public virtual RepoItemInfo SomeContainerInfo
+            {
+                get
+                {
+                    return _somecontainerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Cerrar item.
+            /// </summary>
+            [RepositoryItem("f09251ca-0ce9-4a15-959e-ac4cfb649b78")]
+            public virtual Ranorex.Button Cerrar
+            {
+                get
+                {
+                    return _cerrarInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Cerrar item info.
+            /// </summary>
+            [RepositoryItemInfo("f09251ca-0ce9-4a15-959e-ac4cfb649b78")]
+            public virtual RepoItemInfo CerrarInfo
+            {
+                get
+                {
+                    return _cerrarInfo;
                 }
             }
         }

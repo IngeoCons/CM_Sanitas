@@ -24,53 +24,46 @@ namespace CuentasMedicas_Sanitas
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The MenuAutorizaciones recording.
+    ///The AbrirVentanaAutorizaciones recording.
     /// </summary>
-    [TestModule("9916a4d7-c223-4e16-8432-3f67adc009cc", ModuleType.Recording, 1)]
-    public partial class MenuAutorizaciones : ITestModule
+    [TestModule("942795be-9e67-455c-81e3-76bb83cac274", ModuleType.Recording, 1)]
+    public partial class AbrirVentanaAutorizaciones : ITestModule
     {
         /// <summary>
         /// Holds an instance of the CuentasMedicas_SanitasRepository repository.
         /// </summary>
         public static CuentasMedicas_SanitasRepository repo = CuentasMedicas_SanitasRepository.Instance;
 
-        static MenuAutorizaciones instance = new MenuAutorizaciones();
+        static AbrirVentanaAutorizaciones instance = new AbrirVentanaAutorizaciones();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public MenuAutorizaciones()
+        public AbrirVentanaAutorizaciones()
         {
+            FolderId = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static MenuAutorizaciones Instance
+        public static AbrirVentanaAutorizaciones Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
-        /// <summary>
-        /// Gets or sets the value of variable MenuItem.
-        /// </summary>
-        [TestVariable("aabc01ea-ec93-4de2-ab96-733731c89f7e")]
-        public string MenuItem
-        {
-            get { return repo.MenuItem; }
-            set { repo.MenuItem = value; }
-        }
+        string _FolderId;
 
         /// <summary>
-        /// Gets or sets the value of variable ItemProducto.
+        /// Gets or sets the value of variable FolderId.
         /// </summary>
-        [TestVariable("12f92637-d732-4177-a3da-8a9594b97f83")]
-        public string ItemProducto
+        [TestVariable("ec1211dd-791a-495f-8b30-b61451bf3a3d")]
+        public string FolderId
         {
-            get { return repo.ItemProducto; }
-            set { repo.ItemProducto = value; }
+            get { return _FolderId; }
+            set { _FolderId = value; }
         }
 
 #endregion
@@ -99,31 +92,24 @@ namespace CuentasMedicas_Sanitas
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.Archivo' at 22;13.", repo.MDIPrincipal.ArchivoInfo, new RecordItemIndex(0));
-            repo.MDIPrincipal.Archivo.Click("22;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.BtnImagenes_Autor' at Center.", repo.MDIPrincipal.BtnImagenes_AutorInfo, new RecordItemIndex(0));
+            repo.MDIPrincipal.BtnImagenes_Autor.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IQCuentasMedicas.CapturaAtencionesYServicios' at 77;15.", repo.IQCuentasMedicas.CapturaAtencionesYServiciosInfo, new RecordItemIndex(1));
-            repo.IQCuentasMedicas.CapturaAtencionesYServicios.Click("77;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'VisorDeImagenesIQOutsourcing.SomeContainer' at 260;127.", repo.VisorDeImagenesIQOutsourcing.SomeContainerInfo, new RecordItemIndex(1));
+            repo.VisorDeImagenesIQOutsourcing.SomeContainer.Click(System.Windows.Forms.MouseButtons.Right, "260;127");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.CboProductos' at 61;6.", repo.MDIPrincipal.CboProductosInfo, new RecordItemIndex(2));
-            repo.MDIPrincipal.CboProductos.Click("61;6");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IQCuentasMedicas.DatosImagen' at 50;8.", repo.IQCuentasMedicas.DatosImagenInfo, new RecordItemIndex(2));
+            repo.IQCuentasMedicas.DatosImagen.Click("50;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'List1000.CuentasMedicas' at 53;5.", repo.List1000.CuentasMedicasInfo, new RecordItemIndex(3));
-            repo.List1000.CuentasMedicas.Click("53;5");
+            ObtenerFolderID();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.BtIniciar' at Center.", repo.MDIPrincipal.BtIniciarInfo, new RecordItemIndex(4));
-            repo.MDIPrincipal.BtIniciar.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VisorDeImagenesIQOutsourcing.Cerrar' at Center.", repo.VisorDeImagenesIQOutsourcing.CerrarInfo, new RecordItemIndex(4));
+            repo.VisorDeImagenesIQOutsourcing.Cerrar.Click();
             Delay.Milliseconds(0);
-            
-            try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'FormHash32770.Btn_AceptarVolanteAutor' at Center.", repo.FormHash32770.Btn_AceptarVolanteAutorInfo, new RecordItemIndex(5));
-                repo.FormHash32770.Btn_AceptarVolanteAutor.Click(100);
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
         }
 

@@ -4,6 +4,50 @@
         <name>CuentasMedicas_Sanitas</name>
     </assembly>
     <members>
+        <member name="T:CuentasMedicas_Sanitas.AbrirVentanaAutorizaciones">
+             <summary>
+            The AbrirVentanaAutorizaciones recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.AbrirVentanaAutorizaciones.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AbrirVentanaAutorizaciones.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.AbrirVentanaAutorizaciones.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.AbrirVentanaAutorizaciones.FolderId">
+            <summary>
+            Gets or sets the value of variable FolderId.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AbrirVentanaAutorizaciones.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.AbrirVentanaAutorizaciones.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AbrirVentanaAutorizaciones.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.AbrirVentanaAutorizaciones.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:CuentasMedicas_Sanitas.AbrirVentanaInfo">
              <summary>
             The AbrirVentanaInfo recording.
@@ -426,6 +470,70 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:CuentasMedicas_Sanitas.ProcesoAutoFolder">
+             <summary>
+            The ProcesoAutoFolder recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.ProcesoAutoFolder.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.ProcesoAutoFolder.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutoFolder.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutoFolder.ParFolderId">
+            <summary>
+            Gets or sets the value of variable ParFolderId.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutoFolder.SolicitudID">
+            <summary>
+            Gets or sets the value of variable SolicitudID.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutoFolder.ModuloDestino">
+            <summary>
+            Gets or sets the value of variable ModuloDestino.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutoFolder.Observacion">
+            <summary>
+            Gets or sets the value of variable Observacion.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutoFolder.Causal">
+            <summary>
+            Gets or sets the value of variable Causal.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.ProcesoAutoFolder.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.ProcesoAutoFolder.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.ProcesoAutoFolder.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.ProcesoAutoFolder.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:CuentasMedicas_Sanitas.ProcesoAutorizaciones1">
              <summary>
             The ProcesoAutorizaciones1 recording.
@@ -602,6 +710,45 @@
             that will in turn invoke this method.</remarks>
         </member>
         <member name="M:CuentasMedicas_Sanitas.SalirAsociacion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.SalirAutorizaciones">
+             <summary>
+            The SalirAutorizaciones recording.
+             </summary>
+        </member>
+        <member name="F:CuentasMedicas_Sanitas.SalirAutorizaciones.repo">
+            <summary>
+            Holds an instance of the CuentasMedicas_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SalirAutorizaciones.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.SalirAutorizaciones.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SalirAutorizaciones.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.SalirAutorizaciones.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SalirAutorizaciones.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.SalirAutorizaciones.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
@@ -973,6 +1120,11 @@
             The Explorer1 folder.
             </summary>
         </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepository.VisorDeImagenesIQOutsourcing">
+            <summary>
+            The VisorDeImagenesIQOutsourcing folder.
+            </summary>
+        </member>
         <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders">
             <summary>
             Inner folder classes.
@@ -1256,6 +1408,26 @@
         <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.FilaFila1Info">
             <summary>
             The FilaFila1 item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtnImagenes_Autor">
+            <summary>
+            The BtnImagenes_Autor item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtnImagenes_AutorInfo">
+            <summary>
+            The BtnImagenes_Autor item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtSalir">
+            <summary>
+            The BtSalir item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtSalirInfo">
+            <summary>
+            The BtSalir item info.
             </summary>
         </member>
         <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Row1">
@@ -2386,6 +2558,46 @@
         <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.Explorer1AppFolder.CuentasMedicasSanitasRanorexStudioInfo">
             <summary>
             The CuentasMedicasSanitasRanorexStudio item info.
+            </summary>
+        </member>
+        <member name="T:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.VisorDeImagenesIQOutsourcingAppFolder">
+            <summary>
+            The VisorDeImagenesIQOutsourcingAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.VisorDeImagenesIQOutsourcingAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new VisorDeImagenesIQOutsourcing  folder.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.VisorDeImagenesIQOutsourcingAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.VisorDeImagenesIQOutsourcingAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.VisorDeImagenesIQOutsourcingAppFolder.SomeContainer">
+            <summary>
+            The SomeContainer item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.VisorDeImagenesIQOutsourcingAppFolder.SomeContainerInfo">
+            <summary>
+            The SomeContainer item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.VisorDeImagenesIQOutsourcingAppFolder.Cerrar">
+            <summary>
+            The Cerrar item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.VisorDeImagenesIQOutsourcingAppFolder.CerrarInfo">
+            <summary>
+            The Cerrar item info.
             </summary>
         </member>
         <member name="T:CuentasMedicas_Sanitas.Guardar">

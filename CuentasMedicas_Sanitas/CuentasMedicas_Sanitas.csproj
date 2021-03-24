@@ -123,6 +123,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbrirVentanaAutorizaciones.cs">
+      <BoundTo>a3d7f8c2-28e9-48b7-b6a0-1cb15b585c93</BoundTo>
+      <DependentUpon>AbrirVentanaAutorizaciones.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>69d6d05f-8064-4708-a82c-c4b3de818228</id>
+    </Compile>
+    <Compile Include="AbrirVentanaAutorizaciones.UserCode.cs">
+      <BoundTo>a3d7f8c2-28e9-48b7-b6a0-1cb15b585c93</BoundTo>
+      <DependentUpon>AbrirVentanaAutorizaciones.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2cd365c6-7985-4811-8f4c-9de6df9eec1a</id>
+    </Compile>
     <Compile Include="AbrirVentanaInfo.cs">
       <BoundTo>c07b50d6-ee0c-4bf8-98ff-659e38fa85ec</BoundTo>
       <DependentUpon>AbrirVentanaInfo.rxrec</DependentUpon>
@@ -222,6 +234,18 @@
       <UserCode>true</UserCode>
       <id>fb6c81e3-86c5-4b52-abc5-0a720874ed87</id>
     </Compile>
+    <Compile Include="ProcesoAutoFolder.cs">
+      <BoundTo>a820fdac-70b2-46ab-846b-70f7bf8bb85b</BoundTo>
+      <DependentUpon>ProcesoAutoFolder.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e1a8a3af-c2d1-45fe-85ae-ed0c0a3b8cb0</id>
+    </Compile>
+    <Compile Include="ProcesoAutoFolder.UserCode.cs">
+      <BoundTo>a820fdac-70b2-46ab-846b-70f7bf8bb85b</BoundTo>
+      <DependentUpon>ProcesoAutoFolder.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ab71a112-0658-4c1c-944f-8a4d4d8303d9</id>
+    </Compile>
     <Compile Include="ProcesoAutorizaciones1.cs">
       <BoundTo>daf52fc7-b017-40ec-96f9-45a7a8ead56b</BoundTo>
       <DependentUpon>ProcesoAutorizaciones1.rxrec</DependentUpon>
@@ -269,6 +293,18 @@
       <DependentUpon>SalirAsociacion.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>f7e0f9d8-4a55-4ac6-9f60-48a720eb5885</id>
+    </Compile>
+    <Compile Include="SalirAutorizaciones.cs">
+      <BoundTo>20c7d583-ea49-477b-b594-4ad017b9f1bb</BoundTo>
+      <DependentUpon>SalirAutorizaciones.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1ce8fc53-9798-46da-b8e5-8a5d4cde2080</id>
+    </Compile>
+    <Compile Include="SalirAutorizaciones.UserCode.cs">
+      <BoundTo>20c7d583-ea49-477b-b594-4ad017b9f1bb</BoundTo>
+      <DependentUpon>SalirAutorizaciones.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f0703954-7f1f-480e-8fca-3b2aa65b0efd</id>
     </Compile>
     <Compile Include="SeleccionAnexos.cs">
       <BoundTo>f2ce4bf4-85af-4e9c-840d-0907efa98639</BoundTo>
@@ -452,6 +488,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AbrirVentanaAutorizaciones.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>a3d7f8c2-28e9-48b7-b6a0-1cb15b585c93</id>
+      <recordtableid>942795be-9e67-455c-81e3-76bb83cac274</recordtableid>
+    </None>
     <None Include="AbrirVentanaInfo.rxrec">
       <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
       <id>c07b50d6-ee0c-4bf8-98ff-659e38fa85ec</id>
@@ -495,6 +536,11 @@
       <id>4da80d26-d8a5-4ed2-9b73-5459fbfd1693</id>
       <recordtableid>9916a4d7-c223-4e16-8432-3f67adc009cc</recordtableid>
     </None>
+    <None Include="ProcesoAutoFolder.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>a820fdac-70b2-46ab-846b-70f7bf8bb85b</id>
+      <recordtableid>19d09214-30a9-459a-a665-937ae8d7e095</recordtableid>
+    </None>
     <None Include="ProcesoAutorizaciones1.rxrec">
       <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
       <id>daf52fc7-b017-40ec-96f9-45a7a8ead56b</id>
@@ -514,6 +560,11 @@
       <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
       <id>1cb68869-dbc7-4f62-b737-e0bb77302ab6</id>
       <recordtableid>d82b0be0-81d2-4e75-9c47-4c30d8b3b8ec</recordtableid>
+    </None>
+    <None Include="SalirAutorizaciones.rxrec">
+      <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>
+      <id>20c7d583-ea49-477b-b594-4ad017b9f1bb</id>
+      <recordtableid>8c0046f2-032a-4541-9702-cac893157c9a</recordtableid>
     </None>
     <None Include="SeleccionAnexos.rxrec">
       <BoundTo>645ef948-b0cf-47dc-be07-319188f531fb</BoundTo>

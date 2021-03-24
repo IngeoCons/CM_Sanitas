@@ -580,6 +580,26 @@ name="CuentasMedicas_SanitasRepository">
 			searchtimeout="30000ms">
 				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']//cell[@accessiblevalue=$Nservicios]
 			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="98cd8789-8856-455c-bfad-f1d488c2789d"
+			name="BtnImagenes_Autor"
+			refimgid="242f762c-a2f7-46f6-a8b7-6e736c0f6bdf"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/container[@controlname='groupBox1']/button[@controlname='bt_Imagenes']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_Imagenes']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="8f7ce9f5-c189-4fdf-905d-5beda6b8a916"
+			name="BtSalir"
+			refimgid="0bd9bb37-9a9c-4302-9fc3-8bf13cb60198"
+			refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/container[@controlname='groupBox1']/button[@controlname='bt_Salir']"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_Salir']
+			</item>
 			<basepath>
 				/form[@controlname='MDIPrincipal']
 			</basepath>
@@ -1611,6 +1631,50 @@ MBgMBoN4AINNIhaCiXbwFCYjg5T4UyGqxCN4gEOjt7lDew33JL/lO9/XuxTaeThgIhvLwEEmWktP
 YINp7lNs/37kPAKT+E6Wb7dF3jvpXkN+N9tMdW2Sl4bS97k6dYBejTrAU5U6wGOFQm+xoTV/KoU7
 8g14KFMozAKaE18p3JFvwL1FIekgiXwD7koUzPEtJs9VHegWKeQHXkyeqzpwbVDI9d2YPFd10Q/9
 i9FdUYhGcVSdRoAPUdlLBd+8Ak0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="e09d39f2-9810-4786-bf01-f4b83f33abb8"
+		isrooted="True"
+		name="VisorDeImagenesIQOutsourcing"
+		refpath="/form[@controlname='Visor de Imagenes IQ Outsourcing.']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="27c919d2-f736-43f7-8e83-892bf1bfe30c"
+			name="SomeContainer"
+			refimgid="d8755757-17af-4061-aeac-19062e370029"
+			refpath="/form[@controlname='Visor de Imagenes IQ Outsourcing.']/container/container[@controlname='panel2']/element/container/container/container[@controlname='panel2']/container/container[@controlname='']"
+			searchtimeout="30000ms">
+				/form[@controlname='Visor de Imagenes IQ Outsourcing.']/container[@controlname='sc']/container[@controlname='panel2']//container[@caption='' and @controltypename='SplitterPanel' and @instance='0']/?/?/container[@controlname='']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="f09251ca-0ce9-4a15-959e-ac4cfb649b78"
+			name="Cerrar"
+			refimgid="90a124b8-03a3-45c1-a66d-149e5467f98c"
+			refpath="/form[@controlname='Visor de Imagenes IQ Outsourcing.']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Cerrar']"
+			searchtimeout="30000ms">
+				/form[@controlname='Visor de Imagenes IQ Outsourcing.']/?/?/button[@accessiblename='Cerrar']
+			</item>
+			<basepath>
+				/form[@controlname='Visor de Imagenes IQ Outsourcing.']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGWSURBVDhPY6AZePbsdbGMjMd/eXnv/yD6w4dP
+/6FS+MG2bYfBmuBYzvu/b/H0/wYzT/w3sU75X1MzBbdB0/bH/ZcDagBpdJ20+7/BgvNYsenC85iG
+nLvz6v/cE7ZA53ph1QTCdRs2/FfJXP5fJWv5/6YVp1ENUcpYATZg3gk7DI2fNmugYJABIAzVysDw
+7t1//qL5M8AGgDBMo9nii2BFX09koRjwdac12IB3n78fARugnLnsv3XVcrgB+gsu/LdfdgnFiV/2
+uKIYguIKJaABIA7MABAGS6ABZAOUoGEBllDNhnCQDZhz3BrFEH2Luv/qhpVwAzr6Cv4rAw0BS/77
+948bZEBA50w0Q6zAClT0y8GakQ14vTvy/6VLDwXBBoAAyAB0V8w9aQPXCMP31/mBDVDOWonqzQ9f
+vvcrAw1Qy17xX9O4GkMjDMvIeoENuPboHaoBIOATUIVVEwjbOpXCk/fxFVGYmmHgzZt3+fLyPv/V
+NKP/GxnHIvIEFJ89e6UQqpQw0NAIAudENbXA/0DAAxVGAgwMAHHTgrlUlPwcAAAAAElFTkSuQmCC
 			</icon>
 		</appfolder>
 		<basepath>
