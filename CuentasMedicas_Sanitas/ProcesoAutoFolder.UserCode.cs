@@ -36,32 +36,35 @@ namespace CuentasMedicas_Sanitas
 		public void CargaDatos()
 		{
 			string folderid=ParFolderId;
+			string atencionactual= repo.MDIPrincipal.IDAtencionFila0.Text;
+			
 			if (SolicitudID==folderid){
-				
-
-				Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormHash32770.Btn_AceptarVolanteAutor' at Center.", repo.FormHash32770.Btn_AceptarVolanteAutorInfo, new RecordItemIndex(0));
-				repo.FormHash32770.Btn_AceptarVolanteAutor.Click();
-				Delay.Milliseconds(0);
-				
-				Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Causal' with focus on 'MDIPrincipal.Lbl_CausalAutorizaciones'.", repo.MDIPrincipal.Lbl_CausalAutorizacionesInfo, new RecordItemIndex(1));
-				repo.MDIPrincipal.Lbl_CausalAutorizaciones.PressKeys(Causal);
-				Delay.Milliseconds(0);
-				
-				Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$ModuloDestino' with focus on 'MDIPrincipal.Lbl_ModuloDestinoAutorizaciones'.", repo.MDIPrincipal.Lbl_ModuloDestinoAutorizacionesInfo, new RecordItemIndex(2));
-				repo.MDIPrincipal.Lbl_ModuloDestinoAutorizaciones.PressKeys(ModuloDestino);
-				Delay.Milliseconds(0);
-				
-				Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Observacion' with focus on 'MDIPrincipal.Txt_ObservacionAutorizaciones'.", repo.MDIPrincipal.Txt_ObservacionAutorizacionesInfo, new RecordItemIndex(3));
-				repo.MDIPrincipal.Txt_ObservacionAutorizaciones.PressKeys(Observacion);
-				Delay.Milliseconds(0);
-				
-				Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.Btn_AignarAutorizaciones' at Center.", repo.MDIPrincipal.Btn_AignarAutorizacionesInfo, new RecordItemIndex(4));
-				repo.MDIPrincipal.Btn_AignarAutorizaciones.Click();
-				Delay.Milliseconds(0);
-				
-				Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormHash32770.Btn_AceptarVolanteAutor' at Center.", repo.FormHash32770.Btn_AceptarVolanteAutorInfo, new RecordItemIndex(5));
-				repo.FormHash32770.Btn_AceptarVolanteAutor.Click();
-				Delay.Milliseconds(0);
+				if(atencionactual==IDAtencion)
+				{
+					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormHash32770.Btn_AceptarVolanteAutor' at Center.", repo.FormHash32770.Btn_AceptarVolanteAutorInfo, new RecordItemIndex(0));
+					repo.FormHash32770.Btn_AceptarVolanteAutor.Click();
+					Delay.Milliseconds(0);
+					
+					Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Causal' with focus on 'MDIPrincipal.Lbl_CausalAutorizaciones'.", repo.MDIPrincipal.Lbl_CausalAutorizacionesInfo, new RecordItemIndex(1));
+					repo.MDIPrincipal.Lbl_CausalAutorizaciones.PressKeys(Causal);
+					Delay.Milliseconds(0);
+					
+					Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$ModuloDestino' with focus on 'MDIPrincipal.Lbl_ModuloDestinoAutorizaciones'.", repo.MDIPrincipal.Lbl_ModuloDestinoAutorizacionesInfo, new RecordItemIndex(2));
+					repo.MDIPrincipal.Lbl_ModuloDestinoAutorizaciones.PressKeys(ModuloDestino);
+					Delay.Milliseconds(0);
+					
+					Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Observacion' with focus on 'MDIPrincipal.Txt_ObservacionAutorizaciones'.", repo.MDIPrincipal.Txt_ObservacionAutorizacionesInfo, new RecordItemIndex(3));
+					repo.MDIPrincipal.Txt_ObservacionAutorizaciones.PressKeys(Observacion);
+					Delay.Milliseconds(0);
+					
+					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.Btn_AignarAutorizaciones' at Center.", repo.MDIPrincipal.Btn_AignarAutorizacionesInfo, new RecordItemIndex(4));
+					repo.MDIPrincipal.Btn_AignarAutorizaciones.Click();
+					Delay.Milliseconds(0);
+					
+					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormHash32770.Btn_AceptarVolanteAutor' at Center.", repo.FormHash32770.Btn_AceptarVolanteAutorInfo, new RecordItemIndex(5));
+					repo.FormHash32770.Btn_AceptarVolanteAutor.Click();
+					Delay.Milliseconds(0);
+				}
 				
 			}
 		}

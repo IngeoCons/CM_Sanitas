@@ -432,6 +432,7 @@ namespace CuentasMedicas_Sanitas
             RepoItemInfo _filafila1Info;
             RepoItemInfo _btnimagenes_autorInfo;
             RepoItemInfo _btsalirInfo;
+            RepoItemInfo _idatencionfila0Info;
 
             /// <summary>
             /// Creates a new MDIPrincipal  folder.
@@ -471,6 +472,7 @@ namespace CuentasMedicas_Sanitas
                 _filafila1Info = new RepoItemInfo(this, "FilaFila1", "?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']//table[@controlname='dgvServicios']//cell[@accessiblevalue=$Nservicios]", 30000, null, "1e75736d-e1f6-4b40-bdeb-d6288352bc46");
                 _btnimagenes_autorInfo = new RepoItemInfo(this, "BtnImagenes_Autor", "?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_Imagenes']", 30000, null, "98cd8789-8856-455c-bfad-f1d488c2789d");
                 _btsalirInfo = new RepoItemInfo(this, "BtSalir", "?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_Salir']", 30000, null, "8f7ce9f5-c189-4fdf-905d-5beda6b8a916");
+                _idatencionfila0Info = new RepoItemInfo(this, "IDAtencionFila0", "?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer1']//table[@controlname='dgvAtenciones']///cell[@accessiblename='ID Atencion Fila 0']", 30000, null, "20189e09-711a-417f-a868-3549f2d50341");
             }
 
             /// <summary>
@@ -1166,6 +1168,30 @@ namespace CuentasMedicas_Sanitas
                 get
                 {
                     return _btsalirInfo;
+                }
+            }
+
+            /// <summary>
+            /// The IDAtencionFila0 item.
+            /// </summary>
+            [RepositoryItem("20189e09-711a-417f-a868-3549f2d50341")]
+            public virtual Ranorex.Cell IDAtencionFila0
+            {
+                get
+                {
+                    return _idatencionfila0Info.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IDAtencionFila0 item info.
+            /// </summary>
+            [RepositoryItemInfo("20189e09-711a-417f-a868-3549f2d50341")]
+            public virtual RepoItemInfo IDAtencionFila0Info
+            {
+                get
+                {
+                    return _idatencionfila0Info;
                 }
             }
 

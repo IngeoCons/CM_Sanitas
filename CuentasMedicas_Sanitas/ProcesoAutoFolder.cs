@@ -46,6 +46,8 @@ namespace CuentasMedicas_Sanitas
             Causal = "";
             ModuloDestino = "";
             Observacion = "";
+            IDAtencion = "";
+            IDAtencionOriginal = "";
         }
 
         /// <summary>
@@ -104,6 +106,30 @@ namespace CuentasMedicas_Sanitas
         {
             get { return _Observacion; }
             set { _Observacion = value; }
+        }
+
+        string _IDAtencion;
+
+        /// <summary>
+        /// Gets or sets the value of variable IDAtencion.
+        /// </summary>
+        [TestVariable("9d1f08a1-86f7-461b-afca-ed3a6043fd88")]
+        public string IDAtencion
+        {
+            get { return _IDAtencion; }
+            set { _IDAtencion = value; }
+        }
+
+        string _IDAtencionOriginal;
+
+        /// <summary>
+        /// Gets or sets the value of variable IDAtencionOriginal.
+        /// </summary>
+        [TestVariable("29cfc9fb-3b63-4986-9e49-80ce1205bedc")]
+        public string IDAtencionOriginal
+        {
+            get { return _IDAtencionOriginal; }
+            set { _IDAtencionOriginal = value; }
         }
 
         /// <summary>

@@ -43,6 +43,14 @@ mode="Global">
 		id="c36fd7f0-3e4e-46d5-a667-9cda5d14edb1"
 		name="Observacion">
 		</var>
+		<var
+		id="9d1f08a1-86f7-461b-afca-ed3a6043fd88"
+		name="IDAtencion">
+		</var>
+		<var
+		id="29cfc9fb-3b63-4986-9e49-80ce1205bedc"
+		name="IDAtencionOriginal">
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem

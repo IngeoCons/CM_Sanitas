@@ -600,6 +600,15 @@ name="CuentasMedicas_SanitasRepository">
 			searchtimeout="30000ms">
 				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel2']/?/?/button[@controlname='bt_Salir']
 			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="20189e09-711a-417f-a868-3549f2d50341"
+			name="IDAtencionFila0"
+			refimgid="96351767-2eb8-4c38-8642-57eb50413e28"
+			searchtimeout="30000ms">
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmAuditoriaI']/container[@controlname='panel3']/container[@controlname='splitContainer1']//table[@controlname='dgvAtenciones']///cell[@accessiblename='ID Atencion Fila 0']
+			</item>
 			<basepath>
 				/form[@controlname='MDIPrincipal']
 			</basepath>

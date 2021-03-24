@@ -543,20 +543,6 @@
 			name="MenuAutorizaciones"
 			ref="9916a4d7-c223-4e16-8432-3f67adc009cc"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="ItemProducto"
-					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
-					variableid="12f92637-d732-4177-a3da-8a9594b97f83"
-					variablename="ItemProducto">
-					</var>
-					<var
-					dataname="MenuItem"
-					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
-					variableid="aabc01ea-ec93-4de2-ab96-733731c89f7e"
-					variablename="MenuItem">
-					</var>
-				</databinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -1035,14 +1021,6 @@
 			name="ProcesoAutorizaciones1"
 			ref="7e8fc83c-9ea9-4946-bdd0-9c1f9a47600e"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="ModuloDestino"
-					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
-					variableid="4e4c8165-9d43-4ed6-a69c-13d1199c34f9"
-					variablename="ModuloDestino">
-					</var>
-				</databinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="Causal"
@@ -1092,6 +1070,12 @@
 					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
 					variableid="c36fd7f0-3e4e-46d5-a667-9cda5d14edb1"
 					variablename="Observacion">
+					</var>
+					<var
+					dataname="IDAtencion"
+					datasourceid="9f03242a-a144-4063-8d9b-e48855b50330"
+					variableid="9d1f08a1-86f7-461b-afca-ed3a6043fd88"
+					variablename="IDAtencion">
 					</var>
 				</databinding>
 			</testmodule>
@@ -2033,6 +2017,9 @@
 			<lastknowncolumns>
 				<column>
 					SolicitudId
+				</column>
+				<column>
+					IDAtencion
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
