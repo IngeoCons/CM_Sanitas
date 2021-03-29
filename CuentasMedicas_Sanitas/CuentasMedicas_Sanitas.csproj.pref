@@ -4,22 +4,21 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="CargaServSinHomologar.UserCode.cs" />
-    <Element value="CargaServiciosMasiva.UserCode.cs" />
     <Element value="CuentasMedicas_Sanitas.rxtst" />
-    <Element value="CargaServiciosMasiva.rxrec" />
+    <Element value="ProcesoAutoFolder.rxrec" />
+    <Element value="ProcesoAutoFolder.UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="CuentasMedicas_Sanitas.AbrirVentanaAutorizaciones.ObtenerFolderID()" />
+      <Element value="CuentasMedicas_Sanitas.RecorrerFolderAuto.ObetenerSolicitud()" />
+      <Element value="CuentasMedicas_Sanitas.ProcesoAuto.CargaDatos()" />
+      <Element value="CuentasMedicas_Sanitas.ProcesoAuto.ObetnerSolicitud()" />
       <Element value="CuentasMedicas_Sanitas.CargaAtencionFolder.CargaDatos()" />
       <Element value="CuentasMedicas_Sanitas.AbrirVentanaInfo.ObtenerFolderID()" />
-      <Element value="CuentasMedicas_Sanitas.SeleccionNroIdentificacion.SeleccionIdentificacion()" />
-      <Element value="CuentasMedicas_Sanitas.CargaServiciosMasiva.CargaServicios()" />
-      <Element value="JmeterRanorexPlugin.JmeterPluginC.RestartReportRecord()" />
-      <Element value="JmeterRanorexPlugin.JmeterPluginC.AddReportResult_ThreadsStateOverTime()" />
     </Array>
   </Properties>
 </Properties>

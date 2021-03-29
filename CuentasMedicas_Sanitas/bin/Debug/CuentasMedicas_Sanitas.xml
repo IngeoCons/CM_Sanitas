@@ -510,6 +510,16 @@
             Gets or sets the value of variable Observacion.
             </summary>
         </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutoFolder.IDAtencion">
+            <summary>
+            Gets or sets the value of variable IDAtencion.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.ProcesoAutoFolder.IDAtencionOriginal">
+            <summary>
+            Gets or sets the value of variable IDAtencionOriginal.
+            </summary>
+        </member>
         <member name="P:CuentasMedicas_Sanitas.ProcesoAutoFolder.Causal">
             <summary>
             Gets or sets the value of variable Causal.
@@ -1428,6 +1438,16 @@
         <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.BtSalirInfo">
             <summary>
             The BtSalir item info.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.IDAtencionFila0">
+            <summary>
+            The IDAtencionFila0 item.
+            </summary>
+        </member>
+        <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.IDAtencionFila0Info">
+            <summary>
+            The IDAtencionFila0 item info.
             </summary>
         </member>
         <member name="P:CuentasMedicas_Sanitas.CuentasMedicas_SanitasRepositoryFolders.MDIPrincipalAppFolder.Row1">
