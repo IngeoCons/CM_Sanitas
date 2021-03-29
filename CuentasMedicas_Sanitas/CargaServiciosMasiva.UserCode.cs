@@ -57,15 +57,15 @@ namespace CuentasMedicas_Sanitas
 					Delay.Milliseconds(0);
 					
 					if(DescripcionServ!="") {
-					
-					Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'yourtext' with focus on 'MDIPrincipal.Panel1.Descripcion'.", repo.MDIPrincipal.DescripcionInfo, new RecordItemIndex(3));
-					repo.MDIPrincipal.Descripcion.Click();
-					Delay.Milliseconds(0);
-					
-					Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'yourtext' with focus on 'MDIPrincipal.Panel1.Descripcion'.", repo.MDIPrincipal, new RecordItemIndex(3));
-					Keyboard.Press(DescripcionServ);
-					Delay.Milliseconds(0);
-					
+						
+						Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'yourtext' with focus on 'MDIPrincipal.Panel1.Descripcion'.", repo.MDIPrincipal.DescripcionInfo, new RecordItemIndex(3));
+						repo.MDIPrincipal.Descripcion.Click();
+						Delay.Milliseconds(0);
+						
+						Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'yourtext' with focus on 'MDIPrincipal.Panel1.Descripcion'.", repo.MDIPrincipal, new RecordItemIndex(3));
+						Keyboard.Press(DescripcionServ);
+						Delay.Milliseconds(0);
+						
 					}
 					
 					Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}'.", new RecordItemIndex(2));
@@ -87,6 +87,17 @@ namespace CuentasMedicas_Sanitas
 					Keyboard.Press("{Tab}");
 					Delay.Milliseconds(0);
 					
+					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.BtnGuardar' at Center.", repo.MDIPrincipal.BtnGuardarInfo, new RecordItemIndex(0));
+					repo.MDIPrincipal.BtnGuardar.Click();
+					Delay.Milliseconds(0);
+					
+//					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.BtnTerminar' at Center.", repo.MDIPrincipal.BtnTerminarInfo, new RecordItemIndex(0));
+//					repo.MDIPrincipal.BtnTerminar.Click();
+//					Delay.Milliseconds(0);
+//					
+//					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CapturaAtencionesServiciosApp.ButtonSi' at Center.", repo.CapturaAtencionesServiciosApp.ButtonSiInfo, new RecordItemIndex(1));
+//					repo.CapturaAtencionesServiciosApp.ButtonSi.Click();
+//					Delay.Milliseconds(0);
 					
 				}
 			}

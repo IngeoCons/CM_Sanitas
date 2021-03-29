@@ -62,6 +62,9 @@
 			name="CargaAtencion"
 			ref="502983f3-0571-4c9b-a2be-4f3ff5603381"
 			type="Recording">
+				<description>
+					<![CDATA[Carga Atención Sin Código]]>
+				</description>
 				<databinding>
 					<var
 					dataname="NroIdentificacion"
@@ -189,6 +192,9 @@
 			name="AbrirVentanaInfo"
 			ref="ed6634a9-ba06-46f4-a900-850ff6605bfc"
 			type="Recording">
+				<description>
+					<![CDATA[Código Con FolderID]]>
+				</description>
 				<databinding>
 					<var
 					dataname="ParFolderId"
@@ -394,6 +400,9 @@
 			name="CargaAtencionFolder"
 			ref="68f69d69-81e5-4aee-bf2c-ccb6070f8639"
 			type="Recording">
+				<description>
+					<![CDATA[Código Con FolderID]]>
+				</description>
 				<databinding>
 					<var
 					dataname="ParFolderId"
@@ -543,20 +552,6 @@
 			name="MenuAutorizaciones"
 			ref="9916a4d7-c223-4e16-8432-3f67adc009cc"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="ItemProducto"
-					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
-					variableid="12f92637-d732-4177-a3da-8a9594b97f83"
-					variablename="ItemProducto">
-					</var>
-					<var
-					dataname="MenuItem"
-					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
-					variableid="aabc01ea-ec93-4de2-ab96-733731c89f7e"
-					variablename="MenuItem">
-					</var>
-				</databinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -720,6 +715,21 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
+			id="813b4765-51f2-478c-8449-3397b5cb1b7d"
+			name="StartAUT"
+			ref="db372c21-4ea0-4383-b71e-f022d5f41bb7"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8c5c44aa-a50a-41f2-aa88-4132543d9a40"
+					variableid="e8e667c8-a215-47ac-a075-62f5ee5a463c"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="825b32fc-9523-4000-8236-2dcb924ef370"
 			name="Homologacion"
 			ref="6e8c6e24-d1c2-497a-9fea-5d0ea2d9ae5d"
@@ -856,11 +866,22 @@
 			</testcase>
 			<testmodule
 			enabled="False"
+			id="a8bb5e4c-87d2-49e2-9dad-ebe8c4dc8920"
+			name="Login"
+			ref="97cdd182-db0f-4f23-ba4c-48c854c5ba8a"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			enabled="False"
 			id="accf8bfd-0b31-4658-88d3-c0a270672b52"
 			name="Login"
 			ref="97cdd182-db0f-4f23-ba4c-48c854c5ba8a"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="ae3aa8e8-5909-47ec-8e97-fc3fc7913662"
+			name="Test_Case_Login">
+			</testcase>
 			<teardown
 			id="af71c120-3dde-4fda-9d06-dc19f38cd1a0"
 			name="teardown">
@@ -930,7 +951,6 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="bba0a8bf-efe0-49bf-bc61-fa18c1b6e195"
 			name="Salir"
 			ref="561441a8-41d8-4e65-9b95-e53ce9738560"
@@ -1035,14 +1055,6 @@
 			name="ProcesoAutorizaciones1"
 			ref="7e8fc83c-9ea9-4946-bdd0-9c1f9a47600e"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="ModuloDestino"
-					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
-					variableid="4e4c8165-9d43-4ed6-a69c-13d1199c34f9"
-					variablename="ModuloDestino">
-					</var>
-				</databinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="Causal"
@@ -1092,6 +1104,12 @@
 					datasourceid="ba80ada9-9562-4426-8957-a3993cd5df40"
 					variableid="c36fd7f0-3e4e-46d5-a667-9cda5d14edb1"
 					variablename="Observacion">
+					</var>
+					<var
+					dataname="IDAtencion"
+					datasourceid="9f03242a-a144-4063-8d9b-e48855b50330"
+					variableid="9d1f08a1-86f7-461b-afca-ed3a6043fd88"
+					variablename="IDAtencion">
 					</var>
 				</databinding>
 			</testmodule>
@@ -1215,6 +1233,10 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<setup
+			id="e35a8f0a-0b1b-4a3e-a479-c8b6aa36a114"
+			name="setup">
+			</setup>
 			<teardown
 			id="e48b3018-361b-4dfc-80e4-19dde7c5ab39"
 			name="teardown">
@@ -1392,6 +1414,22 @@
 				<testcase
 				id="8c5c44aa-a50a-41f2-aa88-4132543d9a40"
 				name="CuentasMedicas_Sanitas">
+					<testcase
+					id="ae3aa8e8-5909-47ec-8e97-fc3fc7913662"
+					name="Test_Case_Login">
+						<setup
+						id="e35a8f0a-0b1b-4a3e-a479-c8b6aa36a114"
+						name="setup">
+							<testmodule
+							id="813b4765-51f2-478c-8449-3397b5cb1b7d"
+							name="StartAUT">
+							</testmodule>
+							<testmodule
+							id="a8bb5e4c-87d2-49e2-9dad-ebe8c4dc8920"
+							name="Login">
+							</testmodule>
+						</setup>
+					</testcase>
 					<testcase
 					id="4a07a123-d5ca-46d8-bd65-e5132beb3588"
 					name="TestCase_01">
@@ -1790,7 +1828,7 @@
 		filename="..\..\..\DataSource\Autorizaciones.xlsx"
 		id="ba80ada9-9562-4426-8957-a3993cd5df40"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="2"
 		name="Autorizaciones"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -1898,7 +1936,7 @@
 		filename="..\..\..\DataSource\MóduloCas.xlsx"
 		id="14ba5720-10cd-4128-9a02-e50219d7a4d9"
 		includefile="Unchecked"
-		lastknownrowcount="19"
+		lastknownrowcount="30"
 		name="DataSourceServicios"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja3"
@@ -1947,7 +1985,7 @@
 		filename="..\..\..\DataSource\MóduloCas.xlsx"
 		id="79b6a6d3-c198-4530-a52d-8e03267584ea"
 		includefile="Unchecked"
-		lastknownrowcount="5"
+		lastknownrowcount="30"
 		name="ModuloCAS"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja2"
@@ -1969,10 +2007,10 @@
 					ValorBruto
 				</column>
 				<column>
-					MenuItem
+					Subproducto
 				</column>
 				<column>
-					Subproducto
+					MenuItem
 				</column>
 				<column>
 					SolicitudId
@@ -2034,6 +2072,9 @@
 				<column>
 					SolicitudId
 				</column>
+				<column>
+					IDAtencion
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
@@ -2044,13 +2085,16 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="507f2763-f0ad-4de9-8670-72e9875faa49">
-			</testcontainer>
-			<testcontainer
-			id="5935acc1-b6a5-453a-997f-b487397c0aeb">
+			id="85efe8a5-54e7-4488-a775-fbabf8a3b88d">
 			</testcontainer>
 			<testcontainer
 			id="8c5c44aa-a50a-41f2-aa88-4132543d9a40">
+			</testcontainer>
+			<testcontainer
+			id="99786b1b-0182-4d56-bd18-9de58a8ed0e5">
+			</testcontainer>
+			<testcontainer
+			id="ae3aa8e8-5909-47ec-8e97-fc3fc7913662">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

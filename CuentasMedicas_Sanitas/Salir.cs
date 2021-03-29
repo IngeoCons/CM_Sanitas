@@ -79,11 +79,14 @@ namespace CuentasMedicas_Sanitas
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.BtnTerminar' at Center.", repo.MDIPrincipal.BtnTerminarInfo, new RecordItemIndex(0));
-            repo.MDIPrincipal.BtnTerminar.Click();
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(0));
+            //Delay.Duration(30000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'MDIPrincipal.BtnTerminar' at Center.", repo.MDIPrincipal.BtnTerminarInfo, new RecordItemIndex(1));
+            repo.MDIPrincipal.BtnTerminar.DoubleClick();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CapturaAtencionesServiciosApp.ButtonSi' at Center.", repo.CapturaAtencionesServiciosApp.ButtonSiInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CapturaAtencionesServiciosApp.ButtonSi' at Center.", repo.CapturaAtencionesServiciosApp.ButtonSiInfo, new RecordItemIndex(2));
             repo.CapturaAtencionesServiciosApp.ButtonSi.Click();
             Delay.Milliseconds(0);
             

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<Properties>
   <Array name="active">
     <Element value="SeleccionAnexos.rxrec" />
@@ -25,4 +26,29 @@
       <Element value="JmeterRanorexPlugin.JmeterPluginC.AddReportResult_ThreadsStateOverTime()" />
     </Array>
   </Properties>
+=======
+﻿<Properties>
+  <Array name="active">
+    <Element value="CuentasMedicas_Sanitas.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="CuentasMedicas_Sanitas.rxtst" />
+    <Element value="ProcesoAutoFolder.rxrec" />
+    <Element value="ProcesoAutoFolder.UserCode.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="CuentasMedicas_Sanitas.AbrirVentanaAutorizaciones.ObtenerFolderID()" />
+      <Element value="CuentasMedicas_Sanitas.RecorrerFolderAuto.ObetenerSolicitud()" />
+      <Element value="CuentasMedicas_Sanitas.ProcesoAuto.CargaDatos()" />
+      <Element value="CuentasMedicas_Sanitas.ProcesoAuto.ObetnerSolicitud()" />
+      <Element value="CuentasMedicas_Sanitas.CargaAtencionFolder.CargaDatos()" />
+      <Element value="CuentasMedicas_Sanitas.AbrirVentanaInfo.ObtenerFolderID()" />
+    </Array>
+  </Properties>
+>>>>>>> ad30f5fe623b09d8a06a261825392f86af289749
 </Properties>
