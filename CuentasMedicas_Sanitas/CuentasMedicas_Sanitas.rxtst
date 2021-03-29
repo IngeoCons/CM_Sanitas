@@ -1774,7 +1774,7 @@
 		filename=".\..\.\\DataSource\Autorizaciones.xlsx"
 		id="ba80ada9-9562-4426-8957-a3993cd5df40"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="2"
 		name="Autorizaciones"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"

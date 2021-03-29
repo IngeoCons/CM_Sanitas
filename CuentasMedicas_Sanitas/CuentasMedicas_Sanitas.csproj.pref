@@ -1,13 +1,16 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="CuentasMedicas_Sanitas.rxtst" />
+    <Element value="SeleccionAnexos.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="SeleccionAnexos.rxrec" />
+    <Element value="ProcesoAutoFolder.UserCode.cs" />
     <Element value="CargaServSinHomologar.UserCode.cs" />
     <Element value="CargaServiciosMasiva.UserCode.cs" />
     <Element value="CuentasMedicas_Sanitas.rxtst" />
     <Element value="CargaServiciosMasiva.rxrec" />
+    <Element value="ProcesoAutoFolder.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
