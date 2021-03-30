@@ -87,9 +87,9 @@ namespace CuentasMedicas_Sanitas
 					Keyboard.Press("{Tab}");
 					Delay.Milliseconds(0);
 					
-//					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.BtnGuardar' at Center.", repo.MDIPrincipal.BtnGuardarInfo, new RecordItemIndex(0));
-//					repo.MDIPrincipal.BtnGuardar.Click();
-//					Delay.Milliseconds(0);
+					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.BtnGuardar' at Center.", repo.MDIPrincipal.BtnGuardarInfo, new RecordItemIndex(0));
+					repo.MDIPrincipal.BtnGuardar.Click();
+					Delay.Milliseconds(0);
 					
 //					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.BtnTerminar' at Center.", repo.MDIPrincipal.BtnTerminarInfo, new RecordItemIndex(0));
 //					repo.MDIPrincipal.BtnTerminar.Click();

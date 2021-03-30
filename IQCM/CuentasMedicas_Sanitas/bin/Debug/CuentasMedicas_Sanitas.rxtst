@@ -868,14 +868,14 @@
 			name="Login"
 			ref="97cdd182-db0f-4f23-ba4c-48c854c5ba8a"
 			type="Recording">
-				<missingdatavariablesbinding>
+				<databinding>
 					<var
 					dataname="Usuario"
 					datasourceid="8f96f47e-a4d3-4a1b-98a2-4119ecf3319e"
 					variableid="02068759-872b-4a91-899d-96468150f554"
 					variablename="Usuario">
 					</var>
-				</missingdatavariablesbinding>
+				</databinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
