@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="28.26s"
+		durationms="28262"
+		type="root"
+		rid="1ad3b8a3274698eb"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="03/12/2021 11:32:07 AM"
+		timestampiso="2021-03-12T16:32:07"
+		endtime="03/12/2021 11:32:36 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.633"
+			timeRelativeToTestModuleStartTime="00:04.633"
+			timeWallClock="11:32:12"
+			time="00:04.633"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>MenuItem
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.651"
+			timeRelativeToTestModuleStartTime="00:04.651"
+			timeWallClock="11:32:12"
+			time="00:04.651"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.Archivo' at 17;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/menuitem[@accessiblename='Archivo']"
+				itempath="?/?/menuitem[@accessiblename='Archivo']"
+				fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Archivo"
+				id="baf53eed76474e628f9c8343162e3fd2"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.262"
+			timeRelativeToTestModuleStartTime="00:09.262"
+			timeWallClock="11:32:17"
+			time="00:09.262"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'IQCuentasMedicas.CapturaAtencionesYServicios' at 78;79.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='IQ.CuentasMedicas']/menuitem[@accessiblename='Captura Atenciones y Servicios']"
+				itempath="menuitem[@accessiblename=$MenuItem]"
+				fullname="CuentasMedicas_SanitasRepository.IQCuentasMedicas.CapturaAtencionesYServicios"
+				id="4de552e53b5a4214bc21c356990f19bd"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.260"
+			timeRelativeToTestModuleStartTime="00:28.260"
+			timeWallClock="11:32:36"
+			time="00:28.260"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

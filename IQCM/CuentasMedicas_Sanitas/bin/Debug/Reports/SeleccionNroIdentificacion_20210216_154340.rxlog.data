@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.74s"
+		durationms="13742"
+		type="root"
+		rid="df0add4ac1d6580"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="02/16/2021 3:43:45 PM"
+		timestampiso="2021-02-16T20:43:45"
+		endtime="02/16/2021 3:43:58 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SeleccionNroIdentificacion">
+		<detail>
+			SeleccionNroIdentificacion
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.177"
+			timeRelativeToTestModuleStartTime="00:06.177"
+			timeWallClock="15:43:51"
+			time="00:06.177"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>IdAnexoOriginal, IdAnexo, NroIdentificacion
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.205"
+			timeRelativeToTestModuleStartTime="00:06.205"
+			timeWallClock="15:43:51"
+			time="00:06.205"
+			level="Info"
+			category="info">
+			<message>
+				seleccionando nroidentificacion
+			</message>
+			<metainfo
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\SeleccionNroIdentificacion.UserCode.cs"
+				codeline="40"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.771"
+			timeRelativeToTestModuleStartTime="00:11.771"
+			timeWallClock="15:43:56"
+			time="00:11.771"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'IQ.CuentasMedicas' (pid 17436)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\SeleccionNroIdentificacion.UserCode.cs"
+				codeline="45"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.741"
+			timeRelativeToTestModuleStartTime="00:13.741"
+			timeWallClock="15:43:58"
+			time="00:13.741"
+			level="Info"
+			category="info">
+			<message>
+				Seleccion identificacion: 51876614
+			</message>
+			<metainfo
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\SeleccionNroIdentificacion.UserCode.cs"
+				codeline="49"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

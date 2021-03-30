@@ -1,0 +1,871 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="51.35s"
+		durationms="51352"
+		type="root"
+		rid="15e8bf9dd37fa290"
+		totalerrorcount="0"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="01/28/2021 6:04:50 PM"
+		timestampiso="2021-01-28T23:04:50"
+		endtime="01/28/2021 6:05:42 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="45.53s"
+			durationms="45534"
+			type="test-suite"
+			rid="2339964df4d8ee"
+			totalerrorcount="0"
+			totalwarningcount="3"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="CuentasMedicas_Sanitas"
+			headertext="CuentasMedicas_Sanitas"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Success"
+				duration="45.51s"
+				durationms="45511"
+				type="test-case"
+				rid="1acae9ed3b88f9d0"
+				totalerrorcount="0"
+				totalwarningcount="3"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="3"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase_01"
+				testcontainerid="4a07a123-d5ca-46d8-bd65-e5132beb3588"
+				headertext="TestCase_01"
+				displayName="TestCase_01"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="16.49s"
+					durationms="16487"
+					type="test-module"
+					rid="b0af0d443523f20"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Menu"
+					displayName="Menu"
+					moduleid="f4011883-0f97-4123-8a92-e364958670f0"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.046"
+						timeRelativeToTestModuleStartTime="00:00.007"
+						timeWallClock="18:04:56"
+						time="00:00.046"
+						level="Warn"
+						category="Data">
+						<message>
+							The following module variables are not bound to a data column:<br/>MenuItem, ItemProducto
+						</message>
+						<metainfo
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.085"
+						timeRelativeToTestModuleStartTime="00:00.046"
+						timeWallClock="18:04:56"
+						time="00:00.085"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MDIPrincipal.Archivo' at 22;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/menuitem[@accessiblename='Archivo']"
+							itempath="?/?/menuitem[@accessiblename='Archivo']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Archivo"
+							id="baf53eed76474e628f9c8343162e3fd2"
+							timeout="60000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Menu.cs"
+							codeline="102"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.999"
+						timeRelativeToTestModuleStartTime="00:06.960"
+						timeWallClock="18:05:03"
+						time="00:06.999"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'IQCuentasMedicas.CapturaAtencionesYServicios' at 77;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='IQ.CuentasMedicas']/menuitem[@accessiblename='Captura Atenciones y Servicios']"
+							itempath="menuitem[@accessiblename=$MenuItem]"
+							fullname="CuentasMedicas_SanitasRepository.IQCuentasMedicas.CapturaAtencionesYServicios"
+							id="4de552e53b5a4214bc21c356990f19bd"
+							timeout="60000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Menu.cs"
+							codeline="106"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.195"
+						timeRelativeToTestModuleStartTime="00:08.157"
+						timeWallClock="18:05:04"
+						time="00:08.195"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MDIPrincipal.CboProductos' at 61;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//combobox[@controlname='cboProductos']"
+							itempath="?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//combobox[@controlname='cboProductos']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.CboProductos"
+							id="9e2165bab7304d639f673746518cf82b"
+							timeout="60000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Menu.cs"
+							codeline="110"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.798"
+						timeRelativeToTestModuleStartTime="00:10.759"
+						timeWallClock="18:05:07"
+						time="00:10.798"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'List1000.CuentasMedicas' at 53;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/list[@controlid='1000']/listitem[@text='Cuentas Medicas']"
+							itempath="listitem[@text=$ItemProducto]"
+							fullname="CuentasMedicas_SanitasRepository.List1000.CuentasMedicas"
+							id="17e87f6a676b4df39446dfea35536486"
+							timeout="60000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Menu.cs"
+							codeline="114"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.994"
+						timeRelativeToTestModuleStartTime="00:11.955"
+						timeWallClock="18:05:08"
+						time="00:11.994"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MDIPrincipal.BtnInicio' at 64;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/?/?/button[@controlname='btnInicio']"
+							itempath="?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/?/?/button[@controlname='btnInicio']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.BtnInicio"
+							id="a6488d317098482e8c06f2645b14ccdb"
+							timeout="60000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Menu.cs"
+							codeline="118"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.210"
+						timeRelativeToTestModuleStartTime="00:13.172"
+						timeWallClock="18:05:09"
+						time="00:13.210"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'List1000.ListItem1DocumentoPrincipal' at 61;2.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/list[@controlid='1000']/listitem[@text='1 | DocumentoPrincipal']"
+							itempath="listitem[@text='1 | DocumentoPrincipal']"
+							fullname="CuentasMedicas_SanitasRepository.List1000.ListItem1DocumentoPrincipal"
+							id="9778efd789c7458dafec4a9e6230cc48"
+							timeout="60000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Menu.cs"
+							codeline="122"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="24.29s"
+					durationms="24286"
+					type="test-module"
+					rid="221d338cd3566a66"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="CargaAtencion"
+					displayName="CargaAtencion"
+					moduleid="502983f3-0571-4c9b-a2be-4f3ff5603381"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.529"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="18:05:13"
+						time="00:16.529"
+						level="Warn"
+						category="Data">
+						<message>
+							The following module variables are not bound to a data column:<br/>FechaInicio, FechaFin, NroIdentificacion, TipoIdentificacion, ValorBruto
+						</message>
+						<metainfo
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.558"
+						timeRelativeToTestModuleStartTime="00:00.029"
+						timeWallClock="18:05:13"
+						time="00:16.558"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MDIPrincipal.Row1.FechaIni' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel1']//table[@accessiblename='ultraGrid2']/row[@accessiblename='row 1']/cell[@accessiblename='Fecha Ini.']"
+							itempath="cell[@accessiblename='Fecha Ini.']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Row1.FechaIni"
+							id="e56bbf302c684fd69d8e9d8115abd33d"
+							timeout="90000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="147"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.774"
+						timeRelativeToTestModuleStartTime="00:02.245"
+						timeWallClock="18:05:15"
+						time="00:18.774"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 500ms.
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="151"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.302"
+						timeRelativeToTestModuleStartTime="00:02.773"
+						timeWallClock="18:05:16"
+						time="00:19.302"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MDIPrincipal.Row1.FechaIni' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel1']//table[@accessiblename='ultraGrid2']/row[@accessiblename='row 1']/cell[@accessiblename='Fecha Ini.']"
+							itempath="cell[@accessiblename='Fecha Ini.']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Row1.FechaIni"
+							id="e56bbf302c684fd69d8e9d8115abd33d"
+							timeout="90000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="154"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.023"
+						timeRelativeToTestModuleStartTime="00:04.494"
+						timeWallClock="18:05:17"
+						time="00:21.023"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$FechaInicio' with focus on 'MDIPrincipal.Row1.FechaIni'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel1']//table[@accessiblename='ultraGrid2']/row[@accessiblename='row 1']/cell[@accessiblename='Fecha Ini.']"
+							itempath="cell[@accessiblename='Fecha Ini.']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Row1.FechaIni"
+							id="e56bbf302c684fd69d8e9d8115abd33d"
+							timeout="90000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="158"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.552"
+						timeRelativeToTestModuleStartTime="00:06.023"
+						timeWallClock="18:05:19"
+						time="00:22.552"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MDIPrincipal.Row1.FechaFin' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel1']//table[@accessiblename='ultraGrid2']/row[@accessiblename='row 1']/cell[@accessiblename='Fecha Fin.']"
+							itempath="cell[@accessiblename='Fecha Fin.']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Row1.FechaFin"
+							id="e674447552934aff896f43185e1c2b29"
+							timeout="90000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="162"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.357"
+						timeRelativeToTestModuleStartTime="00:07.828"
+						timeWallClock="18:05:21"
+						time="00:24.357"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$FechaFin' with focus on 'MDIPrincipal.Row1.FechaFin'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel1']//table[@accessiblename='ultraGrid2']/row[@accessiblename='row 1']/cell[@accessiblename='Fecha Fin.']"
+							itempath="cell[@accessiblename='Fecha Fin.']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Row1.FechaFin"
+							id="e674447552934aff896f43185e1c2b29"
+							timeout="90000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="166"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.949"
+						timeRelativeToTestModuleStartTime="00:09.419"
+						timeWallClock="18:05:22"
+						time="00:25.949"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 1s.
+						</message>
+						<metainfo
+							itemindex="6"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="170"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.975"
+						timeRelativeToTestModuleStartTime="00:10.446"
+						timeWallClock="18:05:23"
+						time="00:26.975"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MDIPrincipal.Row1.NumeroIdentificacion' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel1']//table[@accessiblename='ultraGrid2']/row[@accessiblename='row 1']/cell[@accessiblename='NumeroIdentificacion']"
+							itempath="cell[@accessiblename='NumeroIdentificacion']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Row1.NumeroIdentificacion"
+							id="c167725d340c4719bc1e04cc0363728b"
+							timeout="90000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="173"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.806"
+						timeRelativeToTestModuleStartTime="00:12.277"
+						timeWallClock="18:05:25"
+						time="00:28.806"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$NroIdentificacion'.
+						</message>
+						<metainfo
+							itemindex="8"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="177"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.165"
+						timeRelativeToTestModuleStartTime="00:12.636"
+						timeWallClock="18:05:25"
+						time="00:29.165"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MDIPrincipal.Row1.TipoDeIdentificacionId' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel1']//table[@accessiblename='ultraGrid2']/row[@accessiblename='row 1']/cell[@accessiblename='TipoDeIdentificacion_id']"
+							itempath="cell[@accessiblename='TipoDeIdentificacion_id']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Row1.TipoDeIdentificacionId"
+							id="8fa5350437974532bc85621c4bcb1993"
+							timeout="90000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="181"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.952"
+						timeRelativeToTestModuleStartTime="00:14.423"
+						timeWallClock="18:05:27"
+						time="00:30.952"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$TipoIdentificacion'.
+						</message>
+						<metainfo
+							itemindex="10"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="185"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.181"
+						timeRelativeToTestModuleStartTime="00:14.652"
+						timeWallClock="18:05:27"
+						time="00:31.181"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MDIPrincipal.Row1.PrimerApellido' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel1']//table[@accessiblename='ultraGrid2']/row[@accessiblename='row 1']/cell[@accessiblename='PrimerApellido']"
+							itempath="cell[@accessiblename='PrimerApellido']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Row1.PrimerApellido"
+							id="95e58c196ca04bfdbbc09ba153afdc17"
+							timeout="90000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="189"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:33.118"
+						timeRelativeToTestModuleStartTime="00:16.589"
+						timeWallClock="18:05:29"
+						time="00:33.118"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 500ms.
+						</message>
+						<metainfo
+							itemindex="12"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="193"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:33.656"
+						timeRelativeToTestModuleStartTime="00:17.127"
+						timeWallClock="18:05:30"
+						time="00:33.656"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'FFFF'.
+						</message>
+						<metainfo
+							itemindex="13"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="196"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:33.924"
+						timeRelativeToTestModuleStartTime="00:17.395"
+						timeWallClock="18:05:30"
+						time="00:33.924"
+						level="Info"
+						category="Wait">
+						<message>
+							Waiting 5s to exist. Associated repository item: 'MDIPrincipal.Row1.NombreContenido'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel1']//table[@accessiblename='ultraGrid2']/row[@accessiblename='row 1']/cell[@accessiblename='Nombres' and @accessiblevalue~'[A-Z]+']"
+							itempath="cell[@accessiblename='Nombres' and @accessiblevalue~'[A-Z]+']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Row1.NombreContenido"
+							id="c9969a50bed24d6d8d93fc9fb1b305b3"
+							timeout="5000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="200"
+							itemindex="14"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:36.234"
+						timeRelativeToTestModuleStartTime="00:19.705"
+						timeWallClock="18:05:32"
+						time="00:36.234"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MDIPrincipal.Row1.ValorBruto' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel1']//table[@accessiblename='ultraGrid2']/row[@accessiblename='row 1']/cell[@accessiblename='ValorBruto']"
+							itempath="cell[@accessiblename='ValorBruto']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Row1.ValorBruto"
+							id="952263fd84fe4a7c88f2d63639c99b75"
+							timeout="90000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="203"
+							itemindex="15"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.217"
+						timeRelativeToTestModuleStartTime="00:21.688"
+						timeWallClock="18:05:34"
+						time="00:38.217"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$ValorBruto'.
+						</message>
+						<metainfo
+							itemindex="16"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="207"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.532"
+						timeRelativeToTestModuleStartTime="00:22.003"
+						timeWallClock="18:05:35"
+						time="00:38.532"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MDIPrincipal.Row1.ValorNeto' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel1']//table[@accessiblename='ultraGrid2']/row[@accessiblename='row 1']/cell[@accessiblename='Valor Neto']"
+							itempath="cell[@accessiblename='Valor Neto']"
+							fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Row1.ValorNeto"
+							id="d24aa01d6bbe4ab092cf6fd7823e41bc"
+							timeout="90000"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="211"
+							itemindex="17"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:40.500"
+						timeRelativeToTestModuleStartTime="00:23.971"
+						timeWallClock="18:05:37"
+						time="00:40.500"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$ValorBruto'.
+						</message>
+						<metainfo
+							itemindex="18"
+							codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaAtencion.cs"
+							codeline="215"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="4.72s"
+					durationms="4715"
+					type="smart-folder"
+					rid="1b3ab8b01c86cc10"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="IteraccionServicios"
+					testcontainerid="def0ebf5-f091-4d8e-b7b0-82c71e1b2bd9"
+					headertext="IteraccionServicios"
+					displayName="IteraccionServicios"
+					iteration="1"
+					activity-exectype="execute"
+					conditionstate="none">
+					<activity
+						result="Success"
+						duration="4.71s"
+						durationms="4710"
+						type="test-module"
+						rid="b00da104d8d14d8"
+						totalerrorcount="0"
+						totalwarningcount="1"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CargaServicios"
+						displayName="CargaServicios"
+						moduleid="f85044a8-b820-44bd-890e-dcd5efe1804e"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.819"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:05:37"
+							time="00:40.819"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>VlrUnitario, CodServicio
+							</message>
+							<metainfo
+								loglvl="Warn">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.847"
+							timeRelativeToTestModuleStartTime="00:00.027"
+							timeWallClock="18:05:37"
+							time="00:40.847"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MDIPrincipal.CodigoServicioTemplate' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel2']//table[@accessiblename='ultraGrid2']/row[@accessiblename='Template Add Row']/cell[@accessiblename='CodigoServicio']"
+								itempath="?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel2']//table[@accessiblename='ultraGrid2']/row[@accessiblename='Template Add Row']/cell[@accessiblename='CodigoServicio']"
+								fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.CodigoServicioTemplate"
+								id="b12aaf128e374f99ad76596a4ff26ab9"
+								timeout="60000"
+								codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaServicios.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:42.650"
+							timeRelativeToTestModuleStartTime="00:01.830"
+							timeWallClock="18:05:39"
+							time="00:42.650"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$CodServicio'.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaServicios.cs"
+								codeline="112"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:42.961"
+							timeRelativeToTestModuleStartTime="00:02.141"
+							timeWallClock="18:05:39"
+							time="00:42.961"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Tab}'.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaServicios.cs"
+								codeline="116"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:43.153"
+							timeRelativeToTestModuleStartTime="00:02.333"
+							timeWallClock="18:05:39"
+							time="00:43.153"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MDIPrincipal.VlrUnitario' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel2']//table[@accessiblename='ultraGrid2']//cell[@accessiblename='Vlr. Unitario' and @accessiblevalue~'[0-9]+']"
+								itempath="?/?/form[@controlname='FrmCapturaAtencionesServiciosIII']/container[@controlname='SplBotones']/container[@controlname='panel1']/?/?/container[@controlname='panel2']//tabpage[@controlname='AtencionesYServicios']/?/?/container[@controlname='panel2']/?/?/container[@controlname='panel2']//table[@accessiblename='ultraGrid2']//cell[@accessiblename='Vlr. Unitario' and @accessiblevalue~'[0-9]+']"
+								fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.VlrUnitario"
+								id="bc1b1a52e6fe46729be480eaee1060a0"
+								timeout="60000"
+								codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaServicios.cs"
+								codeline="120"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:45.198"
+							timeRelativeToTestModuleStartTime="00:04.378"
+							timeWallClock="18:05:41"
+							time="00:45.198"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$VlrUnitario'.
+							</message>
+							<metainfo
+								itemindex="4"
+								codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaServicios.cs"
+								codeline="124"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

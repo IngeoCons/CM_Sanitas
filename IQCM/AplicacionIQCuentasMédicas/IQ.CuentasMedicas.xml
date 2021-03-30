@@ -1,0 +1,558 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IQ.CuentasMedicas
+</name>
+</assembly>
+<members>
+<member name="T:IQ.CuentasMedicas.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:IQ.CuentasMedicas.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:IQ.CuentasMedicas.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:IQ.CuentasMedicas.GlobalsSearch.gModulo_Id">
+ <summary>
+ Identificador del Modulo Activo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:IQ.CuentasMedicas.GlobalsSearch.iComportamiento">
+ <summary>
+ Comportamiento a realizar cuando se usa el formulario de Busqueda
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:IQ.CuentasMedicas.GlobalsSearch.sModulo">
+ <summary>
+ Almacena el Nombre del modulo Activo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:IQ.CuentasMedicas.GlobalsSearch.bBusquedaActiva">
+ <summary>
+ Indica cuando la búsqueda se encuentra activa desde el modulo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.inicializarReproceso(System.String,System.String)">
+ <summary>
+ Metodo encargado de disparar el formulario de reproceso
+ </summary>
+ <param name="solicitudId">Identificador de la solicitud</param>
+ <param name="moduloId">Identificador del modulo que se procesa</param>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.SearchField(System.Windows.Forms.Control)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="Ctrl">Control Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.SearchField(System.String)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.MarcarCampo(BOCapturer.Campo@)">
+ <summary>
+ Marcar Campo Con Causal
+ </summary>
+ <param name="Field">BoCampo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.LimpiarFormulario">
+ <summary>
+ Metodo para limpiar los objetos del formulario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.ValidaEstado(System.Windows.Forms.Control,System.Boolean,System.Boolean,System.Int32,System.Int32)">
+ <summary>
+ Configura el diseño del campo dependiente segun datos enviados
+ </summary>
+ <param name="Campo">Objeto Tipo Control que sera rediseñado según configuración enviada</param>
+ <param name="Activo">Variable para indicar si el campo dependiente es activo</param>
+ <param name="critico">Variable para si el campo dependiente es critico</param>
+ <param name="poscamp">Posicion en el arreglo de campos donde se encuentra el control para su configuración</param>
+ <remarks>Metodo para la modificación del diseño del campo segun la configuracion enviada</remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.CargarCausalesCampo(BOCapturer.Campo)">
+ <summary>
+ Metodo Para realizar la Carga de Label de Causal x Campo
+ </summary>
+ <param name="Field">Field</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.ValidateDocumentCritical(System.String,BOAnnexAssociation.Unreadable)">
+ <summary>
+ Valida si el tipo documento es critico
+ </summary>
+ <param name="sDocument_Id">Identificador del Documento</param>
+ <returns>Indica si el documento es Critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.ContainsDocumentCritical">
+ <summary>
+ Valida si contiene Documentos Marcados Ilegibles y Criticos para Guardar el Folder
+ </summary>
+ <returns>Indica Si los documentos marcados como ilegibles si tiene documento critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.ActivatedReference(System.String,System.String,System.String)">
+ <summary>
+ Activa el Formulario Por Referencia
+ </summary>
+ <param name="Folder_Id">Folder_Id</param>
+ <param name="FechaProceso">FechaProceso</param>
+ <param name="Producto_Id">Producto_Id</param>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.BuscarProducto(System.String)">
+ <summary>
+ Busca el Producto x Id
+ </summary>
+ <param name="Producto_Id">Producto_Id</param>
+ <returns>String</returns>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmAnnexAssociation.ViewImage(IQImageControl.IQImageBox)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmCapturerDetail.LimpiarFormulario">
+ <summary>
+ Metodo para limpiar los objetos del formulario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmCapturerDetail.ValidaEstado(System.Windows.Forms.Control,System.Boolean,System.Boolean,System.Int32,System.Int32)">
+ <summary>
+ Configura el diseño del campo dependiente segun datos enviados
+ </summary>
+ <param name="Campo">Objeto Tipo Control que sera rediseñado según configuración enviada</param>
+ <param name="Activo">Variable para indicar si el campo dependiente es activo</param>
+ <param name="critico">Variable para si el campo dependiente es critico</param>
+ <param name="poscamp">Posicion en el arreglo de campos donde se encuentra el control para su configuración</param>
+ <remarks>Metodo para la modificación del diseño del campo segun la configuracion enviada</remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmCapturerDetail.ValidarDependencia(System.Windows.Forms.Control)">
+ <summary>
+ Activa las dependecias de un campo
+ </summary>
+ <param name="ctrl">Objeto Tipo Control que es enviado para la validacion y activacion de sus dependencias</param>
+ <remarks>Este metodo valida las dependencias de los campos, activa y coloca critico los campos dependientes, segun la configuracion </remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmCapturerDetail.ValidateDocumentCritical(System.String)">
+ <summary>
+ Valida si el tipo documento es critico
+ </summary>
+ <param name="sDocument_Id">Identificador del Documento</param>
+ <returns>Indica si el documento es Critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmCapturerDetail.ContainsDocumentCritical">
+ <summary>
+ Valida si contiene Documentos Marcados Ilegibles y Criticos para Guardar el Folder
+ </summary>
+ <returns>Indica Si los documentos marcados como ilegibles si tiene documento critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmCapturerDetail.ActivatedReference(System.String,System.String,System.String)">
+ <summary>
+ Activa el Formulario Por Referencia
+ </summary>
+ <param name="Folder_Id">Folder_Id</param>
+ <param name="FechaProceso">FechaProceso</param>
+ <param name="Producto_Id">Producto_Id</param>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmCapturerDetail.BuscarProducto(System.String)">
+ <summary>
+ Busca el Producto x Id
+ </summary>
+ <param name="Producto_Id">Producto_Id</param>
+ <returns>String</returns>
+</member>
+<member name="M:IQ.CuentasMedicas.FrmCapturerDetail.ViewImage(IQImageControl.IQImageBox)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="P:IQ.CuentasMedicas.FrmSearch.DialogMode">
+ <summary>
+ Indica cuando el formulario se instancia en ShowDialog
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:IQ.CuentasMedicas.FrmSearch.DatosObtenidos">
+ <summary>
+ Datos Para realizar el procesamiento por busqueda en el modulo
+ </summary>
+ <value></value>
+ <returns>Diccionario con los parametros de FolderId, ProductoId, FechaProceso</returns>
+ <remarks></remarks>
+</member>
+<member name="F:IQ.CuentasMedicas.FrmSearch.m_tituloFormulario">
+ <summary>
+ Asigna el titulo del formulario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:IQ.CuentasMedicas.apocalipsis.IQD_Service">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.apocalipsis.IQD_Service.#ctor">
+<remarks/>
+</member>
+<member name="E:IQ.CuentasMedicas.apocalipsis.IQD_Service.GetAccesbyAPPCompleted">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.apocalipsis.IQD_Service.GetAccesbyAPP(System.String)">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.apocalipsis.IQD_Service.GetAccesbyAPPAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.apocalipsis.IQD_Service.GetAccesbyAPPAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.apocalipsis.IQD_Service.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.apocalipsis.GetAccesbyAPPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.apocalipsis.GetAccesbyAPPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.apocalipsis.GetAccesbyAPPCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.Search">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.UCMService.Search.#ctor">
+<remarks/>
+</member>
+<member name="E:IQ.CuentasMedicas.UCMService.Search.QuickSearchCompleted">
+<remarks/>
+</member>
+<member name="E:IQ.CuentasMedicas.UCMService.Search.AdvancedSearchCompleted">
+<remarks/>
+</member>
+<member name="E:IQ.CuentasMedicas.UCMService.Search.NavigationSearchCompleted">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.UCMService.Search.QuickSearch(System.String,IQ.CuentasMedicas.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.UCMService.Search.QuickSearchAsync(System.String,IQ.CuentasMedicas.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.UCMService.Search.QuickSearchAsync(System.String,IQ.CuentasMedicas.UCMService.IdcProperty[],System.Object)">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.UCMService.Search.AdvancedSearch(System.String,System.String,System.String,System.Int32,System.Boolean,IQ.CuentasMedicas.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.UCMService.Search.AdvancedSearchAsync(System.String,System.String,System.String,System.Int32,System.Boolean,IQ.CuentasMedicas.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.UCMService.Search.AdvancedSearchAsync(System.String,System.String,System.String,System.Int32,System.Boolean,IQ.CuentasMedicas.UCMService.IdcProperty[],System.Object)">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.UCMService.Search.NavigationSearch(System.String,System.String,System.String,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,IQ.CuentasMedicas.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.UCMService.Search.NavigationSearchAsync(System.String,System.String,System.String,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,IQ.CuentasMedicas.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.UCMService.Search.NavigationSearchAsync(System.String,System.String,System.String,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,IQ.CuentasMedicas.UCMService.IdcProperty[],System.Object)">
+<remarks/>
+</member>
+<member name="M:IQ.CuentasMedicas.UCMService.Search.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.IdcProperty">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.IdcProperty.name">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.IdcProperty.value">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.NavigationSearchResult">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationSearchResult.SearchResults">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationSearchResult.SearchInfo">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationSearchResult.NavigationPages">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationSearchResult.StatusInfo">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.SearchResults">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dID">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dIDSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dRevisionID">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dRevisionIDSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dDocName">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dDocTitle">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dDocType">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dDocAuthor">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dSecurityGroup">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dDocAccount">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dExtension">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dWebExtension">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dRevLabel">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dInDate">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dOutDate">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dFormat">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dOriginalName">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.url">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.webCgiRoot">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dGif">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.webFileSize">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.webFileSizeSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.vaultFileSize">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.vaultFileSizeSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.alternateFileSize">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.alternateFileSizeSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.alternateFormat">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dPublishType">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dRendition1">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.dRendition2">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchResults.CustomDocMetaData">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.SearchInfo">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.startRow">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.startRowSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.endRow">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.endRowSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.pageNumber">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.pageNumberSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.numPages">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.numPagesSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.totalRows">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.totalRowsSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.totalDocsProcessed">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.SearchInfo.totalDocsProcessedSpecified">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.NavigationPages">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationPages.headerPageNumber">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationPages.headerPageNumberSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationPages.pageReference">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationPages.pageReferenceSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationPages.pageNumber">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationPages.pageNumberSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationPages.startRow">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationPages.startRowSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationPages.endRow">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationPages.endRowSpecified">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.StatusInfo">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.StatusInfo.statusCode">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.StatusInfo.statusCodeSpecified">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.StatusInfo.statusMessage">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.AdvancedSearchResult">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.AdvancedSearchResult.SearchResults">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.AdvancedSearchResult.SearchInfo">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.AdvancedSearchResult.NavigationPages">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.AdvancedSearchResult.StatusInfo">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.QuickSearchResult">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.QuickSearchResult.SearchResults">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.QuickSearchResult.SearchInfo">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.QuickSearchResult.NavigationPages">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.QuickSearchResult.StatusInfo">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.QuickSearchCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.QuickSearchCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.QuickSearchCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.AdvancedSearchCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.AdvancedSearchCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.AdvancedSearchCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.NavigationSearchCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQ.CuentasMedicas.UCMService.NavigationSearchCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQ.CuentasMedicas.UCMService.NavigationSearchCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

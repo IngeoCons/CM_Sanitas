@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7fd58cc5-a2b3-4aa5-80ad-5e57dce4656b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="mensaje"
+	namespace="CuentasMedicas_Sanitas">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="252f38fc-442d-4956-b6ff-f2c95665c4e7"
+	name="CuentasMedicas_SanitasRepository"
+	relativepath="CuentasMedicas_SanitasRepository.rxrep">
+		<codegen
+		classname="CuentasMedicas_SanitasRepository"
+		namespace="CuentasMedicas_Sanitas">
+		</codegen>
+		<rootfolder
+		id="fde6ab7f-276c-47f2-ae51-f84d2cd2116c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		mensaje.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="21.17s"
+		durationms="21172"
+		type="root"
+		rid="27047fe32fa4aae"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="03/12/2021 11:26:38 AM"
+		timestampiso="2021-03-12T16:26:38"
+		endtime="03/12/2021 11:26:59 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.262"
+			timeRelativeToTestModuleStartTime="00:04.262"
+			timeWallClock="11:26:42"
+			time="00:04.262"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>MenuItem
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.278"
+			timeRelativeToTestModuleStartTime="00:04.278"
+			timeWallClock="11:26:42"
+			time="00:04.278"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.Archivo' at 17;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/menuitem[@accessiblename='Archivo']"
+				itempath="?/?/menuitem[@accessiblename='Archivo']"
+				fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Archivo"
+				id="baf53eed76474e628f9c8343162e3fd2"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.668"
+			timeRelativeToTestModuleStartTime="00:09.668"
+			timeWallClock="11:26:48"
+			time="00:09.668"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'IQCuentasMedicas.CapturaAtencionesYServicios' at 78;79.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='IQ.CuentasMedicas']/menuitem[@accessiblename='Captura Atenciones y Servicios']"
+				itempath="menuitem[@accessiblename=$MenuItem]"
+				fullname="CuentasMedicas_SanitasRepository.IQCuentasMedicas.CapturaAtencionesYServicios"
+				id="4de552e53b5a4214bc21c356990f19bd"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.350"
+			timeRelativeToTestModuleStartTime="00:10.350"
+			timeWallClock="11:26:48"
+			time="00:10.350"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_352571ab\Recordin_d18b9cca_rxlog.jpg"
+			errthumb="images_Recordin_352571ab\Recordin_d18b9cca_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="97"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.749"
+			timeRelativeToTestModuleStartTime="00:10.749"
+			timeWallClock="11:26:49"
+			time="00:10.749"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.Panel2.Iniciar' at 42;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']/?/?/container[@controlname='panel2']//button[@accessiblename='Iniciar']"
+				itempath="?/?/container[@controlname='panel2']//button[@accessiblename='Iniciar']"
+				fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Panel2.Iniciar"
+				id="db82c03f8cec4db2bda1c9935a84abd0"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.081"
+			timeRelativeToTestModuleStartTime="00:12.081"
+			timeWallClock="11:26:50"
+			time="00:12.081"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'MDIPrincipal.Panel2.CodigoHomologoFila0' at 38;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']//table[@controlname='dgv_Homologacion']/row[@accessiblename='Fila 0']/cell[@accessiblename='Código Homólogo Fila 0']"
+				itempath=".//table[@controlname='dgv_Homologacion']/row[@accessiblename='Fila 0']/cell[@accessiblename='Código Homólogo Fila 0']"
+				fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Panel2.CodigoHomologoFila0"
+				id="3c70173fc3844e8f964de993e2a70f50"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="104"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.914"
+			timeRelativeToTestModuleStartTime="00:13.914"
+			timeWallClock="11:26:52"
+			time="00:13.914"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmBusquedaServicio.Text' at 41;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='frmBusquedaServicio']//text[@controlname='txtCodigo']/text[@accessiblerole='Text']"
+				itempath=".//text[@controlname='txtCodigo']/text[@accessiblerole='Text']"
+				fullname="CuentasMedicas_SanitasRepository.FrmBusquedaServicio.Text"
+				id="8b6273f8b0954993a18d1c597462d1b0"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="108"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.279"
+			timeRelativeToTestModuleStartTime="00:15.279"
+			timeWallClock="11:26:53"
+			time="00:15.279"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'L' with focus on 'FrmBusquedaServicio.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='frmBusquedaServicio']//text[@controlname='txtCodigo']/text[@accessiblerole='Text']"
+				itempath=".//text[@controlname='txtCodigo']/text[@accessiblerole='Text']"
+				fullname="CuentasMedicas_SanitasRepository.FrmBusquedaServicio.Text"
+				id="8b6273f8b0954993a18d1c597462d1b0"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="112"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.524"
+			timeRelativeToTestModuleStartTime="00:15.524"
+			timeWallClock="11:26:53"
+			time="00:15.524"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'L04AC073103' with focus on 'FrmBusquedaServicio.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='frmBusquedaServicio']//text[@controlname='txtCodigo']/text[@accessiblerole='Text']"
+				itempath=".//text[@controlname='txtCodigo']/text[@accessiblerole='Text']"
+				fullname="CuentasMedicas_SanitasRepository.FrmBusquedaServicio.Text"
+				id="8b6273f8b0954993a18d1c597462d1b0"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="116"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.982"
+			timeRelativeToTestModuleStartTime="00:15.982"
+			timeWallClock="11:26:54"
+			time="00:15.982"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmBusquedaServicio.Buscar' at 55;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='frmBusquedaServicio']//element[@controlname='uBBuscar']/button[@accessiblename='Buscar']"
+				itempath=".//element[@controlname='uBBuscar']/button[@accessiblename='Buscar']"
+				fullname="CuentasMedicas_SanitasRepository.FrmBusquedaServicio.Buscar"
+				id="ab312535d15044b5bd653f0c0ab6c497"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="120"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.529"
+			timeRelativeToTestModuleStartTime="00:16.529"
+			timeWallClock="11:26:54"
+			time="00:16.529"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmBusquedaServicio.Buscar' at -714;111.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='frmBusquedaServicio']//element[@controlname='uBBuscar']/button[@accessiblename='Buscar']"
+				itempath=".//element[@controlname='uBBuscar']/button[@accessiblename='Buscar']"
+				fullname="CuentasMedicas_SanitasRepository.FrmBusquedaServicio.Buscar"
+				id="ab312535d15044b5bd653f0c0ab6c497"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="124"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.826"
+			timeRelativeToTestModuleStartTime="00:16.826"
+			timeWallClock="11:26:55"
+			time="00:16.826"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_352571ab\Recordin_5cf09cca_rxlog.jpg"
+			errthumb="images_Recordin_352571ab\Recordin_5cf09cca_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="125"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.213"
+			timeRelativeToTestModuleStartTime="00:17.213"
+			timeWallClock="11:26:55"
+			time="00:17.213"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.Panel2.Salir' at 51;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmHomologacion']/container[@controlname='splitContainer1']/container[@controlname='panel2']/?/?/container[@controlname='panel2']//button[@accessiblename='Salir']"
+				itempath="?/?/container[@controlname='panel2']//button[@accessiblename='Salir']"
+				fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.Panel2.Salir"
+				id="cbc1f934f2ef455685b7b92b7193809a"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="128"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.228"
+			timeRelativeToTestModuleStartTime="00:18.228"
+			timeWallClock="11:26:56"
+			time="00:18.228"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HomologacionManual.ButtonSi' at 34;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Homologación manual']/button[@text='&amp;Sí']"
+				itempath="button[@text='&amp;Sí']"
+				fullname="CuentasMedicas_SanitasRepository.HomologacionManual.ButtonSi"
+				id="b9070cb455d248b58feb3675e224deb6"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\Recording1.cs"
+				codeline="132"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.171"
+			timeRelativeToTestModuleStartTime="00:21.171"
+			timeWallClock="11:26:59"
+			time="00:21.171"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

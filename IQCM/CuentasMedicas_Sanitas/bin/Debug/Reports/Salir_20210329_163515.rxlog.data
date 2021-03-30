@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="16.3s"
+		durationms="16303"
+		type="root"
+		rid="b6e09368224d0e8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="03/29/2021 4:35:22 PM"
+		timestampiso="2021-03-29T21:35:22"
+		endtime="03/29/2021 4:35:38 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Salir">
+		<detail>
+			Salir
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.081"
+			timeRelativeToTestModuleStartTime="00:08.081"
+			timeWallClock="16:35:30"
+			time="00:08.081"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.BtnTerminar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']//button[@controlname='btnTerminar' or @controlname='btnSalir']"
+				itempath=".//button[@controlname='btnTerminar' or @controlname='btnSalir']"
+				fullname="CuentasMedicas_SanitasRepository.MDIPrincipal.BtnTerminar"
+				id="8e94e6930bd4464a8e4ce49e7bdfed55"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\Git\CuentasMedicas_Sanitas\Salir.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.882"
+			timeRelativeToTestModuleStartTime="00:14.882"
+			timeWallClock="16:35:37"
+			time="00:14.882"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CapturaAtencionesServiciosApp.ButtonSi' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'CapturaAtencionesServicio']/button[@text='&amp;Sí']"
+				itempath="button[@text='&amp;Sí']"
+				fullname="CuentasMedicas_SanitasRepository.CapturaAtencionesServiciosApp.ButtonSi"
+				id="739366c82cc147879f1545f155ecb7af"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\Git\CuentasMedicas_Sanitas\Salir.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
