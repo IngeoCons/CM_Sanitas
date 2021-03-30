@@ -2679,6 +2679,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:CuentasMedicas_Sanitas.Login.Usuario">
+            <summary>
+            Gets or sets the value of variable Usuario.
+            </summary>
+        </member>
         <member name="M:CuentasMedicas_Sanitas.Login.Start">
             <summary>
             Starts the replay of the static recording <see cref="P:CuentasMedicas_Sanitas.Login.Instance"/>.

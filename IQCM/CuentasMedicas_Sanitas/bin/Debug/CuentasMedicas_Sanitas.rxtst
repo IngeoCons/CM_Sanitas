@@ -715,7 +715,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="813b4765-51f2-478c-8449-3397b5cb1b7d"
 			name="StartAUT"
 			ref="db372c21-4ea0-4383-b71e-f022d5f41bb7"
@@ -865,11 +864,18 @@
 				</parameters>
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="a8bb5e4c-87d2-49e2-9dad-ebe8c4dc8920"
 			name="Login"
 			ref="97cdd182-db0f-4f23-ba4c-48c854c5ba8a"
 			type="Recording">
+				<missingdatavariablesbinding>
+					<var
+					dataname="Usuario"
+					datasourceid="8f96f47e-a4d3-4a1b-98a2-4119ecf3319e"
+					variableid="02068759-872b-4a91-899d-96468150f554"
+					variablename="Usuario">
+					</var>
+				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -879,6 +885,7 @@
 			type="Recording">
 			</testmodule>
 			<testcase
+			datasource="Usuarios"
 			id="ae3aa8e8-5909-47ec-8e97-fc3fc7913662"
 			name="Test_Case_Login">
 			</testcase>
@@ -1939,7 +1946,7 @@
 		filename="..\..\..\DataSource\MóduloCas.xlsx"
 		id="14ba5720-10cd-4128-9a02-e50219d7a4d9"
 		includefile="Unchecked"
-		lastknownrowcount="28"
+		lastknownrowcount="34"
 		name="DataSourceServicios"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja3"
@@ -2082,6 +2089,23 @@
 			<maskedcolumns>
 			</maskedcolumns>
 		</DataSource>
+		<DataSource
+		filename="..\..\..\DataSource\Homologación.xlsx"
+		id="8f96f47e-a4d3-4a1b-98a2-4119ecf3319e"
+		includefile="Unchecked"
+		lastknownrowcount="1"
+		name="Usuarios"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Usuario"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Usuario
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
 	</datasources>
 	<testconfigurations
 	default="TestRun">
@@ -2095,9 +2119,6 @@
 			</testcontainer>
 			<testcontainer
 			id="99786b1b-0182-4d56-bd18-9de58a8ed0e5">
-			</testcontainer>
-			<testcontainer
-			id="ae3aa8e8-5909-47ec-8e97-fc3fc7913662">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
