@@ -92,8 +92,8 @@ namespace CuentasMedicas_Sanitas
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\dgomeza\\Documents\\Ranorex\\Git\\Aplicación\\CuentasMedicas\\IQ.CuentasMedicas.exe' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
-            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Users\\dgomeza\\Documents\\Ranorex\\Git\\Aplicación\\CuentasMedicas\\IQ.CuentasMedicas.exe", "", "C:\\Users\\dgomeza\\Documents\\Ranorex\\Git\\Aplicación\\CuentasMedicas", false));
+            Report.Log(ReportLevel.Info, "Application", "Run application '\\\\aquiles\\softlib\\Salud\\Sanitas\\PruebasAuto\\IQCuentasMedicas\\CuentasMedicas\\IQ.CuentasMedicas.exe' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
+            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("\\\\aquiles\\softlib\\Salud\\Sanitas\\PruebasAuto\\IQCuentasMedicas\\CuentasMedicas\\IQ.CuentasMedicas.exe", "", "\\\\aquiles\\softlib\\Salud\\Sanitas\\PruebasAuto\\IQCuentasMedicas\\CuentasMedicas", false));
             Delay.Milliseconds(0);
             
         }

@@ -42,10 +42,10 @@ mode="Desktop">
 				</binding>
 			</bindings>
 			<filename>
-				C:\Users\dgomeza\Documents\Ranorex\Git\Aplicación\CuentasMedicas\IQ.CuentasMedicas.exe
+				\\aquiles\softlib\Salud\Sanitas\PruebasAuto\IQCuentasMedicas\CuentasMedicas\IQ.CuentasMedicas.exe
 			</filename>
 			<workingdir>
-				C:\Users\dgomeza\Documents\Ranorex\Git\Aplicación\CuentasMedicas
+				\\aquiles\softlib\Salud\Sanitas\PruebasAuto\IQCuentasMedicas\CuentasMedicas
 			</workingdir>
 			<args>
 			</args>

@@ -23,6 +23,11 @@ mode="Global">
 	namespace="CuentasMedicas_Sanitas">
 	</codegen>
 	<variables>
+		<var
+		id="02068759-872b-4a91-899d-96468150f554"
+		name="Usuario">
+			PRUEBASSANITAS4
+		</var>
 	</variables>
 	<recorditems>
 		<keysequenceitem
@@ -35,6 +40,10 @@ mode="Global">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Usuario">
+				</binding>
 			</bindings>
 			<info
 			id="2e296aac-d056-45f1-8256-85d423b26d33"
