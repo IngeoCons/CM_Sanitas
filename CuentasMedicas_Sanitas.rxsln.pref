@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-﻿<Properties>
-  <Array name="active" />
-  <ActiveConfiguration value="Debug" />
-  <ActivePlatform value="x86" />
-  <Array name="bookmarks" />
-  <Array name="files" />
-  <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <string>{96AD5F5C-B30E-499F-B355-532C58673238}</string>
-      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
-      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
-    </ArrayOfString>
-  </SerializedValue>
-  <ProjectBrowserState value="[Solution CuentasMedicas_Sanitas[CuentasMedicas_Sanitas[]]]&#xD;&#xA;Solution CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\SeleccionAnexos.rxrec&#xD;&#xA;Solution CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\MenuPaso1.rxrec" />
-  <StartupProject value="{96AD5F5C-B30E-499F-B355-532C58673238}" />
-=======
 ﻿<Properties>
   <Array name="active" />
   <ActiveConfiguration value="Debug" />
@@ -27,7 +10,6 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution CuentasMedicas_Sanitas[CuentasMedicas_Sanitas[]]]&#xD;&#xA;Solution CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas.rxtst&#xD;&#xA;Solution CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CargaServSinHomologar.rxrec" />
+  <ProjectBrowserState value="[Solution CuentasMedicas_Sanitas[CuentasMedicas_Sanitas[]]]&#xD;&#xA;Solution CuentasMedicas_Sanitas\CuentasMedicas_Sanitas\CuentasMedicas_Sanitas.rxtst&#xD;&#xA;Solution CuentasMedicas_Sanitas" />
   <StartupProject value="{96AD5F5C-B30E-499F-B355-532C58673238}" />
->>>>>>> ad30f5fe623b09d8a06a261825392f86af289749
 </Properties>
